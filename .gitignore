@@ -1,0 +1,11 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+dist
+bower_components
+node_modules
+npm-debug.log
+local-config.php
+wp-config.php
+wp-content/uploads
+wp-content/themes/Basetheme/post_types/old
+wp-content/themes/Headless-Bankend
