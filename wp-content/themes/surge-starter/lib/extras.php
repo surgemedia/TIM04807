@@ -44,7 +44,6 @@ $custom_includes = [
   'lib/gravity_forms-v5.php',
 
   /* Post Types */
-  //'lib/post_type_foodstorm.php',   
   //'lib/post_type_testimonial.php',  
 
   /* Functions */
@@ -57,9 +56,8 @@ $custom_includes = [
   'lib/custom_post_type_class.php',    // Create Custom Post Types
   'lib/supports.php',    // Create Custom Post Types
   'lib/class-layoutbuilder.php',    // Create Custom Post Types
-
-
-
+  'lib/create-home-page.php',    // Create Custom Post Types
+  'lib/post-types.php'
 ];
 
 foreach ($custom_includes as $file) {

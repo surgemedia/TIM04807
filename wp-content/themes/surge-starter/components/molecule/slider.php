@@ -1,34 +1,55 @@
-<?php if(strlen($vars['id']) == 0){ $vars['id'] = rand(); } ?>
-<div id="<?php echo $vars['id'] ?>" class="carousel slide <?php echo $vars['class'] ?>" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-  <?php for ($vars['slider_nav_count']=0; $vars['slider_nav_count'] < sizeof($vars['slides']); $vars['slider_nav_count']++) { ?>
-  	<?php if($vars['slider_nav_count']===0){ $vars['slider_nav_active'] = 'active'; } else { unset($vars['slider_nav_active']); } ?>
-     <li data-target="#<?php echo $vars['id'] ?>" data-slide-to="<?php echo $vars['slider_nav_count']; ?>" class="<?php echo $vars['slider_nav_active']; ?>"></li>
-    <?php } ?>
-  </ol>
+<?php //debug($vars); ?>
+ <div class="owl-carousel">
 
-  <div class="carousel-inner" role="listbox">
- <?php 
- $vars['slider_count'];
- for ($vars['slider_count']=0; $vars['slider_count'] < sizeof($vars['slides']); $vars['slider_count']++) { ?>
-  	<?php if($vars['slider_count']===0){ $vars['slider_active'] = 'active'; } else { unset($vars['slider_active']); } ?>
-    <div class="item <?php echo $vars['slider_active']; ?>">
-      <img src="<?php echo $vars['slides'][$vars['slider_count']]['image'] ?>" alt=" <?php echo $vars['slides'][$slider_count]['title'] ?>">
-      <div class="carousel-caption">
-       <?php echo $vars['slides'][$vars['slider_count']]['caption'] ?>
-      </div>
-    </div>
-  <?php } ?>
+  <?php 
+
+
+    if($vars['slide_objects'] == 'Website Items') { 
+      //debug($vars['website_items']);
+
+
+  $args = array(
+          'post__in'      => $vars['website_items'],
+          'post_type' => 'any'
+        );
+
+        // The Query
+        $vars['slider_core'] = new WP_Query( $args );
+
+        // The Loop
+        if ( $vars['slider_core']->have_posts() ) {
+          while ( $vars['slider_core']->have_posts() ) {
+            $vars['slider_core']->the_post();
+              get_component([
+              'template' => 'molecule/img-text',
+              'remove_tags' => ['img'],
+               'vars' => [
+                    'class' => 'item active text-center',
+                    'title' =>   get_the_title(),
+                    'content' => get_the_content(),
+                    ]
+                  ]);
+          }
+        } else {
+          // no posts found
+        }
+
+        // Restore original Post Data
+        wp_reset_postdata();
+
+  } elseif($vars['slide_objects'] == 'manual_slider') {
+      for ($vars['i']=0; $vars['i'] < sizeof($vars['manual_slider']); $vars['i']++) {
+
+               get_component([
+              'template' => 'molecule/img-text',
+              'remove_tags' => ['img'],
+              'vars' => [
+                    'class' => 'item active text-center',
+                    'title' => $vars['manual_slider'][$vars['i']]['title'],
+                    'content' => $vars['manual_slider'][$vars['i']]['content'],
+                    ]
+                  ]);
+      }
+  } 
+    ?>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#<?php echo $vars['id']; ?>" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#<?php echo $vars['id']; ?>" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>

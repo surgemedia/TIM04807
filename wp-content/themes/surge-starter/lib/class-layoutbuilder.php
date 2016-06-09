@@ -31,6 +31,7 @@ class LayoutBuilder {
 			}
 			$this->rows = $the_grid;
 			foreach($the_grid as $key => $value){
+				// debug($the_grid[$key]);
 	 	 		unset($the_grid[$key]['acf_fc_layout']);
 			}
 			//get cols and elements
@@ -45,7 +46,9 @@ class LayoutBuilder {
 	}
 	public function bs_class($data){
 			$bs_col = explode('-',$data['acf_fc_layout'],2);
+			if(isset($data['acf_fc_layout'])){
 			unset($data['acf_fc_layout']);
+			}
 			$this->bs_class = $bs_col[1];
 			$this->template = $bs_col[0];
 
