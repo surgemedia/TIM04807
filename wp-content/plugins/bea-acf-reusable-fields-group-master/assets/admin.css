@@ -1,0 +1,13 @@
+/******************************************************************/
+/* Hide the fake option page while we don't want to pollute WP BO */
+/******************************************************************/
+li a[href="edit.php?post_type=acf-field-group&page=bea-reusable-field-option"] {
+    display: none !important;
+}
+
+/**************************************************************************/
+/* As using reusable fields, hide the first repeated label for acf fields */
+/**************************************************************************/
+.acf-flexible-content .acf-field-reusable-field-group > div.acf-label {
+    display: none !important;
+}

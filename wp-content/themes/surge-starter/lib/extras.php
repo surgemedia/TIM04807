@@ -44,7 +44,8 @@ $custom_includes = [
   'lib/gravity_forms-v5.php',
 
   /* Post Types */
-  //'lib/post_type_testimonial.php',  
+  'lib/CPT.php',  
+  'lib/post_type.php',   
 
   /* Functions */
   'lib/function-debug.php',    // Scripts and stylesheets
@@ -53,11 +54,9 @@ $custom_includes = [
   'lib/function-get_id_from_slug.php',    // Scripts and stylesheets
   'lib/function-get-featured-image-url.php',    // Scripts and stylesheets
   'lib/function-truncate-content.php',    // Scripts and stylesheets
-  'lib/custom_post_type_class.php',    // Create Custom Post Types
   'lib/supports.php',    // Create Custom Post Types
   'lib/class-layoutbuilder.php',    // Create Custom Post Types
   'lib/create-home-page.php',    // Create Custom Post Types
-  'lib/post-types.php'
 ];
 
 foreach ($custom_includes as $file) {

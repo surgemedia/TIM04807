@@ -27,9 +27,9 @@ if (is_admin()){
 }
 if (is_admin()){
 	// Use a static front page
-	$front_page = 2; // this is the default page created by WordPress
-	update_option( 'page_on_front', $front_page );
-	update_option( 'show_on_front', 'page' );
+	// $front_page = 2; // this is the default page created by WordPress
+	// update_option( 'page_on_front', $front_page );
+	// update_option( 'show_on_front', 'page' );
 }
 
 

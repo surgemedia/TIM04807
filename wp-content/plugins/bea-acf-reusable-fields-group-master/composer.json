@@ -1,0 +1,16 @@
+{
+  "name": "beapi/bea-acf-reusable-fields-group",
+  "description": "Add a fake option page to save ACF field groups",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "BeAPI",
+      "email": "technique@beapi.fr"
+    }
+  ],
+  "type" : "wordpress-plugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}
