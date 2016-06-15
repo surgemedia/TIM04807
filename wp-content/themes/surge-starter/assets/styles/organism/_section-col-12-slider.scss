@@ -1,0 +1,12 @@
+.section-col-12-slider{
+	padding : 4em 0;
+	text-align:center;
+	.owl-carousel{
+		.owl-item{
+			img{
+				width:auto;
+				display:inline-block;
+			}
+		}
+	}
+}

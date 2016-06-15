@@ -19,6 +19,7 @@
 @import "molecule/comments";
 @import "molecule/forms";
 @import "molecule/grid";
+@import "molecule/cards";
 @import "molecule/wp-classes";
 
 /*================================
@@ -26,6 +27,9 @@
 ================================*/
 @import "organism/paragraph-overlay";
 @import "organism/section-col-12-n1";
+@import "organism/section-related-items";
+@import "organism/section-col-12-slider";
+@import "organism/section-image-grid-text";
 
 /*=================================
 =            Templates            =

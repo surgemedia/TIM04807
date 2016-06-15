@@ -1,5 +1,5 @@
 <?php //debug($vars); ?>
-<section class="container-fluid text-center">
+<section class="section-col-12-slider container-fluid">
   <h1><?php echo $vars['title'] ?></h1>
 
  <div class="owl-carousel">
