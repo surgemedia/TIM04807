@@ -1,4 +1,4 @@
-<?php //debug($vars) ?>
+<?php //debug($vars['element'][0]) ?>
 <section class="section-related-items container-fluid" style="background-image: url(<?php echo $vars['image']?>);">
 	<div class="container">
 	<?php
@@ -8,6 +8,7 @@
 		$element_vars = $vars['element'][0];
 		get_component([
 		 'template' => 'molecule/'.$element_file,
+		 'remove_tags' => $vars['element'][0]['remove_elements'],
 		 'vars' => $element_vars
 				]);
 		unset($element_file);
@@ -35,8 +36,9 @@
 			        + molecule/card
 			      =============================================*/
 			      get_component([ 'template' => 'molecule/card',
+			                      'remove_tags'=>['h6'],
 			                      'vars' => [
-			                            "class" => 'col-md-6',
+			                            "class" => 'col-md-6 coach',
 			                            "title" => get_the_title(),
 			                            "image" => get_field("image"),
 			                            "content" => get_the_content(),
@@ -44,9 +46,9 @@
 			                                'template' => 'atom/link',
 			                                'return_string' => true,
 			                                'vars' => [
-													"class" => 'btn text-uppercase pull-left',
-													"text" => "Read More",
-													"url" => get_permalink()
+																				"class" => 'btn text-uppercase pull-left',
+																				"text" => "Read More",
+																				"url" => get_permalink()
 																						]
 			                                ])
 			                            ]

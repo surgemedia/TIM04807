@@ -175,17 +175,17 @@
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
@@ -221,7 +221,7 @@
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -256,7 +256,7 @@
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -291,7 +291,7 @@
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -322,7 +322,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -435,7 +435,7 @@
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -458,7 +458,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -466,7 +466,7 @@
                                                     {
                                                         "field": "field_575a2ecf10a10_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -521,7 +521,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -529,11 +529,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -1427,17 +1427,17 @@
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
@@ -1473,7 +1473,7 @@
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -1508,7 +1508,7 @@
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -1543,7 +1543,7 @@
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -1574,7 +1574,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -1687,7 +1687,7 @@
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -1710,7 +1710,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -1718,7 +1718,7 @@
                                                     {
                                                         "field": "field_575a3db00f876_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -1773,7 +1773,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -1781,11 +1781,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -2627,8 +2627,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a3db00f876_575e2bd2e24ad_575a3b2185b12",
@@ -2644,7 +2644,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -2746,6 +2746,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a3db00f876_575e2bd2e24ad_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -3059,17 +3081,17 @@
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
@@ -3105,7 +3127,7 @@
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -3140,7 +3162,7 @@
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -3175,7 +3197,7 @@
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -3206,7 +3228,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -3319,7 +3341,7 @@
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -3342,7 +3364,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -3350,7 +3372,7 @@
                                                     {
                                                         "field": "field_575a4bed93516_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -3405,7 +3427,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -3413,11 +3435,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -4259,8 +4281,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4bed93516_575a3b2185b12",
@@ -4276,7 +4298,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -4378,6 +4400,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4bed93516_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -4681,17 +4725,17 @@
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
@@ -4727,7 +4771,7 @@
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -4762,7 +4806,7 @@
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -4797,7 +4841,7 @@
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -4828,7 +4872,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -4941,7 +4985,7 @@
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -4964,7 +5008,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -4972,7 +5016,7 @@
                                                     {
                                                         "field": "field_575a4c0193517_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -5027,7 +5071,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -5035,11 +5079,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -5881,8 +5925,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4c0193517_575a3b2185b12",
@@ -5898,7 +5942,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -6000,6 +6044,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4c0193517_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -6313,17 +6379,17 @@
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
@@ -6359,7 +6425,7 @@
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -6394,7 +6460,7 @@
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -6429,7 +6495,7 @@
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -6460,7 +6526,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -6573,7 +6639,7 @@
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -6596,7 +6662,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -6604,7 +6670,7 @@
                                                     {
                                                         "field": "field_575a4a42fd447_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -6659,7 +6725,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -6667,11 +6733,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -7513,8 +7579,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4a42fd447_575a3b2185b12",
@@ -7530,7 +7596,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -7632,6 +7698,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4a42fd447_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -7935,17 +8023,17 @@
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
@@ -7981,7 +8069,7 @@
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -8016,7 +8104,7 @@
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -8051,7 +8139,7 @@
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -8082,7 +8170,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -8195,7 +8283,7 @@
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -8218,7 +8306,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -8226,7 +8314,7 @@
                                                     {
                                                         "field": "field_575a4a76fd448_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -8281,7 +8369,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -8289,11 +8377,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -9135,8 +9223,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4a76fd448_575a3b2185b12",
@@ -9152,7 +9240,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -9254,6 +9342,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4a76fd448_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -9557,17 +9667,17 @@
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
@@ -9603,7 +9713,7 @@
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -9638,7 +9748,7 @@
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -9673,7 +9783,7 @@
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -9704,7 +9814,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -9817,7 +9927,7 @@
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -9840,7 +9950,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -9848,7 +9958,7 @@
                                                     {
                                                         "field": "field_575a4a7dfd449_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -9903,7 +10013,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -9911,11 +10021,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -10757,8 +10867,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4a7dfd449_575a3b2185b12",
@@ -10774,7 +10884,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -10876,6 +10986,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4a7dfd449_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -11189,17 +11321,17 @@
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
@@ -11235,7 +11367,7 @@
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -11270,7 +11402,7 @@
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -11305,7 +11437,7 @@
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -11336,7 +11468,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -11449,7 +11581,7 @@
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -11472,7 +11604,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -11480,7 +11612,7 @@
                                                     {
                                                         "field": "field_575a41a5d0017_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -11535,7 +11667,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -11543,11 +11675,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -12389,8 +12521,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a41a5d0017_575a3b2185b12",
@@ -12406,7 +12538,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -12508,6 +12640,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a41a5d0017_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -12811,17 +12965,17 @@
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
@@ -12857,7 +13011,7 @@
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -12892,7 +13046,7 @@
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -12927,7 +13081,7 @@
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -12958,7 +13112,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -13071,7 +13225,7 @@
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -13094,7 +13248,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -13102,7 +13256,7 @@
                                                     {
                                                         "field": "field_575a41c8d0019_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -13157,7 +13311,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -13165,11 +13319,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -14011,8 +14165,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a41c8d0019_575a3b2185b12",
@@ -14028,7 +14182,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -14130,6 +14284,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a41c8d0019_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -14433,17 +14609,17 @@
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
@@ -14479,7 +14655,7 @@
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -14514,7 +14690,7 @@
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -14549,7 +14725,7 @@
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -14580,7 +14756,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -14693,7 +14869,7 @@
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -14716,7 +14892,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -14724,7 +14900,7 @@
                                                     {
                                                         "field": "field_575a41d2d001a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -14779,7 +14955,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -14787,11 +14963,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -15633,8 +15809,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a41d2d001a_575a3b2185b12",
@@ -15650,7 +15826,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -15752,6 +15928,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a41d2d001a_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -16055,17 +16253,17 @@
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
@@ -16101,7 +16299,7 @@
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -16136,7 +16334,7 @@
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -16171,7 +16369,7 @@
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -16202,7 +16400,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -16315,7 +16513,7 @@
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -16338,7 +16536,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -16346,7 +16544,7 @@
                                                     {
                                                         "field": "field_575a41d9d001b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -16401,7 +16599,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -16409,11 +16607,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -17255,8 +17453,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a41d9d001b_575a3b2185b12",
@@ -17272,7 +17470,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -17374,6 +17572,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a41d9d001b_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -17873,17 +18093,17 @@
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Subtitle"
+                                        "value": "h6"
                                     },
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Title"
+                                        "value": "h1"
                                     },
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Content"
+                                        "value": "p"
                                     },
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
@@ -17919,7 +18139,7 @@
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Subtitle"
+                                        "value": "h6"
                                     }
                                 ]
                             ],
@@ -17954,7 +18174,7 @@
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Title"
+                                        "value": "h1"
                                     }
                                 ]
                             ],
@@ -17989,7 +18209,7 @@
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Content"
+                                        "value": "p"
                                     }
                                 ]
                             ],
@@ -18020,7 +18240,7 @@
                                 [
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
-                                        "operator": "==",
+                                        "operator": "!=",
                                         "value": "Button"
                                     }
                                 ]
@@ -18133,7 +18353,7 @@
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Image"
+                                        "value": "img"
                                     }
                                 ]
                             ],
@@ -18156,7 +18376,7 @@
                             "value": null,
                             "menu_order": 8,
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "id": "",
                             "class": "",
                             "conditional_logic": [
@@ -18164,7 +18384,7 @@
                                     {
                                         "field": "field_575e2f0270b18_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Image"
+                                        "value": "img"
                                     }
                                 ]
                             ],
@@ -18219,7 +18439,7 @@
                             "required": 0,
                             "id": "",
                             "class": "",
-                            "conditional_logic": "",
+                            "conditional_logic": 0,
                             "wrapper": {
                                 "width": "",
                                 "class": "",
@@ -18227,11 +18447,11 @@
                             },
                             "_input": "",
                             "choices": {
-                                "Subtitle": "Subtitle",
-                                "Title": "Title",
-                                "Content": "Content",
+                                "h6": "Subtitle",
+                                "h1": "Title",
+                                "p": "Content",
                                 "Button": "Button",
-                                "Image": "Image"
+                                "img": "Image"
                             },
                             "default_value": [
 
@@ -18361,17 +18581,17 @@
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
@@ -18407,7 +18627,7 @@
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -18442,7 +18662,7 @@
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -18477,7 +18697,7 @@
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -18508,7 +18728,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -18621,7 +18841,7 @@
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -18644,7 +18864,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -18652,7 +18872,7 @@
                                                     {
                                                         "field": "field_575a4ddf1f598_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -18707,7 +18927,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -18715,11 +18935,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -19561,8 +19781,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4ddf1f598_575a3b2185b12",
@@ -19578,7 +19798,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -19680,6 +19900,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4ddf1f598_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -19983,17 +20225,17 @@
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
@@ -20029,7 +20271,7 @@
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -20064,7 +20306,7 @@
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -20099,7 +20341,7 @@
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -20130,7 +20372,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -20243,7 +20485,7 @@
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -20266,7 +20508,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -20274,7 +20516,7 @@
                                                     {
                                                         "field": "field_575a4e001f599_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -20329,7 +20571,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -20337,11 +20579,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -21183,8 +21425,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4e001f599_575a3b2185b12",
@@ -21200,7 +21442,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -21302,6 +21544,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4e001f599_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -21615,17 +21879,17 @@
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
@@ -21661,7 +21925,7 @@
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -21696,7 +21960,7 @@
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -21731,7 +21995,7 @@
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -21762,7 +22026,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -21875,7 +22139,7 @@
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -21898,7 +22162,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -21906,7 +22170,7 @@
                                                     {
                                                         "field": "field_575a4e3a1f59b_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -21961,7 +22225,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -21969,11 +22233,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -22815,8 +23079,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4e3a1f59b_575a3b2185b12",
@@ -22832,7 +23096,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -22934,6 +23198,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4e3a1f59b_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -23237,17 +23523,17 @@
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
@@ -23283,7 +23569,7 @@
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -23318,7 +23604,7 @@
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -23353,7 +23639,7 @@
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -23384,7 +23670,7 @@
                                                 [
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -23497,7 +23783,7 @@
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -23520,7 +23806,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -23528,7 +23814,7 @@
                                                     {
                                                         "field": "field_575a4e771f59d_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -23583,7 +23869,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -23591,11 +23877,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -24437,8 +24723,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575a4e771f59d_575a3b2185b12",
@@ -24454,7 +24740,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -24556,6 +24842,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575a4e771f59d_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -24818,17 +25126,17 @@
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Subtitle"
+                                        "value": "h6"
                                     },
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Title"
+                                        "value": "h1"
                                     },
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Content"
+                                        "value": "p"
                                     },
                                     {
                                         "field": "field_575a2d9263690",
@@ -24864,7 +25172,7 @@
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Subtitle"
+                                        "value": "h6"
                                     }
                                 ]
                             ],
@@ -24899,7 +25207,7 @@
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Title"
+                                        "value": "h1"
                                     }
                                 ]
                             ],
@@ -24934,7 +25242,7 @@
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Content"
+                                        "value": "p"
                                     }
                                 ]
                             ],
@@ -24965,7 +25273,7 @@
                                 [
                                     {
                                         "field": "field_575a2d9263690",
-                                        "operator": "==",
+                                        "operator": "!=",
                                         "value": "Button"
                                     }
                                 ]
@@ -25078,7 +25386,7 @@
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Image"
+                                        "value": "img"
                                     }
                                 ]
                             ],
@@ -25101,7 +25409,7 @@
                             "value": null,
                             "menu_order": 8,
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "id": "",
                             "class": "",
                             "conditional_logic": [
@@ -25109,7 +25417,7 @@
                                     {
                                         "field": "field_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Image"
+                                        "value": "img"
                                     }
                                 ]
                             ],
@@ -25164,7 +25472,7 @@
                             "required": 0,
                             "id": "",
                             "class": "",
-                            "conditional_logic": "",
+                            "conditional_logic": 0,
                             "wrapper": {
                                 "width": "",
                                 "class": "",
@@ -25172,11 +25480,11 @@
                             },
                             "_input": "",
                             "choices": {
-                                "Subtitle": "Subtitle",
-                                "Title": "Title",
-                                "Content": "Content",
+                                "h6": "Subtitle",
+                                "h1": "Title",
+                                "p": "Content",
                                 "Button": "Button",
-                                "Image": "Image"
+                                "img": "Image"
                             },
                             "default_value": [
 
@@ -25250,8 +25558,8 @@
                             "collapsed": "",
                             "min": "",
                             "max": "",
-                            "layout": "table",
-                            "button_label": "Add Row",
+                            "layout": "row",
+                            "button_label": "Add image",
                             "sub_fields": [
                                 {
                                     "key": "field_575e2b63d03a2_575a3b2185b12",
@@ -25267,7 +25575,7 @@
                                     "class": "",
                                     "conditional_logic": 0,
                                     "wrapper": {
-                                        "width": "",
+                                        "width": 50,
                                         "class": "",
                                         "id": ""
                                     },
@@ -25369,6 +25677,28 @@
                             "placeholder": "",
                             "disabled": 0,
                             "readonly": 0
+                        },
+                        {
+                            "key": "field_575e2b63d03a2_57623d42625ce",
+                            "label": "",
+                            "name": "image_grid_",
+                            "prefix": "",
+                            "type": "tab",
+                            "value": false,
+                            "menu_order": 4,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "placement": "top",
+                            "endpoint": 1
                         }
                     ],
                     "min": "",
@@ -25834,17 +26164,17 @@
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Subtitle"
+                                        "value": "h6"
                                     },
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Title"
+                                        "value": "h1"
                                     },
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Content"
+                                        "value": "p"
                                     },
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
@@ -25880,7 +26210,7 @@
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Subtitle"
+                                        "value": "h6"
                                     }
                                 ]
                             ],
@@ -25915,7 +26245,7 @@
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Title"
+                                        "value": "h1"
                                     }
                                 ]
                             ],
@@ -25950,7 +26280,7 @@
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Content"
+                                        "value": "p"
                                     }
                                 ]
                             ],
@@ -25981,7 +26311,7 @@
                                 [
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
-                                        "operator": "==",
+                                        "operator": "!=",
                                         "value": "Button"
                                     }
                                 ]
@@ -26094,7 +26424,7 @@
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "==",
-                                        "value": "Image"
+                                        "value": "img"
                                     }
                                 ]
                             ],
@@ -26117,7 +26447,7 @@
                             "value": null,
                             "menu_order": 8,
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "id": "",
                             "class": "",
                             "conditional_logic": [
@@ -26125,7 +26455,7 @@
                                     {
                                         "field": "field_575fa3c3fe0d5_575a2d9263690",
                                         "operator": "!=",
-                                        "value": "Image"
+                                        "value": "img"
                                     }
                                 ]
                             ],
@@ -26180,7 +26510,7 @@
                             "required": 0,
                             "id": "",
                             "class": "",
-                            "conditional_logic": "",
+                            "conditional_logic": 0,
                             "wrapper": {
                                 "width": "",
                                 "class": "",
@@ -26188,11 +26518,11 @@
                             },
                             "_input": "",
                             "choices": {
-                                "Subtitle": "Subtitle",
-                                "Title": "Title",
-                                "Content": "Content",
+                                "h6": "Subtitle",
+                                "h1": "Title",
+                                "p": "Content",
                                 "Button": "Button",
-                                "Image": "Image"
+                                "img": "Image"
                             },
                             "default_value": [
 
@@ -26468,17 +26798,17 @@
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
@@ -26514,7 +26844,7 @@
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -26549,7 +26879,7 @@
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -26584,7 +26914,7 @@
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -26615,7 +26945,7 @@
                                                 [
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -26728,7 +27058,7 @@
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -26751,7 +27081,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -26759,7 +27089,7 @@
                                                     {
                                                         "field": "field_575e5406c0ef6_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -26814,7 +27144,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -26822,11 +27152,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -27668,8 +27998,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575e5406c0ef6_575e2bd2e24ad_575a3b2185b12",
@@ -27685,7 +28015,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -27787,6 +28117,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575e5406c0ef6_575e2bd2e24ad_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -28108,17 +28460,17 @@
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     },
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     },
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     },
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
@@ -28154,7 +28506,7 @@
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Subtitle"
+                                                        "value": "h6"
                                                     }
                                                 ]
                                             ],
@@ -28189,7 +28541,7 @@
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Title"
+                                                        "value": "h1"
                                                     }
                                                 ]
                                             ],
@@ -28224,7 +28576,7 @@
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Content"
+                                                        "value": "p"
                                                     }
                                                 ]
                                             ],
@@ -28255,7 +28607,7 @@
                                                 [
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -28368,7 +28720,7 @@
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "==",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -28391,7 +28743,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -28399,7 +28751,7 @@
                                                     {
                                                         "field": "field_575f62e09316a_575a2d9263690",
                                                         "operator": "!=",
-                                                        "value": "Image"
+                                                        "value": "img"
                                                     }
                                                 ]
                                             ],
@@ -28454,7 +28806,7 @@
                                             "required": 0,
                                             "id": "",
                                             "class": "",
-                                            "conditional_logic": "",
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -28462,11 +28814,11 @@
                                             },
                                             "_input": "",
                                             "choices": {
-                                                "Subtitle": "Subtitle",
-                                                "Title": "Title",
-                                                "Content": "Content",
+                                                "h6": "Subtitle",
+                                                "h1": "Title",
+                                                "p": "Content",
                                                 "Button": "Button",
-                                                "Image": "Image"
+                                                "img": "Image"
                                             },
                                             "default_value": [
 
@@ -29308,8 +29660,8 @@
                                             "collapsed": "",
                                             "min": "",
                                             "max": "",
-                                            "layout": "table",
-                                            "button_label": "Add Row",
+                                            "layout": "row",
+                                            "button_label": "Add image",
                                             "sub_fields": [
                                                 {
                                                     "key": "field_575f62e09316a_575a3b2185b12",
@@ -29325,7 +29677,7 @@
                                                     "class": "",
                                                     "conditional_logic": 0,
                                                     "wrapper": {
-                                                        "width": "",
+                                                        "width": 50,
                                                         "class": "",
                                                         "id": ""
                                                     },
@@ -29427,6 +29779,28 @@
                                             "placeholder": "",
                                             "disabled": 0,
                                             "readonly": 0
+                                        },
+                                        {
+                                            "key": "field_575f62e09316a_57623d42625ce",
+                                            "label": "",
+                                            "name": "",
+                                            "prefix": "",
+                                            "type": "tab",
+                                            "value": false,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "placement": "top",
+                                            "endpoint": 1
                                         }
                                     ],
                                     "min": "",
@@ -29673,6 +30047,46 @@
                             "min": "",
                             "max": "",
                             "return_format": "id"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5763567c5ea67",
+                    "name": "section-jumbotron-text",
+                    "label": "Jumbotron Text",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5763569b5ea68_575a37bdff72d",
+                            "label": "Image",
+                            "name": "image",
+                            "prefix": "",
+                            "type": "image",
+                            "value": null,
+                            "menu_order": 0,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
                         }
                     ],
                     "min": "",

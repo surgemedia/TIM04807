@@ -23,11 +23,13 @@
 	//Element L
 	get_component([
 	 'template' => 'molecule/'.$element_file_l,
+	 'remove_tags'=>$vars['element'][$i]['remove_elements'],
 	 'vars' => $element_vars
 			]);
 	//Element R
 	get_component([
 	 'template' => 'molecule/'.$element_file_r,
+	 'remove_tags'=>$vars['element'][$i]['remove_elements'],
 	 'vars' => $element_vars
 			]);
 	unset($element_file_l);

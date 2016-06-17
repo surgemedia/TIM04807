@@ -33,6 +33,7 @@
 	<?php
 	get_component([
 	 'template' => 'molecule/'.$element_file_1,
+	 'remove_tags'=>$vars['element'][$i]['remove_elements'],
 	 'vars' => $element_vars_1
 			]);
 			?>
@@ -43,6 +44,7 @@
 	//Element 2
 	get_component([
 	 'template' => 'molecule/'.$element_file_2,
+	 'remove_tags'=>$vars['element'][$i]['remove_elements'],
 	 'vars' => $element_vars_2
 			]);
 		?>
@@ -53,6 +55,7 @@
 	//Element 3
 	get_component([
 	 'template' => 'molecule/'.$element_file_3,
+	 'remove_tags'=>$vars['element'][$i]['remove_elements'],
 	 'vars' => $element_vars_3
 			]);
 	?>

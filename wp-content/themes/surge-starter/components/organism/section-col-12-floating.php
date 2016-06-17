@@ -11,6 +11,7 @@
 			$element_vars = $vars['element'][$i];
 			get_component([
 		 		'template' => 'molecule/'.$element_file,
+		 		'remove_tags'=>$vars['element'][$i]['remove_elements'],
 		 		'vars' => $element_vars
 				]);
 

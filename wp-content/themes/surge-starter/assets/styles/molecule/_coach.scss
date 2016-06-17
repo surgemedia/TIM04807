@@ -1,0 +1,19 @@
+.coach{
+	background:#fff;
+	padding: 3em;
+	img{
+		float: left;
+		@extend .img-circle;
+		width: 150px;
+		@extend .col-md-4;
+	}
+	h1{
+		font-size: 15px;
+		@extend .col-md-8;
+	}
+	p{
+		float: none;
+    display: inline;
+    @extend .col-md-8;
+	}
+}

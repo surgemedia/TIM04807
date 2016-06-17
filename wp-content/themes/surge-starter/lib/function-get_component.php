@@ -9,6 +9,13 @@
 //					'title Var'
 //					]
 // ]);
+
+
+/**
+ * Gets the component.
+ *
+ * @param      Function|integer  $files  The files
+ */
 function get_component($files = Array()){
 			/*================================
 			=            Varibles            =
