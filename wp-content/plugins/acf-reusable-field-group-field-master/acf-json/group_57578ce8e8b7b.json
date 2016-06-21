@@ -50,6 +50,36 @@
             "button_label": "Add Slide",
             "sub_fields": [
                 {
+                    "key": "field_5768cfc96b2e2",
+                    "label": "Background",
+                    "name": "background",
+                    "prefix": "",
+                    "type": "image",
+                    "value": null,
+                    "menu_order": 0,
+                    "instructions": "",
+                    "required": 1,
+                    "id": "",
+                    "class": "",
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "_input": "",
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
                     "key": "field_57639b9657c14_575a2cb763686",
                     "label": "Card",
                     "name": "",

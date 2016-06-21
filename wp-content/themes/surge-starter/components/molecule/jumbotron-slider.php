@@ -1,18 +1,17 @@
 <?php //debug($vars) ?>
-<section class="jumbotron owl-carousel bg-cover padding-6"  style="background-image:url(<?php echo $vars["image"]?>)">
-	<div class="container">
-	<?php for ($vars['i']=0; $vars['i'] < sizeof($vars['slides']); $vars['i']++) { ?>
-	<article class="item active pull-right col-md-7" style="background-image:url(<?php echo $vars['slides'][$vars["i"]]["image"]?>)">
+<section class="jumbotron owl-carousel bg-cover padding-6"  >
+	
+	<?php foreach ($vars['slides'] as $item) { ?>
+
+	<div class="" style="background-image:url(<?php echo $item["background"]?>)">
+	<article class="pull-left col-md-7">
+		<img src="<?php echo $item['image']?>" alt="">
 		<hgroup>
-			<h1><?php echo $vars['slides'][$vars["i"]]["title"] ?></h1>
+			<h1><?php echo $item['title'] ?></h1>
 		</hgroup>
-		<?php echo apply_filters('the_content',  $vars['slides'][$vars["i"]]["content"]); ?>
-		<?php if(strlen($vars['slides'][$vars["i"]]['button'][0]['text'])){ ?>
-		<a class="btn" href="<?php echo $vars['slides'][$vars["i"]]['button'][0]['href']; ?>"><?php echo $vars['slides'][$vars["i"]]['button'][0]['text']; ?></a>
-		<?php } ?>
+		<?php echo apply_filters('the_content',  $item['content']); ?>
+		
 	</article>
-	<?php } ?>
 	</div>
+	<?php  } ?>
 </section>
-
-
