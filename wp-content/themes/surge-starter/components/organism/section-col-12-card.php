@@ -9,7 +9,7 @@
 			get_component([ 'template' => 'molecule/card',
 											'remove_tags'=>$vars['remove_elements'],
 											'vars' => [
-														"class" => 'col-md-6 card',
+														"class" => 'col-md-6 card '+$vars['class'],
 														"title" => $vars["title"],
 														"subtitle" => $vars["subtitle"],
 														"content" => apply_filters('the_content',  $vars["content"]),

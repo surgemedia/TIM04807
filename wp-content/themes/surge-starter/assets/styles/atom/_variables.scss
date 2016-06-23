@@ -1,26 +1,31 @@
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
+/*----------  Font Weight  ----------*/
+$light 			: 300;
+$regular 		: normal;
+$bold 			: bold;
+$extra-bold	: 800;
+$black    	: 900;
+
 
 // Grid settings
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #2795B6;
-$teal:					#2795B6;
-$teal-alt: 				#00506B;
-$teal-dark: 			#003E4D;
-$blue: 					#12B5C6;
-$light-blue: 			#86B9BD;
-$yellow: 				#D8D001;
-$red: 					#8b1f2c;
+$color1 : #0077bf;
+$color2 : #7caadb;
+$color3 : #512850;
+$color4 : #c7caca;
+$color5 : #303a3a;
+$color6 : #e5ba07;
 
-$yellow-dark: 			#3D4000; 
-$grey: 					#F6F6F6; 
-$gray : $grey;
+$blue 			: $color1;
+$blue-light	: $color2;
+$purple 		: $color3;
+$grey 			: $color4;
+$dark				: $color5;
+$yellow			: $color6;
 
-$primary-font: "Klavika Basic","Helvetica","Arial","sans-serif";
-$secondary-font: "Roboto Slab","Helvetica Neue","Helvetica","Arial","sans-serif";
-$thin-font: 'Klavika Basic Light',"Helvetica","Arial","sans-serif";
+$primary-font: "Alegreya Sans","Helvetica","Arial","sans-serif";
 
-$color1: $brand-primary;

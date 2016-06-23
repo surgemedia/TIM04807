@@ -1,17 +1,30 @@
 <?php //debug($vars) ?>
-<section class="jumbotron owl-carousel bg-cover padding-6"  >
+<section class="jumbotron-slider owl-carousel "  >
 	
-	<?php foreach ($vars['slides'] as $item) { ?>
+	<?php foreach ($vars['slides'] as $vars) { ?>
 
-	<div class="" style="background-image:url(<?php echo $item["background"]?>)">
-	<article class="pull-left col-md-7">
-		<img src="<?php echo $item['image']?>" alt="">
-		<hgroup>
-			<h1><?php echo $item['title'] ?></h1>
-		</hgroup>
-		<?php echo apply_filters('the_content',  $item['content']); ?>
-		
-	</article>
+	<div class="bg-cover" style="background-image:url(<?php echo $vars["background"]?>)">
+
+	<?php
+			//debug($vars);
+			/*=============================================
+			= Card (Class,Image,Title,Content)
+			= @components
+				+ molecule/card
+			=============================================*/
+			get_component([ 'template' => 'molecule/card',
+											'remove_tags'=>$vars['remove_elements'],
+											'vars' => [
+														"class" => 'pull-left '.$vars['style'],
+														"image" => $vars['image'],
+														"title" => $vars["title"],
+														"subtitle" => $vars["subtitle"],
+														"content" => $vars["content"],
+														"button" => $vars['button']
+														]
+											 ]);
+	?>
 	</div>
 	<?php  } ?>
 </section>
+  

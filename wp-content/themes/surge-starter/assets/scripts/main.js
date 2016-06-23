@@ -88,6 +88,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    navText:["<i class='icon-left'></i>", "<i class='icon-right'></i>" ],
     responsive:{
         0:{ 
             items:1
@@ -100,5 +101,12 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+/*$('.owl-next').click(function() {
+    $('.owl-carousel').trigger('next.owl.carousel');
+})
+$('.owl-prev').click(function() {
+    $('.owl-carousel').trigger('prev.owl.carousel');
+})*/
+
 
 })(jQuery); // Fully reference jQuery after this point.

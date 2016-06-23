@@ -1,4 +1,79 @@
 .card{
 	display:inline-block;
 	float:none;
+		
+	img{
+
+	}
+	hgroup{
+		h6{
+
+		}
+		h1{
+
+		}
+	}
+	p{
+
+	}
+	.button-list{
+
+	}
+
+	.btn{
+		@include button($blue,$purple,#fff,$blue-light);
+		@extend .h5;
+		min-width:180px;
+		height: 40px;
+	}
+
+
+	&.style-1{
+		background-color: rgba(255,255,255,0.9);
+    padding: 4em 5em;
+    text-align: center;
+    width: 48.6em;
+    height:35em;
+    position: relative;
+		img{
+			width: auto;
+	    height: auto;
+	    display: inline;
+		}
+		hgroup{
+			text-transform: uppercase;
+			h6{
+				@extend .h3;
+			}
+			h1{
+				@extend .h4;
+			}
+		}
+		p{
+
+		}
+		.button-list{
+			position: absolute;
+	    width: 100%;
+	    display: inline-block;
+	    left: 0;
+	    padding: 0 5em;
+	    bottom: 3.5em;
+		}
+		
+		.btn:nth-child(2n+1){
+			float:left;
+		}
+		.btn:nth-child(2n){
+			float:right;
+		}
+	}
+
+	&.style-2{
+
+	}
+
+	&.style-3{
+
+	}
 }
