@@ -1536,8 +1536,8 @@
                     "sub_fields": [
                         {
                             "key": "field_575a37bdff72d",
-                            "label": "Side Image",
-                            "name": "side_image",
+                            "label": "Image",
+                            "name": "image",
                             "prefix": "",
                             "type": "image",
                             "value": null,
