@@ -1,7 +1,7 @@
 .card{
 	display:inline-block;
 	float:none;
-		
+	text-align:center;	
 	img{
 
 	}
@@ -14,7 +14,7 @@
 		}
 	}
 	p{
-
+		text-align: left;
 	}
 	.button-list{
 
@@ -25,6 +25,7 @@
 		@extend .h5;
 		min-width:180px;
 		height: 40px;
+		margin-top: 2em;
 	}
 
 

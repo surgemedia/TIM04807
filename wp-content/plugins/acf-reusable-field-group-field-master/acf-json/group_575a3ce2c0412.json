@@ -1469,13 +1469,47 @@
                             "readonly": 0
                         },
                         {
+                            "key": "field_575e2bd2e24ad_576c815485492",
+                            "label": "Style",
+                            "name": "style",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 4,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "default": "Default",
+                                "style-1": "Style 1"
+                            },
+                            "default_value": [
+
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
                             "key": "field_575e2bd2e24ad_57623d42625ce",
                             "label": "",
                             "name": "",
                             "prefix": "",
                             "type": "tab",
                             "value": false,
-                            "menu_order": 4,
+                            "menu_order": 5,
                             "instructions": "",
                             "required": 0,
                             "id": "",
@@ -1502,8 +1536,8 @@
                     "sub_fields": [
                         {
                             "key": "field_575a37bdff72d",
-                            "label": "Image",
-                            "name": "image",
+                            "label": "Side Image",
+                            "name": "side_image",
                             "prefix": "",
                             "type": "image",
                             "value": null,

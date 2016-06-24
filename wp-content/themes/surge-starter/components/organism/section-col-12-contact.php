@@ -1,4 +1,4 @@
-<section class="container-fluid bg-cover padding-6 paragraph-overlay <?php echo $vars['class']?>" style=" background-image: url('<?php echo $vars['image'];?>');">
+<section class="bg-cover padding-6 paragraph-overlay <?php echo $vars['class']?>" style=" background-image: url('<?php echo $vars['image'];?>');">
 	<div class="col-md-8 col-md-offset-2 text-center">
 		<div class="box">
 		<?php 

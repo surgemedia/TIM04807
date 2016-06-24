@@ -3,37 +3,33 @@
 
 
  if($vars['image_position'] == 'Right Side'){ 
-	$vars['card_class'] = 'pull-left';
+	$vars['class'] .= ' pull-left';
 	$vars['img_class'] = 'pull-right';
 	} else {
-		$vars['card_class'] = 'pull-right';
+		$vars['class'] .= ' pull-right';
 		$vars['img_class'] = 'pull-left';
 	}
 	
 ?>
-<article class="col-md-6 <?php echo $vars['class'] ?> <?php echo $vars['card_class'] ?>">
-	<hgroup>
-		<h6><?php echo $vars["subtitle"]?></h6>
-		<h1><?php echo $vars["title"]?></h1>
-	</hgroup>
-	<?php echo apply_filters('the_content',  $vars["content"]); ?>
-	<?php if(is_array($vars['button']) == 1){ ?>
-		<?php if(isset($vars['button'][0]['text']) != 0){ ?>
-			<?php
-				get_component([
-								'template' => 'atom/link',
-								'vars' => [
-									"class" => 'btn text-uppercase',
-									"text" => $vars['button'][0]['text'],
-									"link" => $vars['button'][0]['link'],
-									]
-				]);
-																 ?>
-		<?php } else { ?>
-		<?php echo $vars['button']; ?>
-		<?php } ?>
-	<?php } ?>
-</article>
+<?php
+			//debug($vars);
+			/*=============================================
+			= Card (Class,Image,Title,Content)
+			= @components
+				+ molecule/card
+			=============================================*/
+			get_component([ 'template' => 'molecule/card',
+											'remove_tags'=>$vars['remove_elements'],
+											'vars' => [
+														"class" => $vars['class'],
+														"title" => $vars["title"],
+														"image" => $vars["image"],
+														"subtitle" => $vars["subtitle"],
+														"content" => $vars["content"],
+														"button" => $vars['button']
+														]
+											 ]);
+?>
 <div class="col-md-6 <?php echo $vars['img_class'] ?> text-center">
-		<img class="img-responsive rounded" src="<?php echo $vars['image'] ?>" alt="">
+		<img class="img-responsive rounded" src="<?php echo $vars['side_image'] ?>" alt="">
 </div>

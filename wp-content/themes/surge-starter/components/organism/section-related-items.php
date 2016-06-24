@@ -1,5 +1,5 @@
 <?php //debug($vars['element'][0]) ?>
-<section class="section-related-items container-fluid" style="background-image: url(<?php echo $vars['image']?>);">
+<section class="section-related-items bg-cover" style="background-image: url(<?php echo $vars['image']?>);">
 	<div class="container">
 	<?php
 		$element_file = $vars['element'][0]['acf_fc_layout']; //get file
@@ -35,22 +35,22 @@
 			      = @components
 			        + molecule/card
 			      =============================================*/
-			      get_component([ 'template' => 'molecule/card',
-			                      'remove_tags'=>['h6'],
+			      get_component([ 'template' => 'molecule/card-img-side',
+			                      'remove_tags'=>$vars['remove_elements'],
 			                      'vars' => [
 			                            "class" => 'col-md-6 coach',
 			                            "title" => get_the_title(),
 			                            "image" => get_field("image"),
 			                            "content" => get_the_content(),
-			                            "button" => get_component([
-			                                'template' => 'atom/link',
-			                                'return_string' => true,
-			                                'vars' => [
+			                            "button" => array([
+			                                
 																				"class" => 'btn text-uppercase pull-left',
 																				"text" => "Read More",
 																				"url" => get_permalink()
-																						]
-			                                ])
+																						
+			                                ]),
+			                            "side_image" => get_field("side_image"),
+			                            "image_position" => "Right Side"
 			                            ]
 			                       ]);
 			  }

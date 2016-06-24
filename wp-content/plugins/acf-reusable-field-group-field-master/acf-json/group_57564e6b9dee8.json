@@ -2904,13 +2904,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a3db00f876_575e2bd2e24ad_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a3db00f876_575e2bd2e24ad_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -2937,8 +2971,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a3db00f876_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -4636,13 +4670,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4bed93516_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4bed93516_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -4669,8 +4737,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4bed93516_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -6358,13 +6426,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4c0193517_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4c0193517_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -6391,8 +6493,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4c0193517_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -8090,13 +8192,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4a42fd447_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4a42fd447_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -8123,8 +8259,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4a42fd447_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -9812,13 +9948,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4a76fd448_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4a76fd448_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -9845,8 +10015,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4a76fd448_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -11534,13 +11704,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4a7dfd449_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4a7dfd449_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -11567,8 +11771,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4a7dfd449_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -13266,13 +13470,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a41a5d0017_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a41a5d0017_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -13299,8 +13537,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41a5d0017_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -14988,13 +15226,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a41c8d0019_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a41c8d0019_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -15021,8 +15293,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41c8d0019_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -16710,13 +16982,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a41d2d001a_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a41d2d001a_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -16743,8 +17049,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41d2d001a_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -18432,13 +18738,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a41d9d001b_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a41d9d001b_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -18465,8 +18805,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41d9d001b_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -20916,13 +21256,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4ddf1f598_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4ddf1f598_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -20949,8 +21323,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4ddf1f598_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -22638,13 +23012,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4e001f599_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4e001f599_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -22671,8 +23079,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4e001f599_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -24370,13 +24778,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4e3a1f59b_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4e3a1f59b_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -24403,8 +24845,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4e3a1f59b_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -26092,13 +26534,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575a4e771f59d_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575a4e771f59d_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -26125,8 +26601,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4e771f59d_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -27005,13 +27481,47 @@
                             "readonly": 0
                         },
                         {
+                            "key": "field_575e2b63d03a2_576c815485492",
+                            "label": "Style",
+                            "name": "image_grid_style",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 4,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "default": "Default",
+                                "style-1": "Style 1"
+                            },
+                            "default_value": [
+
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
                             "key": "field_575e2b63d03a2_57623d42625ce",
                             "label": "",
                             "name": "image_grid_",
                             "prefix": "",
                             "type": "tab",
                             "value": false,
-                            "menu_order": 4,
+                            "menu_order": 5,
                             "instructions": "",
                             "required": 0,
                             "id": "",
@@ -29601,13 +30111,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575e5406c0ef6_575e2bd2e24ad_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575e5406c0ef6_575e2bd2e24ad_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -29634,8 +30178,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575e5406c0ef6_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -29846,8 +30390,8 @@
                     "sub_fields": [
                         {
                             "key": "field_575f624693168_575a37bdff72d",
-                            "label": "Image",
-                            "name": "image",
+                            "label": "Side Image",
+                            "name": "side_image",
                             "prefix": "",
                             "type": "image",
                             "value": null,
@@ -31341,13 +31885,47 @@
                                             "readonly": 0
                                         },
                                         {
+                                            "key": "field_575f62e09316a_576c815485492",
+                                            "label": "Style",
+                                            "name": "style",
+                                            "prefix": "",
+                                            "type": "select",
+                                            "value": null,
+                                            "menu_order": 4,
+                                            "instructions": "",
+                                            "required": 0,
+                                            "id": "",
+                                            "class": "",
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "_input": "",
+                                            "choices": {
+                                                "default": "Default",
+                                                "style-1": "Style 1"
+                                            },
+                                            "default_value": [
+
+                                            ],
+                                            "allow_null": 0,
+                                            "multiple": 0,
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "disabled": 0,
+                                            "readonly": 0
+                                        },
+                                        {
                                             "key": "field_575f62e09316a_57623d42625ce",
                                             "label": "",
                                             "name": "",
                                             "prefix": "",
                                             "type": "tab",
                                             "value": false,
-                                            "menu_order": 4,
+                                            "menu_order": 5,
                                             "instructions": "",
                                             "required": 0,
                                             "id": "",
@@ -31374,8 +31952,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575f62e09316a_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Side Image",
+                                            "name": "side_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -31620,8 +32198,8 @@
                     "sub_fields": [
                         {
                             "key": "field_5763569b5ea68_575a37bdff72d",
-                            "label": "Image",
-                            "name": "image",
+                            "label": "Side Image",
+                            "name": "side_image",
                             "prefix": "",
                             "type": "image",
                             "value": null,

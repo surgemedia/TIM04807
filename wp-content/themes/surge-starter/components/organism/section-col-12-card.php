@@ -1,4 +1,4 @@
-<section class="container-fluid padding-6 <?php echo $vars['class'] ?>">
+<section class="bg-cover padding-6 <?php echo $vars['class'] ?>">
 <?php
 			//debug($vars);
 			/*=============================================
@@ -13,15 +13,7 @@
 														"title" => $vars["title"],
 														"subtitle" => $vars["subtitle"],
 														"content" => apply_filters('the_content',  $vars["content"]),
-															"button" => get_component([
-																'template' => 'atom/link',
-																'return_string' => true,
-																'vars' => [
-																			"class" => 'btn text-uppercase pull-left',
-																			"text" => $vars['button'][0]['text'],
-																			"url" => $vars['button'][0]['link'],
-																			]
-																])
+														"button" => $vars['button']
 														]
 											 ]);
 ?>
