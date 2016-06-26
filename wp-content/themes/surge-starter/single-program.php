@@ -29,16 +29,16 @@ $vars = [
 		</hgroup>
 		<?php 
 
-		for ($vars['i']=0; $vars['i'] < ; $vars['i']++) { 
+		for ($vars['i']=0; $vars['i'] < $vars['paragraphs_size']; $vars['i']++) { 
 
 			 			get_component([ 'template' => 'molecule/card',
 											'remove_tags'=> ['img','h6',],
 											'vars' => [
-														"class" => 'col-md-6 card '+$vars['class'],
+														"class" => 'col-md-6 card',
 														"title" => $vars["title"]$vars['i'],
 														"subtitle" => $vars["subtitle"],
 														"content" => apply_filters('the_content',  $vars["content"]),
-														"button" => $vars['button']
+														"button" => $vars['button'],
 														]
 											 ]);
 		} ?>
