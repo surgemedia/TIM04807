@@ -109,3 +109,46 @@ p,.p1 {
 	  @extend .h6; 
 	  color: #fff !important;
 	}
+
+
+.overlay {
+	background-color:rgba(#fff,0.8);
+}
+
+.bg-purple {
+	background-color:$purple;
+}
+.bg-yellow {
+	background-color:$yellow;
+}
+.bg-blue {
+	background-color:$blue;
+}
+.bg-blue-light {
+	background-color:$blue-light;
+}
+.bg-dark {
+	background-color:$dark;
+}
+.bg-grey {
+	background-color:$grey;
+}
+
+.font-purple {
+	color:$purple;
+}
+.font-yellow {
+	color:$yellow;
+}
+.font-blue {
+	color:$blue;
+}
+.font-blue-light {
+	color:$blue-light;
+}
+.font-dark {
+	color:$dark;
+}
+.font-grey {
+	color:$grey;
+}
