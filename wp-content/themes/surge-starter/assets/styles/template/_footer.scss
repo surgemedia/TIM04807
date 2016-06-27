@@ -1,0 +1,11 @@
+#footer{
+	height:300px;
+	background-color:$blue;
+	padding: 13em 0;
+	span{
+		@extend .p2;
+		color:#fff;
+		font-size: 1.8em;
+    display: inline-block;
+	}
+}

@@ -4,10 +4,10 @@
 
  if($vars['image_position'] == 'Right Side'){ 
 	$vars['class'] .= ' pull-left';
-	$vars['img_class'] = 'pull-right';
+	$vars['img_class'] .= ' pull-right';
 	} else {
 		$vars['class'] .= ' pull-right';
-		$vars['img_class'] = 'pull-left';
+		$vars['img_class'] .= ' pull-left';
 	}
 	
 ?>
@@ -30,6 +30,6 @@
 														]
 											 ]);
 ?>
-<div class="col-md-6 <?php echo $vars['img_class'] ?> text-center">
+<div class="<?php echo $vars['img_class'] ?> text-center">
 		<img class="img-responsive rounded" src="<?php echo $vars['side_image'] ?>" alt="">
 </div>

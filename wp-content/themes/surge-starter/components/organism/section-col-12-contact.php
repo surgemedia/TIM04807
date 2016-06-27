@@ -1,15 +1,16 @@
-<section class="bg-cover padding-6 paragraph-overlay <?php echo $vars['class']?>" style=" background-image: url('<?php echo $vars['image'];?>');">
-	<div class="col-md-8 col-md-offset-2 text-center">
+<section class="bg-cover padding-6 paragraph-overlay <?php echo $vars['class']?>" style=" background-image: url('<?php echo $vars['background'];?>');">
+	<div class="col-md-8 col-md-offset-2 text-center ">
 		<div class="box">
-		<?php 
+		
+		<?php
+
 		get_component([ 'template' => 'molecule/card',
 											'remove_tags' => $vars["remove_elements"],
 											'vars' => [
-														"class" => 'title',
+														"class" => 'style-3',
 														"title" => $vars["title"],
 														"subtitle" => $vars["subtitle"],
-														"content" => apply_filters('the_content',  $vars["content"]),
-														"button" => ''
+														"content" => $vars["content"],
 														]
 											 ]);
 		get_component([ 'template' => 'molecule/form',

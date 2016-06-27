@@ -540,7 +540,8 @@
                 "default": "Default",
                 "style-1": "Style No1",
                 "style-2": "Style No2",
-                "style-3": "Style No3"
+                "style-3": "Style No3",
+                "style-4": "Style No4"
             },
             "default_value": [
                 "default"

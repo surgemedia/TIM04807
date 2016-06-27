@@ -1,11 +1,45 @@
 .section-col-12-slider{
 	padding : 4em 0;
 	text-align:center;
-	.owl-carousel{
-		.owl-item{
-			img{
-				width:auto;
-				display:inline-block;
+	div{
+		position:relative;
+		.owl-carousel{
+			position:static;
+			margin-top: 70px;
+			margin-bottom: 70px;
+			.owl-item{
+				.item{
+					img{
+						width:auto;
+						display:inline-block;
+						margin-bottom:40px;
+					}
+					p{
+						@extend .p2;
+					}
+					span{
+						@extend .p3;
+						margin-top: 35px;
+					}
+				}
+			}
+			.owl-nav{
+				position: absolute;
+		    top: 50%;
+		    width: 100%;
+		    font-size: 4em;
+		    color: #000;
+		    left:0;
+				.owl-prev{
+					display: inline-block;
+					margin-left: -2em;
+					float:left;
+				}
+				.owl-next{
+					display: inline-block;
+					float:right;
+					margin-right: -2em;
+				}
 			}
 		}
 	}

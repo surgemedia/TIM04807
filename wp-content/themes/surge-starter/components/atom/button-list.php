@@ -1,5 +1,6 @@
 <?php 
 // debug($vars);
+if (is_array($vars)) {
 $button_size= sizeof($vars);
 if (1<$button_size) : ?>
 <div class="button-list">
@@ -10,3 +11,4 @@ if (1<$button_size) : ?>
 <?php if (1<$button_size) : ?>
 </div>
 <?php endif; ?>
+<?php } ?>
