@@ -1,0 +1,26 @@
+#program-details {
+	hgroup {
+		h6 {}
+		h1 {}
+	}
+	.paragraph {
+		h1 {
+		}
+			p {}
+	}
+	footer {
+		h3 {}
+		p {}
+	}
+	.form-col {
+		color:#fff;
+		h1 { font-weight:bold; font-size:4em;}
+	}
+		label.gfield_label {
+			display:none;
+		}
+		input {
+			background: none;
+			border:2px solid #fff;
+		}
+}

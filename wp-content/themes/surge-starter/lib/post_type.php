@@ -22,5 +22,6 @@
 	$program = new CPT([
 	    'post_type_name' => 'program',
 	]);
+	remove_post_type_support( 'program', 'editor' );
 	$program->menu_icon("dashicons-layout");
 ?>
