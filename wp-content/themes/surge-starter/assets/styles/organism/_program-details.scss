@@ -4,7 +4,7 @@
 		padding-bottom:4em;
 	}
 	hgroup {
-		h6 { @extend .h4; font-size:3em; margin: 1em 0 0 0; float:left; }
+		h6 { @extend .h4; font-size:3.5em; margin: 1em 0 0.1em 0; float:left; }
 		h1 { margin: 0 0 0.5em 0; float:left; clear:both; }
 	}
 	.viewall {
@@ -22,9 +22,10 @@
 		h1 {
 			text-align: left;
 			@extend .h4;
+			font-size:3.2em;
 			  
 		}
-			p { color:#000; float:left;}
+			p { color:#000; float:left; font-size:1.6em}
 	}
 	footer {
 		// margin-top:2em;
@@ -44,24 +45,26 @@
 		color:#fff;
 		@extend .col-md-3;
 		width:24%;
+		padding-bottom:2.7em;
 		h1 {
 			font-weight:bold; font-size:3.5em;
 			float:none;
-			margin: 0 auto;
+			margin: 0.7em auto;
     		width: 70%;
 		}
-		.gform_button {
-			border-radius:0px;
-			color:$purple;
-			font-weight: bold;
-			background:#fff;
-		} 
+
 		small {
 			display:inline-block;
 			width:100%;
 			padding:1em;
 			font-size:1.5em;
 			// font-weight: bold;
+		}
+		
+		.required {
+			  clear: both;
+		    margin: 0.5em 0 0;
+		    font-size: 2em;
 		}
 	}
 	form {
@@ -76,6 +79,7 @@
 			input {
 				background: none;
 				border:3px solid #fff;
+				color:#fff;
 				width:100%;
 				padding-top:0em;
 				padding-bottom:0em;
@@ -87,6 +91,19 @@
 		}
 		.gform_footer {
 			margin-top: 0px;
+			padding-top: 0px;
+			width:100%;
+			input {
+				border-radius:0px;
+			color:inherit;
+			font-weight: bold;
+			background:#fff;
+			line-height:3em;
+				margin-top: 0px;
+				padding-top: 0px;
+			}
 		}
 	}
+
 }
+

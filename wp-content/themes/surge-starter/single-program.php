@@ -52,6 +52,7 @@ $vars = array(
 	<div class="form-col pull-right <?php echo $vars['bg_color']; ?>">
 	<?php 
 	get_component([ 'template' => 'molecule/card',
+											'remove_tags' =>  ['h6','p'],
 											'vars' => [
 														"class" => 'title',
 														"title" => 'BOOK THIS PROGRAM',
@@ -59,14 +60,13 @@ $vars = array(
 														]
 											 ]);
 		get_component([ 'template' => 'molecule/form',
-											'remove_tags' =>  ['h2','p'],
+											'remove_tags' =>  ['h2','h6','p'],
 											'vars' => [
 														"class" => 'form text-center',
 														"form" => $vars["form"],
 														]
 											 ]);
 		?>
-		<small><?php echo $vars['form_footer']; ?></small>
 	</div>
 		<footer class="col-md-9 pull-left <?php echo $vars['bg_color']; ?>">
 			<h3 class="col-md-4"><?php echo $vars['bottom_title']; ?></h3>
@@ -74,9 +74,33 @@ $vars = array(
 		</footer>
 	</div>
 </section>
-<section id="program-content" class="bg-grey">
-<div class="container">
+<section id="program-content" class="bg-grey padding-5 row">
+<div class="col-md-8 col-md-offset-2">
 	<?php the_content(); ?>
 	</div>
 </section>
+<?php $vars['front_page'] =  get_option('page_on_front');
+			$vars['builder'] = get_field('layout',$vars['front_page']);
+			for ($vars['i']=0; $vars['i'] < sizeof($vars['builder']); $vars['i']++) { 
+				if($vars['builder'][$vars['i']]['acf_fc_layout'] == 'section-2row-website-grid' && isset($vars['program_section']) != true){					
+					$vars['program_section'] = $vars['builder'][$vars['i']];
+				}
+			}
+
+	if(isset($vars['program_section']) == true){
+	get_component([ 'template' => 'organism/section-2row-website-grid',
+											'vars' => [
+														"title" => $vars['program_section']['title'],
+														"background_image" => $vars['program_section']['background_image'],
+														"background_color" => $vars['program_section']['background_color'],
+														"first_row" => $vars['program_section']['first_row'],
+														"second_row" => $vars['program_section']['second_row'],
+														"section_width" => 'container-fluid',
+														"id" => "section-2row-website-grid",
+														"padding" => 'padding-6',
+														]
+											 ]);
+	}
+
+ ?>
 <?php endwhile; ?>

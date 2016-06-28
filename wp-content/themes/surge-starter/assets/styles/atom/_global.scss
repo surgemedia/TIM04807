@@ -117,38 +117,92 @@ p,.p1 {
 
 .bg-purple {
 	background-color:$purple;
+	.highlighted {
+		background:$purple !important;
+	}
+	.gform_footer {
+		color:$purple !important;
+	}
 }
 .bg-yellow {
 	background-color:$yellow;
+	.highlighted {
+		background:$yellow !important;
+	}
+	.gform_footer {
+		color:$yellow !important;
+	}
 }
 .bg-blue {
 	background-color:$blue;
+		.highlighted {
+		background:$blue !important;
+	}
+	.gform_footer {
+		color:$blue !important;
+	}
 }
 .bg-blue-light {
 	background-color:$blue-light;
+	.highlighted {
+		background:$blue-light !important;
+	}
+	.gform_footer {
+		color:$blue-light !important;
+	}
 }
 .bg-dark {
 	background-color:$dark;
+	.highlighted {
+		background:$dark !important;
+	}
+	.gform_footer {
+		color:$dark !important;
+	}
 }
 .bg-grey {
 	background-color:$grey;
+	.highlighted {
+		background:$grey !important;
+	}
+	.gform_footer {
+		color:$grey !important;
+	}
 }
 
 .font-purple {
 	color:$purple;
+	.gform_footer {
+		color:$purple;
+	}
 }
 .font-yellow {
 	color:$yellow;
+	.gform_footer {
+		color:$yellow;
+	}
 }
 .font-blue {
 	color:$blue;
+	.gform_footer {
+		color:$blue;
+	}
 }
 .font-blue-light {
 	color:$blue-light;
+		.gform_footer {
+		color:$blue-light;
+	}
 }
 .font-dark {
 	color:$dark;
+	.gform_footer {
+		color:$dark;
+	}
 }
 .font-grey {
 	color:$grey;
+	.gform_footer {
+		color:$grey;
+	}
 }
