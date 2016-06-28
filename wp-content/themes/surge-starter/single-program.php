@@ -20,23 +20,27 @@ $vars = array(
 
  ?>
 
-<section id="program-details" class="padding-6" style="background-image:url(<?php  echo $vars['background_image']; ?>)">
+<section id="program-details" class="padding-6 container-fluid" style="background-image:url(<?php  echo $vars['background_image']; ?>)">
 	
-	<div class=" container">
-	<div class="col-md-8 overlay">
-		<hgroup class="col-md-8">
+	<div class=" col-md-10 col-md-offset-1">
+	<div class="col-md-9 overlay">
+		<hgroup class="col-md-12">
+			<a class="viewall" href="/programs">View All Programs</a>
 			<h6><?php echo $vars['subtitle']; ?></h6>
 			<h1><?php echo $vars['title']; ?></h1>
 		</hgroup>
-		<div class="col-md-4 pull-right text-right"><a class="viewall" href="/programs">View All Programs</a></div>
 
 		<?php 
 
 		for ($vars['i']=0; $vars['i'] < $vars['paragraphs_size']; $vars['i']++) { 
+							$remove_tags = ['img','h6'];
+							if(strlen($vars['paragraphs'][$vars['i']]['title']) <= 0){
+								$remove_tags = ['img','h6','h1'];
+						}
 			 			get_component([ 'template' => 'molecule/card',
-											'remove_tags'=> ['img','h6'],
+											'remove_tags'=> $remove_tags,
 											'vars' => [
-														"class" => 'col-md-6 paragraph',
+														"class" => 'col-md-4 paragraph '.$vars['font_color'],
 														"title" => $vars['paragraphs'][$vars['i']]['title'],
 														"content" => apply_filters('the_content',  $vars['paragraphs'][$vars['i']]["content"]),
 														"button" => [],
@@ -45,7 +49,7 @@ $vars = array(
 		} ?>
 	</div>
 
-	<div class="form-col col-md-4 pull-right <?php echo $vars['bg_color']; ?>">
+	<div class="form-col pull-right <?php echo $vars['bg_color']; ?>">
 	<?php 
 	get_component([ 'template' => 'molecule/card',
 											'vars' => [
@@ -64,9 +68,9 @@ $vars = array(
 		?>
 		<small><?php echo $vars['form_footer']; ?></small>
 	</div>
-		<footer class="col-md-8 pull-left <?php echo $vars['bg_color']; ?>">
+		<footer class="col-md-9 pull-left <?php echo $vars['bg_color']; ?>">
 			<h3 class="col-md-4"><?php echo $vars['bottom_title']; ?></h3>
-			<p class="col-md-8"><?php echo $vars['bottom_textarea']; ?></p>
+			<div class="col-md-8"><?php echo $vars['bottom_textarea']; ?></div>
 		</footer>
 	</div>
 </section>
