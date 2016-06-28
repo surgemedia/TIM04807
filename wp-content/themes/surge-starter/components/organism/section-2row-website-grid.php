@@ -1,4 +1,8 @@
-<section class="text-center container-fluid padding-6" style="background-image: url('<?php echo $vars['background'] ?>');">
+
+<?php $options = $vars["padding"].' '.$vars["background_color"].' '.$vars["margin"].' '.$vars["padding"].' '.$vars['section_width']?>
+
+
+<section id="<?php echo $vars["id"]?>" class="text-center <?php echo $options ?>" style="background-image: url('<?php echo $vars['background_image'] ?>');">
     <div class="col-lg-10 col-lg-offset-1">
     <h1>
         <?php echo $vars['title'] ?>
