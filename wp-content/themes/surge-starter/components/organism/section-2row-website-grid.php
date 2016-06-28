@@ -32,6 +32,7 @@ if ( $query->have_posts() ) {
       get_component([ 'template' => 'molecule/card-wrapper',
               'remove_tags' =>  ['img'],
                       'vars' => [
+                            "post_id" => get_the_id();
                             "class" => 'col-xs-12 col-sm-6 col-lg-3 style-4 '. get_field("color"),
                             "subtitle" => get_field("subtitle"),
                             "title" => get_field("title"),

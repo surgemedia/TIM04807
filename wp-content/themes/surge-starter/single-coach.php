@@ -12,17 +12,17 @@ $vars = array(
 	'large_image' => get_field('large_image'),
 
 	);
-
- get_component([
-						'template' => 'organism/jumbotron-text',
-						'vars' => [
-							'background'=> $vars['large_image'],
-						  'remove_tags'=> get_field('remove_elements'),
-							'title' => get_field('title'),
-							'subtitle' => get_field('subtitle'),
-							'content' => get_field('content'),
-						]
-			]);
+	debug($vars);
+ // get_component([
+	// 					'template' => 'organism/jumbotron-text',
+	// 					'vars' => [
+	// 						'background'=> $vars['large_image'],
+	// 					  'remove_tags'=> get_field('remove_elements'),
+	// 						'title' => get_field('title'),
+	// 						'subtitle' => get_field('subtitle'),
+	// 						'content' => get_field('content'),
+	// 					]
+	// 		]);
 
 
  ?>

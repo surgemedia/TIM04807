@@ -7,9 +7,17 @@
 		</hgroup>
 		<?php echo apply_filters('the_content',  $vars["content"]); ?>
 		<?php 
+			if($vars["post_id"] != get_the_id()){
 			get_component([
 									'template' => 'atom/button-list',
 									'vars' =>$vars['button']	
-									]); ?>
+									]);
+			} else {
+				get_component([
+									'template' => 'atom/button-list',
+									'vars' =>$vars['button']	
+									]);
+			}
+									 ?>
 	</div>
 </article>
