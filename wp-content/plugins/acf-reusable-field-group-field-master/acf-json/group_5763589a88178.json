@@ -355,7 +355,7 @@
                 "id": ""
             },
             "_input": "",
-            "placement": "left",
+            "placement": "top",
             "endpoint": 0
         },
         {
@@ -446,7 +446,7 @@
                 "id": ""
             },
             "_input": "",
-            "placement": "left",
+            "placement": "top",
             "endpoint": 0
         },
         {
@@ -611,6 +611,13 @@
                 "param": "page",
                 "operator": "==",
                 "value": "960"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
             }
         ]
     ],

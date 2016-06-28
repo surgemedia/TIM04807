@@ -1,15 +1,15 @@
 <?php
 
- // get_component([
-	// 					'template' => 'organism/jumbotron-text',
-	// 					'vars' => [
-	// 						'background'=> get_field('background'),
-	// 					  'remove_tags'=> get_field('remove_elements'),
-	// 						'title' => get_field('title'),
-	// 						'subtitle' => get_field('subtitle'),
-	// 						'content' => get_field('content'),
-	// 					]
-	// 		]);
+ get_component([
+						'template' => 'organism/jumbotron-text',
+						'vars' => [
+							'background'=> get_field('background'),
+						  'remove_tags'=> get_field('remove_elements'),
+							'title' => get_field('title'),
+							'subtitle' => get_field('subtitle'),
+							'content' => get_field('content'),
+						]
+			]);
 
  get_component([
 						'template' => 'molecule/jumbotron-slider',

@@ -310,7 +310,7 @@
                                 "id": ""
                             },
                             "_input": "",
-                            "placement": "left",
+                            "placement": "top",
                             "endpoint": 0
                         },
                         {
@@ -401,7 +401,7 @@
                                 "id": ""
                             },
                             "_input": "",
-                            "placement": "left",
+                            "placement": "top",
                             "endpoint": 0
                         },
                         {
