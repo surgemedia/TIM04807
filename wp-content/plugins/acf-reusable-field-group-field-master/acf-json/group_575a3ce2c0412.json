@@ -796,7 +796,7 @@
                             "value": null,
                             "menu_order": 8,
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "id": "",
                             "class": "",
                             "conditional_logic": [
@@ -1663,8 +1663,8 @@
                     "sub_fields": [
                         {
                             "key": "field_575a37bdff72d",
-                            "label": "Image",
-                            "name": "image",
+                            "label": "Main Image",
+                            "name": "main_image",
                             "prefix": "",
                             "type": "image",
                             "value": null,

@@ -901,7 +901,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -2358,7 +2358,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -3225,8 +3225,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a3db00f876_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -4251,7 +4251,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -5118,8 +5118,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4bed93516_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -6134,7 +6134,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -7001,8 +7001,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4c0193517_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -8027,7 +8027,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -8894,8 +8894,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4a42fd447_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -9910,7 +9910,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -10777,8 +10777,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4a76fd448_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -11793,7 +11793,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -12660,8 +12660,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4a7dfd449_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -13686,7 +13686,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -14553,8 +14553,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41a5d0017_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -15569,7 +15569,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -16436,8 +16436,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41c8d0019_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -17452,7 +17452,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -18319,8 +18319,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41d2d001a_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -19335,7 +19335,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -20202,8 +20202,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a41d9d001b_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -20692,7 +20692,7 @@
                             "value": null,
                             "menu_order": 8,
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "id": "",
                             "class": "",
                             "conditional_logic": [
@@ -22138,7 +22138,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -23005,8 +23005,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4ddf1f598_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -24021,7 +24021,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -24888,8 +24888,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4e001f599_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -25914,7 +25914,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -26781,8 +26781,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4e3a1f59b_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -27797,7 +27797,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -28664,8 +28664,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575a4e771f59d_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -31291,7 +31291,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -32158,8 +32158,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575e5406c0ef6_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -32370,8 +32370,8 @@
                     "sub_fields": [
                         {
                             "key": "field_575f624693168_575a37bdff72d",
-                            "label": "Image",
-                            "name": "image",
+                            "label": "Main Image",
+                            "name": "main_image",
                             "prefix": "",
                             "type": "image",
                             "value": null,
@@ -33192,7 +33192,7 @@
                                             "value": null,
                                             "menu_order": 8,
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "id": "",
                                             "class": "",
                                             "conditional_logic": [
@@ -34059,8 +34059,8 @@
                                     "sub_fields": [
                                         {
                                             "key": "field_575f62e09316a_575a37bdff72d",
-                                            "label": "Image",
-                                            "name": "image",
+                                            "label": "Main Image",
+                                            "name": "main_image",
                                             "prefix": "",
                                             "type": "image",
                                             "value": null,
@@ -34305,8 +34305,8 @@
                     "sub_fields": [
                         {
                             "key": "field_5763569b5ea68_575a37bdff72d",
-                            "label": "Image",
-                            "name": "image",
+                            "label": "Main Image",
+                            "name": "main_image",
                             "prefix": "",
                             "type": "image",
                             "value": null,

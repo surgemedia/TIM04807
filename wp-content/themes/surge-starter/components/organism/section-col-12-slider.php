@@ -28,7 +28,7 @@
                       'class' => 'item active text-center',
                       'title' =>   get_the_title(),
                       'content' => get_the_content(),
-                      'img' => get_field('image')
+                      'img' => get_field('main_image')
                       ]
                     ]);
             }

@@ -1,5 +1,5 @@
 <?php //debug($vars['element'][0]) ?>
-<section class="section-related-items bg-cover" style="background-image: url(<?php echo $vars['image']?>);">
+<section class="section-related-items bg-cover" style="background-image: url(<?php echo $vars['main_image']?>);">
 	<div class="container">
 	<?php
 		$element_file = $vars['element'][0]['acf_fc_layout']; //get file
@@ -54,7 +54,7 @@
 																								"url" => get_permalink()
 																										
 				                            ]),
-				                        "side_image" => get_field("side_image"),
+				                        "side_image" => get_field("main_image"),
 				                        "image_position" => "Left Side",
 				                        "img_class" => "col-md-5"
 				                        ]
