@@ -2,7 +2,7 @@
 <section class="jumbotron-text bg-cover padding-6"  style="background-image:url(<?php echo $vars["background"]?>)">
 	<div class="container">
 	<?php
-			//debug($vars);
+			debug($vars);
 			/*=============================================
 			= Card (Class,Image,Title,Content)
 			= @components

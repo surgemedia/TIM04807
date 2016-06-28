@@ -612,6 +612,13 @@
                 "operator": "==",
                 "value": "960"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
         ]
     ],
     "menu_order": 0,
