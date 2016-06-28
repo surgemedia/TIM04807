@@ -1,26 +1,92 @@
 #program-details {
+	background-size:cover;
+	.overlay {
+		padding-bottom:4em;
+	}
 	hgroup {
-		h6 {}
-		h1 {}
+		h6 { @extend .h4; font-size:3em; margin: 1em 0 0 0; float:left; }
+		h1 { margin: 0 0 0.5em 0; float:left; clear:both; }
+	}
+	.viewall {
+		padding: 1.3em 0.7em 0;
+		@extend .h4;
+		font-size:2em;
+		text-transform: uppercase;
+		text-decoration: underline;
+		float: right;
+    font-weight: 900;
+		color:#000;
 	}
 	.paragraph {
+		float:left;
 		h1 {
+			text-align: left;
+			@extend .h4;
+			  
 		}
-			p {}
+			p { color:#000; float:left;}
 	}
 	footer {
-		h3 {}
-		p {}
+		// margin-top:2em;
+		color:#fff;
+		h3 {     line-height: 2em;
+   					 margin: 0px;
+   			}
+		div {
+				p {     line-height: 3.5em;
+							    padding: 0px;
+							    margin: 0px;
+							    font-size: 1.5em;
+					}
+			}
 	}
 	.form-col {
 		color:#fff;
-		h1 { font-weight:bold; font-size:4em;}
+		@extend .col-md-3;
+		width:24%;
+		h1 {
+			font-weight:bold; font-size:3.5em;
+			float:none;
+			margin: 0 auto;
+    		width: 70%;
+		}
+		.gform_button {
+			border-radius:0px;
+			color:$purple;
+			font-weight: bold;
+			background:#fff;
+		} 
+		small {
+			display:inline-block;
+			width:100%;
+			padding:1em;
+			font-size:1.5em;
+			// font-weight: bold;
+		}
 	}
-		label.gfield_label {
-			display:none;
+	form {
+		li {
+			width:100%;
+			clear:both;
+			margin-bottom: 1em;
+			label.gfield_label {
+				display:none;
+			}
+			select,
+			input {
+				background: none;
+				border:3px solid #fff;
+				width:100%;
+				padding-top:0em;
+				padding-bottom:0em;
+				line-height: 3.5em;
+				height: 3.5em;
+
+			}
+
 		}
-		input {
-			background: none;
-			border:2px solid #fff;
+		.gform_footer {
+			margin-top: 0px;
 		}
+	}
 }
