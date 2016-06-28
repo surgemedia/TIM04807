@@ -57,6 +57,7 @@ $custom_includes = [
   'lib/supports.php',    // Create Custom Post Types
   'lib/class-layoutbuilder.php',    // Create Custom Post Types
   'lib/create-home-page.php',    // Create Custom Post Types
+  'lib/function-img_resize.php' // Image resize function
 ];
 
 foreach ($custom_includes as $file) {
