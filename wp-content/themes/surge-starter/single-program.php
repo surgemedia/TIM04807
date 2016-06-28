@@ -23,7 +23,7 @@ $vars = array(
 <section id="program-details" class="padding-6 container-fluid" style="background-image:url(<?php  echo $vars['background_image']; ?>)">
 	
 	<div class=" col-md-10 col-md-offset-1">
-	<div class="col-md-8 overlay">
+	<div class="col-md-9 overlay">
 		<hgroup class="col-md-12">
 			<a class="viewall" href="/programs">View All Programs</a>
 			<h6><?php echo $vars['subtitle']; ?></h6>
@@ -68,7 +68,7 @@ $vars = array(
 		?>
 		<small><?php echo $vars['form_footer']; ?></small>
 	</div>
-		<footer class="col-md-8 pull-left <?php echo $vars['bg_color']; ?>">
+		<footer class="col-md-9 pull-left <?php echo $vars['bg_color']; ?>">
 			<h3 class="col-md-4"><?php echo $vars['bottom_title']; ?></h3>
 			<div class="col-md-8"><?php echo $vars['bottom_textarea']; ?></div>
 		</footer>

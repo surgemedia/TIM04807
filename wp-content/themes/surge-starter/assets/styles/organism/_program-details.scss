@@ -42,11 +42,11 @@
 	}
 	.form-col {
 		color:#fff;
-		@extend .col-md-4;
-		width:32%;
+		@extend .col-md-3;
+		width:24%;
 		h1 {
-			font-weight:bold; font-size:4em;
-
+			font-weight:bold; font-size:3.5em;
+			float:none;
 			margin: 0 auto;
     		width: 70%;
 		}
