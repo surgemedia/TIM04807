@@ -30278,9 +30278,11 @@
                                 "id": ""
                             },
                             "_input": "",
-                            "choices": [
-
-                            ],
+                            "choices": {
+                                "padding-4": "padding-4",
+                                "padding-5": "padding-5",
+                                "padding-6": "padding-6"
+                            },
                             "default_value": [
 
                             ],
