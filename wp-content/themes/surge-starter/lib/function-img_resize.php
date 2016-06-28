@@ -3,7 +3,7 @@
 =            Resize iamge         =
 =========================================*/
 function img_resize($image_url,$width,$height,$quailty,$crop  = false,$flip = NULL) {
-	$string = get_site_url().'/i.php';
+	$string = "http://ocsinternational.surgehost.com.au".'/i.php';
 
 	$string .= $i.'?i='.$image_url;
 	if($width){

@@ -1,0 +1,29 @@
+.brand{
+	width:202px;
+	float:left;
+	
+		margin-right:80px;
+		img{
+			width:202px;
+			height:95px;
+		}
+	
+}
+
+nav.nav-primary{
+	ul{
+		width:73%;
+	  margin-top: 2.5em;
+		li{
+			width:120px;
+			text-align:center;
+			a{
+				font-weight:$extra-bold;
+				font-size: 1.4em;
+				color: #000;
+				text-transform: uppercase;
+
+			}
+		}
+	}
+}
