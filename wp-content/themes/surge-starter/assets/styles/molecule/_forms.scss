@@ -16,6 +16,7 @@
 
 .gform_wrapper{
 	max-width:100%;
+
 	form{
 		.gform_heading{
 			text-align: center;
@@ -45,47 +46,55 @@
 					.ginput_container{
 						input,select,textarea{
 							@extend .form-control;
-							border:4px solid $grey;
+							border:4px solid #FFF;
 							border-radius:0;
 						}
 						input{
 							height: 4.7em;
 							background-color:transparent;
+							box-shadow:none !important
 						
 							&:focus {
 											border-color:$color1;
 											box-shadow:none;
+											box-shadow:none !important;
 										}
 						}
 						select{
 							height: 4.7em;
 							background-color:transparent;
+							box-shadow:none !important
 						}
 						textarea{
 							height:12em;
 							&:focus {
 											border-color:$color1;
-											box-shadow:none;
+											box-shadow:none !important;
 										}
 						}
 						.chosen-container {
-								border:4px solid $grey;
+								border:3px solid #fff;
 									background-color:transparent;
 								width:100% !important;
+								    	box-shadow:none !important;
+
 							a.chosen-single {
 								    	background-color:transparent;
 								    	background-image:none;
+								    	box-shadow:none !important;
 								    border-radius: 0;
 								    border: 0;
 								    height: 4em;
 								    line-height: 1em;
+
 									span {
     									/* @extend .h6; */
 											height: 3em;
     									line-height: 3em;
     									color: #fff;
-    									font-weight:$extra-bold;
-											font-size: 1.4em;
+    									// font-weight:$extra-bold;
+											font-size: 1.2em;
+											margin: 0.3em 0em 0 0.45em;
 									}
 									div {
 										width:4em;
@@ -96,7 +105,7 @@
 											//arrow
 											/* @extend .icon-font-core; */
 											background-image: none !important;
-											border-left: 4px solid $grey;
+											// border-left: 3px solid #fff;
 										    font-size: 2.5em;
 										    color: $grey;
 										    width: 100%;
@@ -122,7 +131,7 @@
 									}
 								}
 								ul.chosen-results {
-									$border:4px solid $grey;
+									$border:0px solid $grey;
 									border-left:$border;
 									border-right:$border;
 									border-bottom:$border;
