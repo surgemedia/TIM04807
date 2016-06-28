@@ -1,30 +1,59 @@
 <?php
 
-if (is_front_page()){
- get_component([
-						'template' => 'molecule/jumbotron-slider',
-						'vars' => [
-							'id' => get_field('id'),
-							'slides' => get_field('slides'),
-							'image' => get_field('image'),
-						]
-			]);
-}else{
+if (is_front_page()){ ?>
 
- get_component([
-						'template' => 'organism/jumbotron-text',
-						'vars' => [
-							'background'=> get_field('background'),
-						  'remove_tags'=> get_field('remove_elements'),
-							'title' => get_field('title'),
-							'subtitle' => get_field('subtitle'),
-							'content' => get_field('content'),
-						]
-			]);
+	<section id="<?php echo get_field('id') ?>" class="jumbotron-slider owl-carousel "  >
+	
+		<?php foreach (get_field('slides') as $vars) { ?>
 
+		<div class="bg-cover" style="background-image:url(<?php echo $vars['background']?>)">
 
+		<?php
+				//debug($vars);
+				/*=============================================
+				= Card (Class,Image,Title,Content)
+				= @components
+					+ molecule/card
+				=============================================*/
+				get_component([ 'template' => 'molecule/card',
+												'remove_tags'=>$vars['remove_elements'],
+												'vars' => [
+															"class" => 'pull-left '.$vars['style'],
+															"image" => $vars['image'],
+															"title" => $vars["title"],
+															"subtitle" => $vars["subtitle"],
+															"content" => $vars["content"],
+															"button" => $vars['button']
+															]
+												 ]);
+		?>
+		</div>
+		<?php  } ?>
+	</section>		
+<?php }else{ ?>
+<section class="jumbotron-text bg-cover padding-6"  style="background-image:url(<?php echo get_field('background')?>)">
+	<div class="container">
+	<?php
+			//debug($vars);
+			/*=============================================
+			= Card (Class,Image,Title,Content)
+			= @components
+				+ molecule/card
+			=============================================*/
+			get_component([ 'template' => 'molecule/text-subtitle-content',
+											'remove_tags'=>get_field('remove_elements'),
+											'vars' => [
+														"class" => '',
+														"title" => get_field('title'),
+														"subtitle" => get_field('subtitle'),
+														"content" => get_field('content'),
+														]
+											 ]);
+	?>
+	</div>
+</section>
 
-}
+<?php }
 
 
  
