@@ -16,6 +16,7 @@ $args = array (
   "post__in" => $vars['first_row'],
   "orderby" => "post__in"
 );
+$vars['page_id'] = get_the_id();
 
 // The Query
 $query = new WP_Query( $args );
@@ -32,6 +33,8 @@ if ( $query->have_posts() ) {
       get_component([ 'template' => 'molecule/card-wrapper',
               'remove_tags' =>  ['img'],
                       'vars' => [
+                            "page_id" => $vars['page_id'],
+                            "post_id" => get_the_id(),
                             "class" => 'col-xs-12 col-sm-6 col-lg-3 style-4 '. get_field("color"),
                             "subtitle" => get_field("subtitle"),
                             "title" => get_field("title"),
@@ -82,6 +85,7 @@ if ( $query->have_posts() ) {
       get_component([ 'template' => 'molecule/card-wrapper',
               'remove_tags' =>  ['img'],
                       'vars' => [
+                            "post_id" => get_the_id(),
                             "class" => 'col-xs-12 col-md-6 style-4 '. get_field("color"),
                             "subtitle" => get_field("subtitle"),
                             "title" => get_field("title"),

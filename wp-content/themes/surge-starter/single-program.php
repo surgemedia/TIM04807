@@ -13,9 +13,7 @@ $vars = array(
 	'background_image' => get_field('background_image'),
 	'bg_color' => 'bg-'.get_field('color'),
 	'font_color' => 'font-'.get_field('color'),
-
 	'form' => get_field('form'),
-
 	);
 
  ?>
