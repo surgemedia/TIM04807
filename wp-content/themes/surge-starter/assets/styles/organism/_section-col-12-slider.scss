@@ -10,9 +10,10 @@
 			.owl-item{
 				.item{
 					img{
-						width:auto;
+						max-width:500px;
 						display:inline-block;
 						margin-bottom:40px;
+						@extend .img-responsive;
 					}
 					p{
 						@extend .p2;
@@ -32,13 +33,13 @@
 		    left:0;
 				.owl-prev{
 					display: inline-block;
-					margin-left: -2em;
+					margin-left: 3%;
 					float:left;
 				}
 				.owl-next{
 					display: inline-block;
 					float:right;
-					margin-right: -2em;
+					margin-right: 3%;
 				}
 			}
 		}

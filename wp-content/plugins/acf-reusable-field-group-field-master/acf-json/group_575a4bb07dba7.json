@@ -516,13 +516,34 @@
                             "readonly": 0
                         },
                         {
+                            "key": "field_577355a0627cc",
+                            "label": "",
+                            "name": "",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 14,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_1"
+                        },
+                        {
                             "key": "field_576099e13da64",
                             "label": "",
                             "name": "",
                             "prefix": "",
                             "type": "tab",
                             "value": false,
-                            "menu_order": 14,
+                            "menu_order": 15,
                             "instructions": "",
                             "required": 0,
                             "id": "",
@@ -1315,16 +1336,12 @@
                             },
                             "_input": "",
                             "post_type": [
-
+                                "testimonial"
                             ],
                             "taxonomy": [
 
                             ],
-                            "filters": [
-                                "search",
-                                "post_type",
-                                "taxonomy"
-                            ],
+                            "filters": "",
                             "elements": [
                                 "featured_image"
                             ],

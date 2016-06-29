@@ -35,7 +35,7 @@ if ( $query->have_posts() ) {
                             "class" => 'col-xs-12 col-sm-6 col-lg-3 style-4 '. get_field("color"),
                             "subtitle" => get_field("subtitle"),
                             "title" => get_field("title"),
-                            "content" => get_field("excerpt"),
+                            "content" => truncate(get_field("excerpt"),12,""),
                             "button" => array([
                                     "class" => "",
                                     "text" => "Overview",
@@ -44,7 +44,7 @@ if ( $query->have_posts() ) {
                               [
                                     "class" => "",
                                     "text" => "Book Now",
-                                    "link" => "",
+                                    "link" => get_permalink(),
                               ]
                               )
                             ]
@@ -85,7 +85,7 @@ if ( $query->have_posts() ) {
                             "class" => 'col-xs-12 col-md-6 style-4 '. get_field("color"),
                             "subtitle" => get_field("subtitle"),
                             "title" => get_field("title"),
-                            "content" => get_field("excerpt"),
+                            "content" => truncate(get_field("excerpt"),20,""),
                             "button" => array([
                                     "class" => "",
                                     "text" => "Overview",

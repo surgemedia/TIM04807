@@ -1,5 +1,5 @@
 <?php
-	//debug($vars['image_position']);
+	//debug($vars);
 
 
  if($vars['image_position'] == 'Right Side'){ 
@@ -11,6 +11,9 @@
 	}
 	
 ?>
+<div class="<?php echo $vars['img_class'] ?> text-center">
+		<img class="img-responsive rounded" src="<?php echo $vars['side_image'] ?>" alt="">
+</div>
 <?php
 			//debug($vars);
 			/*=============================================
@@ -30,6 +33,3 @@
 														]
 											 ]);
 ?>
-<div class="<?php echo $vars['img_class'] ?> text-center">
-		<img class="img-responsive rounded" src="<?php echo $vars['side_image'] ?>" alt="">
-</div>

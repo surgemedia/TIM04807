@@ -15,6 +15,9 @@
 	}
 	p{
 		text-align: left;
+		img{
+			@extend .img-responsive;
+		}
 	}
 	.button-list{
 

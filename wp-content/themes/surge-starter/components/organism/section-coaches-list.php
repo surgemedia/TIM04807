@@ -17,7 +17,7 @@
 			  while ( $query->have_posts() ) {
 			    $query->the_post();?>
 			    
-		<div class="col-md-6 bg_white coach">
+		<div class="col-xs-12 col-md-6 bg_white coach">
 			<div class="item">
 				<?php 
 					/*=============================================
@@ -28,10 +28,10 @@
 				  get_component([ 'template' => 'molecule/card-img-side',
 				                  'vars' => [
 				                        'remove_elements'=>['img','h6'],
-				                        "class" => 'col-md-7 style-2',
+				                        "class" => 'col-xs-12 col-sm-7 style-2',
 				                        "title" => get_the_title(),
 				                        "image" => get_field("image"),
-				                        "content" => get_the_content(),
+				                        "content" => truncate(get_field("short_bio"),20,"..."),
 				                        "button" => array([
 				                            
 																								"class" => 'btn text-uppercase pull-left',
@@ -41,7 +41,7 @@
 				                            ]),
 				                        "side_image" => get_field("main_image"),
 				                        "image_position" => "Left Side",
-				                        "img_class" => "col-md-5"
+				                        "img_class" => "col-xs-12 col-sm-5"
 				                        ]
 				                   ]);
 				                   ?>
