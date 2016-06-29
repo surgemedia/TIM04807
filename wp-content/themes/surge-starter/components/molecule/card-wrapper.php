@@ -7,7 +7,7 @@
 		</hgroup>
 		<?php echo apply_filters('the_content',  $vars["content"]); ?>
 		<?php 
-			if($vars["post_id"] != get_the_id()){
+			if($vars["post_id"] != $vars["page_id"]){
 			get_component([
 									'template' => 'atom/button-list',
 									'vars' =>$vars['button']	
@@ -15,7 +15,15 @@
 			} else {
 				get_component([
 									'template' => 'atom/button-list',
-									'vars' =>$vars['button']	
+									'vars' => [[
+                                    "class" => "no-border currently-viewing",
+                                    "text" => "Currently Viewing",
+                                    "link" => '#',
+                              ],[
+                                    "class" => "hide",
+                                    "text" => "",
+                                    "link" => '#',
+                              ]]
 									]);
 			}
 									 ?>
