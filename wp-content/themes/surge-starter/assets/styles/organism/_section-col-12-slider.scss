@@ -11,6 +11,7 @@
 				.item{
 					img{
 						max-width:500px;
+						width: auto;
 						display:inline-block;
 						margin-bottom:40px;
 						@extend .img-responsive;

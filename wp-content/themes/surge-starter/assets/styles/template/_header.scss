@@ -20,11 +20,34 @@ header.banner{
 			li{
 				width:120px;
 				text-align:center;
+				&:after{
+					content: "";
+					background-color: $blue;
+			    width: 0%;
+			    height: 4px;
+			    display: block;
+			    border-radius: 5px;
+				}
+				&:hover:after{
+					width: 100%;
+					background-color: $purple;
+					transition: .3s width ease;
+				}
+				&.active:after{
+					background-color: $blue;
+						width: 100%;
+				  				
+				}
 				a{
 					font-weight:$extra-bold;
 					font-size: 1.4em;
 					color: #000;
 					text-transform: uppercase;
+					&:focus,&:hover{
+						background:none;
+						border:0;
+						outline:none;
+					}
 
 				}
 			}
