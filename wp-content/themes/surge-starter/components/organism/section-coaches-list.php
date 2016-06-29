@@ -15,11 +15,15 @@
 			// The Loop
 			if ( $query->have_posts() ) {
 			  while ( $query->have_posts() ) {
-			    $query->the_post();?>
+			    $query->the_post();
+debug(get_the_terms( get_the_id()))
+			    ?>
 			    
 		<div class="col-xs-12 col-md-6 bg_white coach">
 			<div class="item">
 				<?php 
+
+					
 					/*=============================================
 				  = Card (Class,Image,Title,Content)
 				  = @components

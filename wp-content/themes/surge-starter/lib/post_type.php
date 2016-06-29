@@ -13,9 +13,10 @@
 	$coach = new CPT([
 	    'post_type_name' => 'coach',
 	    'plural' => 'Coaches'
+
 	]);
 	$coach->menu_icon("dashicons-groups");
-
+	$coach->register_taxonomy('type');
 	/*============================================
 	=          Programs - Post Type           	 =
 	============================================*/
