@@ -610,6 +610,27 @@
                 "operator": "==",
                 "value": "960"
             }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "1154"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "1247"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "1272"
+            }
         ]
     ],
     "menu_order": 0,

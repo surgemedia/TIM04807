@@ -3478,6 +3478,376 @@
                                     "max": ""
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_57760902562cf",
+                            "label": "",
+                            "name": "",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 0,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_1"
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768d59960f4f",
+                            "label": "Show Advanced Options",
+                            "name": "show_advanced",
+                            "prefix": "",
+                            "type": "true_false",
+                            "value": null,
+                            "menu_order": 1,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "message": "",
+                            "default_value": 0
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_576c9214f5c5b",
+                            "label": "1\/4",
+                            "name": "1-4-col",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 2,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_4"
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768d5cd60f50",
+                            "label": "Section Width",
+                            "name": "section_width",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 3,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_577a02f7f76a4_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "container-fluid": "Full screen width",
+                                "container": "Container width"
+                            },
+                            "default_value": [
+                                "container"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768d60a60f51",
+                            "label": "Id",
+                            "name": "id",
+                            "prefix": "",
+                            "type": "text",
+                            "value": null,
+                            "menu_order": 4,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_577a02f7f76a4_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "#",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_576c923df5c5c",
+                            "label": "1\/4 (copy)",
+                            "name": "1-4-col_copy",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 5,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_4"
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768d65b88866",
+                            "label": "Inside Margin",
+                            "name": "padding",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 6,
+                            "instructions": "this pushes the inside out so it would include the background image and color.",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_577a02f7f76a4_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "padding-4": "padding-4",
+                                "padding-5": "padding-5",
+                                "padding-6": "padding-6"
+                            },
+                            "default_value": [
+
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768d68388867",
+                            "label": "Outside Margin",
+                            "name": "margin",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 7,
+                            "instructions": "This pushes the element from the outside and won't include background color or images",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_577a02f7f76a4_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": [
+
+                            ],
+                            "default_value": [
+
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_576c9241f5c5d",
+                            "label": "1\/4 (copy) (copy)",
+                            "name": "1-4-col_copy_copy",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 8,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_4"
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768d61360f52",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 9,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_577a02f7f76a4_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "pink": "pink",
+                                "teal": "teal",
+                                "black": "black",
+                                "white": "white"
+                            },
+                            "default_value": [
+                                "white"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768dd3c5c1b3",
+                            "label": "Background Image",
+                            "name": "background_image",
+                            "prefix": "",
+                            "type": "image",
+                            "value": null,
+                            "menu_order": 10,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_577a02f7f76a4_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "return_format": "url",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_577a02f7f76a4_5768d7b7aaf9b",
+                            "label": "Col (copy)",
+                            "name": "col_copy",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 11,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_1"
                         }
                     ],
                     "min": "",
@@ -7330,6 +7700,376 @@
                                     "max": ""
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_5779fb90d178c_57760902562cf",
+                            "label": "",
+                            "name": "",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 0,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_1"
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768d59960f4f",
+                            "label": "Show Advanced Options",
+                            "name": "show_advanced",
+                            "prefix": "",
+                            "type": "true_false",
+                            "value": null,
+                            "menu_order": 1,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "message": "",
+                            "default_value": 0
+                        },
+                        {
+                            "key": "field_5779fb90d178c_576c9214f5c5b",
+                            "label": "1\/4",
+                            "name": "1-4-col",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 2,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_4"
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768d5cd60f50",
+                            "label": "Section Width",
+                            "name": "section_width",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 3,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5779fb90d178c_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "container-fluid": "Full screen width",
+                                "container": "Container width"
+                            },
+                            "default_value": [
+                                "container"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768d60a60f51",
+                            "label": "Id",
+                            "name": "id",
+                            "prefix": "",
+                            "type": "text",
+                            "value": null,
+                            "menu_order": 4,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5779fb90d178c_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "#",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_5779fb90d178c_576c923df5c5c",
+                            "label": "1\/4 (copy)",
+                            "name": "1-4-col_copy",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 5,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_4"
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768d65b88866",
+                            "label": "Inside Margin",
+                            "name": "padding",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 6,
+                            "instructions": "this pushes the inside out so it would include the background image and color.",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5779fb90d178c_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "padding-4": "padding-4",
+                                "padding-5": "padding-5",
+                                "padding-6": "padding-6"
+                            },
+                            "default_value": [
+
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768d68388867",
+                            "label": "Outside Margin",
+                            "name": "margin",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 7,
+                            "instructions": "This pushes the element from the outside and won't include background color or images",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5779fb90d178c_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": [
+
+                            ],
+                            "default_value": [
+
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_5779fb90d178c_576c9241f5c5d",
+                            "label": "1\/4 (copy) (copy)",
+                            "name": "1-4-col_copy_copy",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 8,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_4"
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768d61360f52",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "prefix": "",
+                            "type": "select",
+                            "value": null,
+                            "menu_order": 9,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5779fb90d178c_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "choices": {
+                                "pink": "pink",
+                                "teal": "teal",
+                                "black": "black",
+                                "white": "white"
+                            },
+                            "default_value": [
+                                "white"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768dd3c5c1b3",
+                            "label": "Background Image",
+                            "name": "background_image",
+                            "prefix": "",
+                            "type": "image",
+                            "value": null,
+                            "menu_order": 10,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5779fb90d178c_5768d59960f4f",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "return_format": "url",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5779fb90d178c_5768d7b7aaf9b",
+                            "label": "Col (copy)",
+                            "name": "col_copy",
+                            "prefix": "",
+                            "type": "column",
+                            "value": null,
+                            "menu_order": 11,
+                            "instructions": "",
+                            "required": 0,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "column-type": "1_1"
                         }
                     ],
                     "min": "",

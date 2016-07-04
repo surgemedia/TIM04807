@@ -27,6 +27,7 @@ $vars = array(
 	'form_subtitle' => get_field('form_subtitle'),
 	'form_content' => get_field('form_content'),
 	'form_form' => get_field('form_form'),
+	'bio_file' => get_field('bio_file'),
 	);
 	//debug($vars);
  // get_component([
@@ -77,7 +78,9 @@ $vars = array(
 															"class" => 'col-md-10 col-lg-8',
 															"content" => $vars['short_bio'],
 															"button" => array([
-																				'text'=> "download full bio"
+																				'text'=> "download full bio",
+																				'link'=> $vars['bio_file'],
+																				'extra-data'=>"target='_blank'"
 																				])
 															]
 												 ]);
