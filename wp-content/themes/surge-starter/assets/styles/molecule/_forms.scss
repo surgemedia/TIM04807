@@ -48,6 +48,8 @@
 							@extend .form-control;
 							border:4px solid #FFF;
 							border-radius:0;
+							color: #fff;
+    					font-weight: 700;
 						}
 						input{
 							height: 4.7em;
@@ -95,6 +97,8 @@
     									// font-weight:$extra-bold;
 											font-size: 1.2em;
 											margin: 0.3em 0em 0 0.45em;
+											color: #fff;
+    									font-weight: 700;
 									}
 									div {
 										width:4em;

@@ -1,5 +1,5 @@
 
-<?php $options = $vars["padding"].' '.$vars["background_color"].' '.$vars["margin"].' '.$vars["padding"].' '.$vars['section_width']?>
+<?php $options = $vars["padding"].' '.$vars["background_color"].' '.$vars["margin"].' '.$vars['section_width']?>
 
 
 <section id="<?php echo $vars["id"]?>" class="text-center bg-cover <?php echo $options ?>" style="background-image: url('<?php echo $vars['background_image'] ?>');">

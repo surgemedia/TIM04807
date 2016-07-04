@@ -76,7 +76,7 @@ foreach ($layout_builder as $key => $value) {
 ?>
 
 <?php 
-if (!is_front_page()){
+if (!is_front_page() && !is_page("Contact")){
 
 $vars['front_page'] =  get_option('page_on_front');
 			$vars['builder'] = get_field('layout',$vars['front_page']);

@@ -334,12 +334,12 @@
             "toggle": 0
         },
         {
-            "key": "field_5771fbd88fc78_576ccdf36bf6d",
+            "key": "field_5771fbd88fc78_5775d11af8eb3",
             "label": "form - ",
             "name": "form_",
             "prefix": "",
-            "type": "tab",
-            "value": false,
+            "type": "column",
+            "value": null,
             "menu_order": 11,
             "instructions": "",
             "required": 0,
@@ -352,8 +352,7 @@
                 "id": ""
             },
             "_input": "",
-            "placement": "top",
-            "endpoint": 1
+            "column-type": "1_1"
         }
     ],
     "location": [

@@ -1,3 +1,0 @@
-<?php //Moved, remove file ?>
-
-  

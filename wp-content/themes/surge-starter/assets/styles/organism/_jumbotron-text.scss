@@ -4,11 +4,14 @@
   color:#fff;
 
   .container{
-  	padding-top: 15em;
+  	padding-top: 10em;
   	position:relative;
   	.text-subtitle-content{
   		text-align: center;
   		display: inline-block;
+      h6{
+        margin-top: 0;
+      }
   	}
   }
 }
