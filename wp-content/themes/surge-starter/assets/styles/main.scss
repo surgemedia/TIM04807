@@ -18,13 +18,25 @@
 @import "molecule/buttons";
 @import "molecule/comments";
 @import "molecule/forms";
-@import "molecule/grid";
+@import "molecule/grids";
+@import "molecule/coach";
+@import "molecule/modal";
+@import "molecule/cards";
 @import "molecule/wp-classes";
 
 /*================================
 =            Organism            =
 ================================*/
-
+@import "organism/paragraph-overlay";
+@import "organism/section-col-12-n1";
+@import "organism/section-related-items";
+@import "organism/section-col-12-slider";
+@import "organism/section-image-grid-text";
+@import "organism/jumbotron-text";
+@import "organism/jumbotron-slider";
+@import "organism/program-details";
+@import "organism/section-2row-website-grid";
+@import "organism/section-col-6-n2";
 
 /*=================================
 =            Templates            =
@@ -35,6 +47,7 @@
 @import "template/pages";
 @import "template/posts";
 @import "template/tinymce";
+@import "template/single-coach";
 
 /*----------  RESPONSIVE  ----------*/
 

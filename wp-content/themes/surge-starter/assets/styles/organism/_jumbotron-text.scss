@@ -1,0 +1,17 @@
+.jumbotron-text{
+	height: 450px;
+  background-position-y: 23%;
+  color:#fff;
+
+  .container{
+  	padding-top: 10em;
+  	position:relative;
+  	.text-subtitle-content{
+  		text-align: center;
+  		display: inline-block;
+      h6{
+        margin-top: 0;
+      }
+  	}
+  }
+}

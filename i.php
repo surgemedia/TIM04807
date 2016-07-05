@@ -3,7 +3,7 @@
 	require_once('wp-blog-header.php');
 
 
-$image = $_GET["image"];
+$image = $_GET["i"];
 // echo $image;
 $sizeh = $_GET["h"];
 $sizew = $_GET["w"];

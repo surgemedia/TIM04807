@@ -1,0 +1,21 @@
+.coach{
+	background:#fff;
+	padding: 3em;
+	text-align: center;
+	img{
+		
+		@extend .img-circle;
+		width: 100%;
+		
+	}
+	.card{
+		p{
+			height:92px;
+		}
+	}
+	.item{
+		width: 50em;
+		display: inline-block;
+	}
+
+}

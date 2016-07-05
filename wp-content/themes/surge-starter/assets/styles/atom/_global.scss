@@ -10,56 +10,227 @@ body {
     color: #000;
 }
 
-h1,
-.h1 {
-	font-family: $primary-font;
-	font-style:normal;
-	font-weight:500;
+h1,.h1 {
+	font-weight:$light;
 	text-shadow:none;
 	font-size:6em;
 }
-h2,
-.h2  {
-	font-family:$secondary-font;
-	 text-shadow:none;
-	font-weight:100;
-	font-size:4em;
-}
-h2.alt {
-	font-family: $primary-font;
-	font-weight:400;
-	color:$teal;
-	margin:1em 0em;
-	font-size:4em;
-}
-h3 {
-	font-size:3.6em;
+h2,.h2  {
+	text-shadow:none;
+	font-weight:$extra-bold;
+	font-size:3em;
 }
 
-p {
-	font-family:$secondary-font;
-	font-weight:400;
+h3,.h3 {
+	font-size:2.4em;
+	font-weight: $regular;
+}
+h4,.h4{
+	font-weight:$extra-bold;
+	font-size: 2.4em;
+}
+
+h5,.h5{
+	font-weight:$black;
+	font-size: 1.4em;
+}
+
+h6{
+	font-weight:$extra-bold;
+	font-size: 1.4em;
+}
+
+.h7{
+	font-weight:$regular;
+	font-size:2.4em;
+}
+
+p,.p1 {
+	font-weight:$regular;
 	font-size:1.4em;
 	line-height:1.7em;
 }
-h2,.h2 { font-size:6em;   }
-.h3 { font-size:3.6em; }
 
-.p1 { font-size:6em; line-height:1.7em;  }
-.p2 { font-size:4.8em; line-height:1.7em;}
-.p3 { font-size:3.6em; line-height:1.7em;  }
-.p4 { font-size:3em; line-height:1.7em;  }
-.p5 { font-size:2.4em; line-height:1.7em;  }
-.p6 { @extend .p5;
-		color:rgba(#000,0.7);
-    	font-size: 2em;
-    	line-height: 1.8em;
-    }
+.p2 { 
+	font-weight:$light;
+	font-size:2.4em;
+	line-height:1.6em;
+}
+.p3 { 
+	font-weight:$extra-bold;
+	font-size:1.8em;
+}
+
+@mixin padding($padding) {
+  padding-top: $padding;
+	padding-bottom: $padding;
+    
+} 
+
+.padding-4{
+	@include padding(4em);
+}
+.padding-5{
+	@include padding(5em);
+}
+.padding-6{
+	@include padding(6em);
+}
+
+.bg-cover {
+	background-size:cover;
+	background-position: center;
+	position:relative;
+	display:inline-block;
+	width:100%;
+	&:before{
+		content:"";
+		background-color: rgba(0,0,0,0.5);
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height: 100%;
+    display: inline-block;
+	}
+	&.clear:before{
+		content:"";
+		background-color: rgba(0,0,0,0)
+	}
+}
+
+.bg_white{
+	background-color:#fff;
+}
+
+@mixin placeholder {
+ ::-webkit-input-placeholder {@content}
+ :-moz-placeholder           {@content}
+ ::-moz-placeholder          {@content}
+ :-ms-input-placeholder      {@content}  
+}
+	@include placeholder {
+	  @extend .h6; 
+	  color: #fff !important;
+	}
 
 
-.row {
-	padding-top:4em;
-	padding-bottom:4em;  
-	border-top:1px dashed #d1d1d1;
-	display:block;
+.overlay {
+	background-color:rgba(#fff,0.9);
+}
+
+.bg-purple {
+	background-color:$purple;
+	.highlighted {
+		background:$purple !important;
+	}
+	.gform_footer {
+		color:$purple !important;
+	}
+}
+.bg-yellow {
+	background-color:$yellow;
+	.highlighted {
+		background:$yellow !important;
+	}
+	.gform_footer {
+		color:$yellow !important;
+	}
+}
+.bg-blue {
+	background-color:$blue;
+		.highlighted {
+		background:$blue !important;
+	}
+	.gform_footer {
+		color:$blue !important;
+	}
+}
+.bg-blue-light {
+	background-color:$blue-light;
+	.highlighted {
+		background:$blue-light !important;
+	}
+	.gform_footer {
+		color:$blue-light !important;
+	}
+}
+.bg-dark {
+	background-color:$dark;
+	.highlighted {
+		background:$dark !important;
+	}
+	.gform_footer {
+		color:$dark !important;
+	}
+}
+.bg-grey {
+	background-color:$grey;
+	.highlighted {
+		background:$grey !important;
+	}
+	.gform_footer {
+		color:$grey !important;
+	}
+}
+
+.font-purple {
+	color:$purple;
+	.gform_footer {
+		color:$purple;
+	}
+}
+.font-yellow {
+	color:$yellow;
+	.gform_footer {
+		color:$yellow;
+	}
+}
+.font-blue {
+	color:$blue;
+	.gform_footer {
+		color:$blue;
+	}
+}
+.font-blue-light {
+	color:$blue-light;
+		.gform_footer {
+		color:$blue-light;
+	}
+}
+.font-dark {
+	color:$dark;
+	.gform_footer {
+		color:$dark;
+	}
+}
+.font-grey {
+	color:$grey;
+	.gform_footer {
+		color:$grey;
+	}
+}
+
+.text-white{
+	color:#fff;
+}
+
+.display-inline-block{
+	display:inline-block;
+}
+
+@mixin side-padding($padding) {
+  padding-left: $padding;
+	padding-right: $padding;
+    
+} 
+
+.side-padding-4{
+	@include side-padding(4em);
+}
+.side-padding-5{
+	@include side-padding(5em);
+}
+.side-padding-6{
+	@include side-padding(6em);
 }

@@ -1,0 +1,146 @@
+0000.049 (0) Opened log file at time: Fri, 24 Jun 2016 04:20:14 +0000 on http://localhost/TIM04807
+0000.051 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.3 PHP: 5.5.9-1ubuntu4.16 (Linux surge-iMac 3.19.0-51-generic #58~14.04.1-Ubuntu SMP Fri Feb 26 22:02:58 UTC 2016 x86_64) MySQL: 5.5.44 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.8M | 26.8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.063 (0) Free space on disk containing Updraft's temporary directory: 136036.1 MB
+0000.066 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.067 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.079 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1466655729, seconds_ago=86285)
+0000.082 (0) Set semaphore last lock (fd) time to 2016-06-24 04:20:14
+0000.083 (0) Semaphore lock (fd) complete
+0000.088 (0) Backup run: resumption=0, nonce=8e5599aa31f4, begun at=1466742014 (0s ago), job type=backup
+0000.090 (0) Scheduling a resumption (1) after 300 seconds (1466742314) in case this run gets aborted
+0000.115 (0) Checking if we have a zip executable available
+0000.117 (0) Testing: /usr/bin/zip
+0000.147 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.149 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.149 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.150 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.151 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.157 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.158 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.186 (0) Working binary zip found: /usr/bin/zip
+0000.188 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.189 (0) Creation of backups of directories: beginning
+0000.191 (0) No backup of plugins: excluded by user's options
+0000.192 (0) No backup of themes: excluded by user's options
+0000.193 (0) No backup of uploads: excluded by user's options
+0000.194 (0) No backup of others: excluded by user's options
+0000.198 (0) Saving backup status to database (elements: 0)
+0000.201 (0) Beginning creation of database dump (WordPress DB)
+0000.225 (0) Testing: /usr/bin/mysqldump
+0000.301 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.324 (0) Table W5dQjR_options: Total expected rows (approximate): 150
+0000.356 (0) Table W5dQjR_options: Total rows added: 242 in 0.03 seconds
+0000.358 (0) Table W5dQjR_options: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_options.table.gz - 99.9 KB)
+0000.363 (0) Table W5dQjR_users: Total expected rows (approximate): 1
+0000.366 (0) Table W5dQjR_users: Total rows added: 1 in 0.00 seconds
+0000.367 (0) Table W5dQjR_users: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_users.table.gz - 0.6 KB)
+0000.372 (0) Table W5dQjR_usermeta: Total expected rows (approximate): 30
+0000.377 (0) Table W5dQjR_usermeta: Total rows added: 30 in 0.00 seconds
+0000.378 (0) Table W5dQjR_usermeta: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_usermeta.table.gz - 1.7 KB)
+0000.382 (0) Table W5dQjR_commentmeta: Total expected rows (approximate): 0
+0000.384 (0) Table W5dQjR_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.385 (0) Table W5dQjR_commentmeta: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_commentmeta.table.gz - 0.4 KB)
+0000.391 (0) Table W5dQjR_comments: Total expected rows (approximate): 1
+0000.394 (0) Table W5dQjR_comments: Total rows added: 1 in 0.00 seconds
+0000.395 (0) Table W5dQjR_comments: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_comments.table.gz - 0.7 KB)
+0000.398 (0) Table W5dQjR_links: Total expected rows (approximate): 0
+0000.403 (0) Table W5dQjR_links: Total rows added: 0 in 0.00 seconds
+0000.405 (0) Table W5dQjR_links: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_links.table.gz - 0.4 KB)
+0000.411 (0) Table W5dQjR_postmeta: Total expected rows (approximate): 7288
+0000.567 (0) Table W5dQjR_postmeta: Total rows added: 6931 in 0.16 seconds
+0000.572 (0) Table W5dQjR_postmeta: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_postmeta.table.gz - 54.5 KB)
+0000.576 (0) Table W5dQjR_posts: Total expected rows (approximate): 493
+0000.636 (0) Table W5dQjR_posts: Total rows added: 525 in 0.06 seconds
+0000.640 (0) Table W5dQjR_posts: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_posts.table.gz - 26 KB)
+0000.645 (0) Table W5dQjR_term_relationships: Total expected rows (approximate): 1
+0000.647 (0) Table W5dQjR_term_relationships: Total rows added: 1 in 0.00 seconds
+0000.649 (0) Table W5dQjR_term_relationships: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_term_relationships.table.gz - 0.4 KB)
+0000.653 (0) Table W5dQjR_term_taxonomy: Total expected rows (approximate): 1
+0000.656 (0) Table W5dQjR_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0000.657 (0) Table W5dQjR_term_taxonomy: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_term_taxonomy.table.gz - 0.4 KB)
+0000.661 (0) Table W5dQjR_termmeta: Total expected rows (approximate): 0
+0000.663 (0) Table W5dQjR_termmeta: Total rows added: 0 in 0.00 seconds
+0000.664 (0) Table W5dQjR_termmeta: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_termmeta.table.gz - 0.4 KB)
+0000.668 (0) Table W5dQjR_terms: Total expected rows (approximate): 1
+0000.672 (0) Table W5dQjR_terms: Total rows added: 1 in 0.00 seconds
+0000.673 (0) Table W5dQjR_terms: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_terms.table.gz - 0.4 KB)
+0000.677 (0) Table W5dQjR_rg_form: Total expected rows (approximate): 2
+0000.680 (0) Table W5dQjR_rg_form: Total rows added: 2 in 0.00 seconds
+0000.682 (0) Table W5dQjR_rg_form: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_form.table.gz - 0.4 KB)
+0000.688 (0) Table W5dQjR_rg_form_meta: Total expected rows (approximate): 2
+0000.691 (0) Table W5dQjR_rg_form_meta: Total rows added: 2 in 0.00 seconds
+0000.692 (0) Table W5dQjR_rg_form_meta: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_form_meta.table.gz - 1.4 KB)
+0000.696 (0) Table W5dQjR_rg_form_view: Total expected rows (approximate): 5
+0000.699 (0) Table W5dQjR_rg_form_view: Total rows added: 5 in 0.00 seconds
+0000.700 (0) Table W5dQjR_rg_form_view: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_form_view.table.gz - 0.5 KB)
+0000.705 (0) Table W5dQjR_rg_incomplete_submissions: Total expected rows (approximate): 0
+0000.708 (0) Table W5dQjR_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0000.709 (0) Table W5dQjR_rg_incomplete_submissions: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_incomplete_submissions.table.gz - 0.4 KB)
+0000.713 (0) Table W5dQjR_rg_lead: Total expected rows (approximate): 0
+0000.715 (0) Table W5dQjR_rg_lead: Total rows added: 0 in 0.00 seconds
+0000.716 (0) Table W5dQjR_rg_lead: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead.table.gz - 0.5 KB)
+0000.722 (0) Table W5dQjR_rg_lead_detail: Total expected rows (approximate): 0
+0000.725 (0) Table W5dQjR_rg_lead_detail: Total rows added: 0 in 0.00 seconds
+0000.726 (0) Table W5dQjR_rg_lead_detail: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_detail.table.gz - 0.4 KB)
+0000.730 (0) Table W5dQjR_rg_lead_detail_long: Total expected rows (approximate): 0
+0000.732 (0) Table W5dQjR_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0000.737 (0) Table W5dQjR_rg_lead_detail_long: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_detail_long.table.gz - 0.3 KB)
+0000.742 (0) Table W5dQjR_rg_lead_meta: Total expected rows (approximate): 0
+0000.745 (0) Table W5dQjR_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0000.747 (0) Table W5dQjR_rg_lead_meta: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_meta.table.gz - 0.4 KB)
+0000.751 (0) Table W5dQjR_rg_lead_notes: Total expected rows (approximate): 0
+0000.755 (0) Table W5dQjR_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0000.756 (0) Table W5dQjR_rg_lead_notes: finishing file (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_notes.table.gz - 0.4 KB)
+0000.760 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_options.table.gz (1/21): adding to final database dump
+0000.791 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_users.table.gz (2/21): adding to final database dump
+0000.793 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_usermeta.table.gz (3/21): adding to final database dump
+0000.795 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_commentmeta.table.gz (4/21): adding to final database dump
+0000.796 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_comments.table.gz (5/21): adding to final database dump
+0000.797 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_links.table.gz (6/21): adding to final database dump
+0000.798 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_postmeta.table.gz (7/21): adding to final database dump
+0000.869 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_posts.table.gz (8/21): adding to final database dump
+0000.890 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_term_relationships.table.gz (9/21): adding to final database dump
+0000.892 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_term_taxonomy.table.gz (10/21): adding to final database dump
+0000.893 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_termmeta.table.gz (11/21): adding to final database dump
+0000.895 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_terms.table.gz (12/21): adding to final database dump
+0000.896 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_form.table.gz (13/21): adding to final database dump
+0000.899 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_form_meta.table.gz (14/21): adding to final database dump
+0000.901 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_form_view.table.gz (15/21): adding to final database dump
+0000.903 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_incomplete_submissions.table.gz (16/21): adding to final database dump
+0000.905 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead.table.gz (17/21): adding to final database dump
+0000.907 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_detail.table.gz (18/21): adding to final database dump
+0000.909 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_detail_long.table.gz (19/21): adding to final database dump
+0000.910 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_meta.table.gz (20/21): adding to final database dump
+0000.912 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db-table-W5dQjR_rg_lead_notes.table.gz (21/21): adding to final database dump
+0000.913 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db.gz: finished writing out complete database file (160 KB)
+0000.920 (0) Total database tables backed up: 21 (backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db.gz, size: 190012, checksum (SHA1): 2ea4e1aa51827b94df35d9c9ebd1dac67e749c3c)
+0000.928 (0) backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.930 (0) Saving backup history. Total backup size: 185.6 KB
+0000.933 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.937 (0) Cloud backup selection (1/1):  (last)
+0000.940 (0) No remote despatch: user chose no remote backup service
+0000.944 (0) Recording as successfully uploaded: backup_2016-06-24-0420_Time_Technology_8e5599aa31f4-db.gz (e58a65b8caeba3c56c029a25399c8397)
+0000.952 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0000.955 (0) Number of backup sets in history: 3; groups (db): 1
+0000.957 (0) Examining (for databases) backup set with group_id=0, nonce=8e5599aa31f4, datestamp=1466742014 (Jun 24 2016 04:20:14)
+0000.958 (0) This backup set is the backup set just made, so will not be deleted.
+0000.960 (0) Examining (for databases) backup set with group_id=0, nonce=e0af31104fd4, datestamp=1466655729 (Jun 23 2016 04:22:09)
+0000.961 (0) 1466655729: db: this set includes a database (backup_2016-06-23-0422_headless_e0af31104fd4-db.gz); db count is now 1
+0000.963 (0) 1466655729: db: over retain limit (1); will delete this database
+0000.965 (0) Delete file: backup_2016-06-23-0422_headless_e0af31104fd4-db.gz, service=none
+0000.966 (0) Deleting local copy (backup_2016-06-23-0422_headless_e0af31104fd4-db.gz)
+0001.025 (0) This backup set is now empty; will remove from history
+0001.027 (0) Deleting log file (log.e0af31104fd4.txt)
+0001.028 (0) Examining (for databases) backup set with group_id=0, nonce=bb1a18df6eba, datestamp=1465790340 (Jun 13 2016 03:59:00)
+0001.029 (0) Number of backup sets in history: 2; groups (files): 1
+0001.030 (0) Examining (for files) backup set with nonce=8e5599aa31f4, datestamp=1466742014 (Jun 24 2016 04:20:14)
+0001.031 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.032 (0) Examining (for files) backup set with nonce=bb1a18df6eba, datestamp=1465790340 (Jun 13 2016 03:59:00)
+0001.033 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0001.034 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0001.038 (0) Resume backup (8e5599aa31f4, 0): finish run
+0001.040 (0) Decremented the semaphore (fd) by 1
+0001.041 (0) Semaphore (fd) unlocked
+0001.042 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.046 (0) No email will/can be sent - the user has not configured an email address.
+0001.047 (0) The backup apparently succeeded and is now complete

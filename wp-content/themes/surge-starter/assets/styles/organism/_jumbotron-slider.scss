@@ -1,0 +1,28 @@
+.jumbotron-slider{
+	position: relative;
+	min-height: 60em;
+	.owl-stage{
+		.owl-item{
+			.bg-cover{
+				height: 600px;
+				padding-top: 11em; 
+				padding-left: 17em;
+			}
+		}
+	}
+	.owl-nav{
+		position: absolute;
+    top: 50%;
+    width: 100%;
+    padding: 0 1em;
+    font-size: 4em;
+    color: #fff;
+		.owl-prev{
+			display: inline-block;
+		}
+		.owl-next{
+			display: inline-block;
+			float:right;
+		}
+	}
+}

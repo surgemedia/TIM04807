@@ -1,0 +1,166 @@
+.card{
+	display:inline-block;
+	float:none;
+	text-align:center;	
+	img{
+
+	}
+	hgroup{
+		h6{
+
+		}
+		h1{
+
+		}
+	}
+	p{
+		text-align: left;
+		img{
+			@extend .img-responsive;
+		}
+	}
+	.button-list{
+
+	}
+
+	.btn{
+		@include button($blue,$purple,#fff,$blue-light);
+		@extend .h5;
+		min-width:180px;
+		height: 40px;
+		margin-top: 2em;
+	}
+
+
+	&.style-1{
+		background-color: rgba(255,255,255,0.9);
+    padding: 4em 5em;
+    text-align: center;
+    width: 48.6em;
+    height:35em;
+    position: relative;
+		img{
+			width: auto;
+	    height: auto;
+	    display: inline;
+		}
+		hgroup{
+			text-transform: uppercase;
+			h6{
+				@extend .h3;
+			}
+			h1{
+				@extend .h4;
+			}
+		}
+		p{
+
+		}
+		.button-list{
+			position: absolute;
+	    width: 100%;
+	    display: inline-block;
+	    left: 0;
+	    padding: 0 5em;
+	    bottom: 3.5em;
+		}
+		
+		.btn:nth-child(2n+1){
+			float:left;
+		}
+		.btn:nth-child(2n){
+			float:right;
+		}
+	}
+
+	&.style-2{
+		hgroup{
+			text-align: left;
+			h1{
+				@extend .h7;
+			}
+		}
+		.btn{
+			float:left;
+			margin-top: 1em;
+		}
+	}
+
+	&.style-3{
+		color:#fff;
+		margin-bottom:48px;
+		hgroup{
+			margin-bottom:32px;	
+		}
+	}
+	&.style-4{
+		color:#fff;
+		min-height: 25em;
+		overflow: hidden;
+		z-index: 2;
+		margin-top: 15px;
+    padding: 0 7.5px;
+		img{
+
+		}
+		hgroup{
+			h6,h1{
+				@extend .h2;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+		}
+		p{
+			text-align: center;
+			overflow: hidden;
+			margin-top: 1em;
+    	height: 3em;
+		}
+		.wrapper{
+			height:100%;
+			padding: 3em 2em;
+		}
+		.button-list{
+			.btn{
+				@include button(transparent,transparent,#fff,$blue-light);
+				border: 2px solid;
+				margin: 1em 0.5em;
+				&.currently-viewing {
+					 border: 0px;
+			    font-size: 2em;
+			    font-weight: normal;
+			    border-top: 1px solid;
+			    padding-top: 2.4em;
+			    padding-bottom: 2.4em;
+			    &:hover {
+			    	color:#fff;
+			    }
+				}
+			}
+		}
+		&.blue .wrapper{
+			background-color: $blue;
+		}
+		&.blue-light .wrapper{
+			background-color: $blue-light;
+			.button-list{
+				.btn{
+					@include button(transparent,transparent,#fff,$blue);
+					border: 2px solid;
+				}
+			}
+		}
+		&.purple .wrapper{
+			background-color: $purple;
+		}	
+		&.grey .wrapper{
+			background-color: $grey;
+		}
+		&.dark .wrapper{
+			background-color: $dark;
+		}
+		&.yellow .wrapper{
+			background-color: $yellow;
+		}
+	}
+}

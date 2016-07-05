@@ -14,5 +14,5 @@ function truncate($content,$cap,$ellipsis) {
 	} 
 	//kinda like serving a cake : you explode it, cut it up, and serve it on a plate
 	$trunk = strip_tags($truck_string).$tail; 
-	echo $trunk; 
+	return $trunk; 
 }

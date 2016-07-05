@@ -1,0 +1,835 @@
+{
+    "key": "group_5771f48b798bc",
+    "title": "Coach Profile",
+    "fields": [
+        {
+            "key": "field_5771fa570ef91",
+            "label": "Large Image",
+            "name": "large_image",
+            "prefix": "",
+            "type": "image",
+            "value": null,
+            "menu_order": 0,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "return_format": "url",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5771f49e7d1cf",
+            "label": "Person's Title",
+            "name": "persons_title",
+            "prefix": "",
+            "type": "text",
+            "value": null,
+            "menu_order": 1,
+            "instructions": "eg Managing Director \/ FAIM ",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5771f89bd79fc",
+            "label": "1\/2",
+            "name": "12",
+            "prefix": "",
+            "type": "column",
+            "value": null,
+            "menu_order": 2,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "column-type": "1_2"
+        },
+        {
+            "key": "field_5771f54f7d1d0",
+            "label": "Short Biography",
+            "name": "short_bio",
+            "prefix": "",
+            "type": "wysiwyg",
+            "value": null,
+            "menu_order": 3,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_5771f8aad79fd",
+            "label": "1\/2",
+            "name": "12",
+            "prefix": "",
+            "type": "column",
+            "value": null,
+            "menu_order": 4,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "column-type": "1_2"
+        },
+        {
+            "key": "field_5771f5d27d1d2",
+            "label": "Video",
+            "name": "video",
+            "prefix": "",
+            "type": "oembed",
+            "value": null,
+            "menu_order": 5,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "width": "",
+            "height": ""
+        },
+        {
+            "key": "field_5771f8da4a9b4",
+            "label": "Video Screenshot",
+            "name": "video_screenshot",
+            "prefix": "",
+            "type": "image",
+            "value": null,
+            "menu_order": 6,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "return_format": "url",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5771f91ebdf32",
+            "label": "Reset",
+            "name": "12_copy",
+            "prefix": "",
+            "type": "column",
+            "value": null,
+            "menu_order": 7,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "column-type": "1_1"
+        },
+        {
+            "key": "field_5771f5867d1d1",
+            "label": "Full Bio",
+            "name": "full_bio",
+            "prefix": "",
+            "type": "wysiwyg",
+            "value": null,
+            "menu_order": 8,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_5771fc8ca0e9c",
+            "label": "Key Points",
+            "name": "key_points",
+            "prefix": "",
+            "type": "repeater",
+            "value": null,
+            "menu_order": 9,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "collapsed": "",
+            "min": "",
+            "max": 3,
+            "layout": "block",
+            "button_label": "Add Point",
+            "sub_fields": [
+                {
+                    "key": "field_5771fc9ba0e9d",
+                    "label": "Icon",
+                    "name": "icon",
+                    "prefix": "",
+                    "type": "select",
+                    "value": null,
+                    "menu_order": 0,
+                    "instructions": "",
+                    "required": 0,
+                    "id": "",
+                    "class": "",
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "_input": "",
+                    "choices": {
+                        "Keynote": "Keynote",
+                        "Horse": "Horse",
+                        "Lock": "Lock"
+                    },
+                    "default_value": [
+
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
+                },
+                {
+                    "key": "field_5771fcb5a0e9e",
+                    "label": "Content",
+                    "name": "content",
+                    "prefix": "",
+                    "type": "wysiwyg",
+                    "value": null,
+                    "menu_order": 1,
+                    "instructions": "",
+                    "required": 0,
+                    "id": "",
+                    "class": "",
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "_input": "",
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1
+                }
+            ]
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2cb763686",
+            "label": "Call to Action - Card",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "tab",
+            "value": false,
+            "menu_order": 0,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "placement": "top",
+            "endpoint": 1
+        },
+        {
+            "key": "field_5771f6e47d1da_5760fe6182257",
+            "label": "Call to Action - No Field Selected",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "message",
+            "value": false,
+            "menu_order": 1,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "==",
+                        "value": "h6"
+                    },
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "==",
+                        "value": "h1"
+                    },
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "==",
+                        "value": "p"
+                    },
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "==",
+                        "value": "Button"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "message": "No field selected for this tab",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2cf963687",
+            "label": "Call to Action - Subtitle",
+            "name": "call_to_action_subtitle",
+            "prefix": "",
+            "type": "text",
+            "value": null,
+            "menu_order": 2,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "!=",
+                        "value": "h6"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2d0d63688",
+            "label": "Call to Action - Title",
+            "name": "call_to_action_title",
+            "prefix": "",
+            "type": "text",
+            "value": null,
+            "menu_order": 3,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "!=",
+                        "value": "h1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2d1963689",
+            "label": "Call to Action - Content",
+            "name": "call_to_action_content",
+            "prefix": "",
+            "type": "wysiwyg",
+            "value": null,
+            "menu_order": 4,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "!=",
+                        "value": "p"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2d2b6368a",
+            "label": "Call to Action - Button",
+            "name": "call_to_action_button",
+            "prefix": "",
+            "type": "repeater",
+            "value": null,
+            "menu_order": 5,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "!=",
+                        "value": "Button"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "collapsed": "",
+            "min": "",
+            "max": "",
+            "layout": "block",
+            "button_label": "Add Button",
+            "sub_fields": [
+                {
+                    "key": "field_5771f6e47d1da_575a2d336368b",
+                    "label": "Text",
+                    "name": "text",
+                    "prefix": "",
+                    "type": "text",
+                    "value": null,
+                    "menu_order": 0,
+                    "instructions": "",
+                    "required": 0,
+                    "id": "",
+                    "class": "",
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "_input": "",
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5771f6e47d1da_575a2d3e6368c",
+                    "label": "Link",
+                    "name": "link",
+                    "prefix": "",
+                    "type": "page_link",
+                    "value": null,
+                    "menu_order": 1,
+                    "instructions": "",
+                    "required": 0,
+                    "id": "",
+                    "class": "",
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "_input": "",
+                    "post_type": [
+
+                    ],
+                    "taxonomy": [
+
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2d606368d",
+            "label": "Call to Action - Image",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "tab",
+            "value": false,
+            "menu_order": 6,
+            "instructions": "",
+            "required": 1,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_5760ff240ce63",
+            "label": "Call to Action - No image",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "message",
+            "value": false,
+            "menu_order": 7,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "==",
+                        "value": "img"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "message": "The image was hidden. Go to options tab to show it.",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2d686368e",
+            "label": "Call to Action - Image",
+            "name": "call_to_action_image",
+            "prefix": "",
+            "type": "image",
+            "value": null,
+            "menu_order": 8,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5771f6e47d1da_575a2d9263690",
+                        "operator": "!=",
+                        "value": "img"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2d7a6368f",
+            "label": "Call to Action - Options",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "tab",
+            "value": false,
+            "menu_order": 9,
+            "instructions": "",
+            "required": 1,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_576b86e5c3992",
+            "label": "Call to Action - ",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "column",
+            "value": null,
+            "menu_order": 10,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "column-type": "1_2"
+        },
+        {
+            "key": "field_5771f6e47d1da_575a2d9263690",
+            "label": "Call to Action - Remove Elements",
+            "name": "call_to_action_remove_elements",
+            "prefix": "",
+            "type": "checkbox",
+            "value": null,
+            "menu_order": 11,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "choices": {
+                "h6": "Subtitle",
+                "h1": "Title",
+                "p": "Content",
+                "Button": "Button",
+                "img": "Image"
+            },
+            "default_value": [
+
+            ],
+            "layout": "vertical",
+            "toggle": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_576b871ec3993",
+            "label": "Call to Action - ",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "column",
+            "value": null,
+            "menu_order": 12,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "column-type": "1_2"
+        },
+        {
+            "key": "field_5771f6e47d1da_576b79ba0f1d6",
+            "label": "Call to Action - Style",
+            "name": "call_to_action_style",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 13,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "choices": {
+                "default": "Default",
+                "style-1": "Style No1",
+                "style-2": "Style No2",
+                "style-3": "Style No3",
+                "style-4": "Style No4"
+            },
+            "default_value": [
+                "default"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_5771f6e47d1da_576099e13da64",
+            "label": "Call to Action - ",
+            "name": "call_to_action_",
+            "prefix": "",
+            "type": "tab",
+            "value": false,
+            "menu_order": 14,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_input": "",
+            "placement": "top",
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "coach"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

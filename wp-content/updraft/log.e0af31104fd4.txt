@@ -1,0 +1,146 @@
+0000.015 (0) Opened log file at time: Thu, 23 Jun 2016 04:22:09 +0000 on http://localhost/TIM04807
+0000.017 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.3 PHP: 5.5.9-1ubuntu4.17 (Linux desktop8 3.19.0-61-generic #69~14.04.1-Ubuntu SMP Thu Jun 9 09:09:13 UTC 2016 x86_64) MySQL: 5.5.44 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10M | 18.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.039 (0) Free space on disk containing Updraft's temporary directory: 73468.3 MB
+0000.041 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.042 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.045 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1466569820, seconds_ago=85909)
+0000.048 (0) Set semaphore last lock (fd) time to 2016-06-23 04:22:09
+0000.049 (0) Semaphore lock (fd) complete
+0000.053 (0) Backup run: resumption=0, nonce=e0af31104fd4, begun at=1466655729 (0s ago), job type=backup
+0000.055 (0) Scheduling a resumption (1) after 300 seconds (1466656029) in case this run gets aborted
+0000.071 (0) Checking if we have a zip executable available
+0000.072 (0) Testing: /usr/bin/zip
+0000.090 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.092 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.093 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.094 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.095 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.101 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.103 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.131 (0) Working binary zip found: /usr/bin/zip
+0000.133 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.133 (0) Creation of backups of directories: beginning
+0000.151 (0) No backup of plugins: excluded by user's options
+0000.153 (0) No backup of themes: excluded by user's options
+0000.153 (0) No backup of uploads: excluded by user's options
+0000.154 (0) No backup of others: excluded by user's options
+0000.157 (0) Saving backup status to database (elements: 0)
+0000.160 (0) Beginning creation of database dump (WordPress DB)
+0000.162 (0) Testing: /usr/bin/mysqldump
+0000.221 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.232 (0) Table W5dQjR_options: Total expected rows (approximate): 220
+0000.262 (0) Table W5dQjR_options: Total rows added: 241 in 0.03 seconds
+0000.264 (0) Table W5dQjR_options: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_options.table.gz - 100 KB)
+0000.268 (0) Table W5dQjR_users: Total expected rows (approximate): 1
+0000.270 (0) Table W5dQjR_users: Total rows added: 1 in 0.00 seconds
+0000.271 (0) Table W5dQjR_users: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_users.table.gz - 0.6 KB)
+0000.273 (0) Table W5dQjR_usermeta: Total expected rows (approximate): 28
+0000.276 (0) Table W5dQjR_usermeta: Total rows added: 28 in 0.00 seconds
+0000.277 (0) Table W5dQjR_usermeta: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_usermeta.table.gz - 1.6 KB)
+0000.280 (0) Table W5dQjR_commentmeta: Total expected rows (approximate): 0
+0000.281 (0) Table W5dQjR_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.282 (0) Table W5dQjR_commentmeta: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_commentmeta.table.gz - 0.4 KB)
+0000.285 (0) Table W5dQjR_comments: Total expected rows (approximate): 1
+0000.288 (0) Table W5dQjR_comments: Total rows added: 1 in 0.00 seconds
+0000.289 (0) Table W5dQjR_comments: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_comments.table.gz - 0.7 KB)
+0000.293 (0) Table W5dQjR_links: Total expected rows (approximate): 0
+0000.295 (0) Table W5dQjR_links: Total rows added: 0 in 0.00 seconds
+0000.297 (0) Table W5dQjR_links: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_links.table.gz - 0.4 KB)
+0000.302 (0) Table W5dQjR_postmeta: Total expected rows (approximate): 5111
+0000.392 (0) Table W5dQjR_postmeta: Total rows added: 5125 in 0.09 seconds
+0000.397 (0) Table W5dQjR_postmeta: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_postmeta.table.gz - 40.4 KB)
+0000.401 (0) Table W5dQjR_posts: Total expected rows (approximate): 485
+0000.445 (0) Table W5dQjR_posts: Total rows added: 490 in 0.04 seconds
+0000.447 (0) Table W5dQjR_posts: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_posts.table.gz - 24.4 KB)
+0000.450 (0) Table W5dQjR_term_relationships: Total expected rows (approximate): 1
+0000.452 (0) Table W5dQjR_term_relationships: Total rows added: 1 in 0.00 seconds
+0000.453 (0) Table W5dQjR_term_relationships: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_term_relationships.table.gz - 0.4 KB)
+0000.456 (0) Table W5dQjR_term_taxonomy: Total expected rows (approximate): 1
+0000.458 (0) Table W5dQjR_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0000.459 (0) Table W5dQjR_term_taxonomy: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_term_taxonomy.table.gz - 0.4 KB)
+0000.462 (0) Table W5dQjR_termmeta: Total expected rows (approximate): 0
+0000.464 (0) Table W5dQjR_termmeta: Total rows added: 0 in 0.00 seconds
+0000.465 (0) Table W5dQjR_termmeta: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_termmeta.table.gz - 0.4 KB)
+0000.468 (0) Table W5dQjR_terms: Total expected rows (approximate): 1
+0000.472 (0) Table W5dQjR_terms: Total rows added: 1 in 0.00 seconds
+0000.474 (0) Table W5dQjR_terms: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_terms.table.gz - 0.4 KB)
+0000.479 (0) Table W5dQjR_rg_form: Total expected rows (approximate): 2
+0000.482 (0) Table W5dQjR_rg_form: Total rows added: 2 in 0.00 seconds
+0000.483 (0) Table W5dQjR_rg_form: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_form.table.gz - 0.4 KB)
+0000.486 (0) Table W5dQjR_rg_form_meta: Total expected rows (approximate): 2
+0000.488 (0) Table W5dQjR_rg_form_meta: Total rows added: 2 in 0.00 seconds
+0000.489 (0) Table W5dQjR_rg_form_meta: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_form_meta.table.gz - 1.4 KB)
+0000.491 (0) Table W5dQjR_rg_form_view: Total expected rows (approximate): 4
+0000.493 (0) Table W5dQjR_rg_form_view: Total rows added: 4 in 0.00 seconds
+0000.494 (0) Table W5dQjR_rg_form_view: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_form_view.table.gz - 0.5 KB)
+0000.498 (0) Table W5dQjR_rg_incomplete_submissions: Total expected rows (approximate): 0
+0000.500 (0) Table W5dQjR_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0000.501 (0) Table W5dQjR_rg_incomplete_submissions: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_incomplete_submissions.table.gz - 0.4 KB)
+0000.504 (0) Table W5dQjR_rg_lead: Total expected rows (approximate): 0
+0000.506 (0) Table W5dQjR_rg_lead: Total rows added: 0 in 0.00 seconds
+0000.507 (0) Table W5dQjR_rg_lead: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead.table.gz - 0.5 KB)
+0000.510 (0) Table W5dQjR_rg_lead_detail: Total expected rows (approximate): 0
+0000.511 (0) Table W5dQjR_rg_lead_detail: Total rows added: 0 in 0.00 seconds
+0000.512 (0) Table W5dQjR_rg_lead_detail: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_detail.table.gz - 0.4 KB)
+0000.515 (0) Table W5dQjR_rg_lead_detail_long: Total expected rows (approximate): 0
+0000.517 (0) Table W5dQjR_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0000.518 (0) Table W5dQjR_rg_lead_detail_long: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_detail_long.table.gz - 0.3 KB)
+0000.520 (0) Table W5dQjR_rg_lead_meta: Total expected rows (approximate): 0
+0000.522 (0) Table W5dQjR_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0000.523 (0) Table W5dQjR_rg_lead_meta: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_meta.table.gz - 0.4 KB)
+0000.526 (0) Table W5dQjR_rg_lead_notes: Total expected rows (approximate): 0
+0000.528 (0) Table W5dQjR_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0000.529 (0) Table W5dQjR_rg_lead_notes: finishing file (backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_notes.table.gz - 0.4 KB)
+0000.531 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_options.table.gz (1/21): adding to final database dump
+0000.552 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_users.table.gz (2/21): adding to final database dump
+0000.553 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_usermeta.table.gz (3/21): adding to final database dump
+0000.555 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_commentmeta.table.gz (4/21): adding to final database dump
+0000.556 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_comments.table.gz (5/21): adding to final database dump
+0000.557 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_links.table.gz (6/21): adding to final database dump
+0000.558 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_postmeta.table.gz (7/21): adding to final database dump
+0000.589 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_posts.table.gz (8/21): adding to final database dump
+0000.599 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_term_relationships.table.gz (9/21): adding to final database dump
+0000.601 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_term_taxonomy.table.gz (10/21): adding to final database dump
+0000.602 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_termmeta.table.gz (11/21): adding to final database dump
+0000.603 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_terms.table.gz (12/21): adding to final database dump
+0000.604 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_form.table.gz (13/21): adding to final database dump
+0000.605 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_form_meta.table.gz (14/21): adding to final database dump
+0000.607 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_form_view.table.gz (15/21): adding to final database dump
+0000.609 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_incomplete_submissions.table.gz (16/21): adding to final database dump
+0000.610 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead.table.gz (17/21): adding to final database dump
+0000.612 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_detail.table.gz (18/21): adding to final database dump
+0000.613 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_detail_long.table.gz (19/21): adding to final database dump
+0000.614 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_meta.table.gz (20/21): adding to final database dump
+0000.615 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db-table-W5dQjR_rg_lead_notes.table.gz (21/21): adding to final database dump
+0000.616 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db.gz: finished writing out complete database file (160 KB)
+0000.624 (0) Total database tables backed up: 21 (backup_2016-06-23-0422_headless_e0af31104fd4-db.gz, size: 173969, checksum (SHA1): 3c5bcd892c1b134377b622bfdc509accee801ec3)
+0000.631 (0) backup_2016-06-23-0422_headless_e0af31104fd4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.632 (0) Saving backup history. Total backup size: 169.9 KB
+0000.634 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.637 (0) Cloud backup selection (1/1):  (last)
+0000.637 (0) No remote despatch: user chose no remote backup service
+0000.639 (0) Recording as successfully uploaded: backup_2016-06-23-0422_headless_e0af31104fd4-db.gz (8f81c2df43e844cf4eb3b01c709534cb)
+0000.643 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0000.644 (0) Number of backup sets in history: 3; groups (db): 1
+0000.645 (0) Examining (for databases) backup set with group_id=0, nonce=e0af31104fd4, datestamp=1466655729 (Jun 23 2016 04:22:09)
+0000.646 (0) This backup set is the backup set just made, so will not be deleted.
+0000.647 (0) Examining (for databases) backup set with group_id=0, nonce=5f3fe460dfc7, datestamp=1466569820 (Jun 22 2016 04:30:20)
+0000.647 (0) 1466569820: db: this set includes a database (backup_2016-06-22-0430_headless_5f3fe460dfc7-db.gz); db count is now 1
+0000.648 (0) 1466569820: db: over retain limit (1); will delete this database
+0000.649 (0) Delete file: backup_2016-06-22-0430_headless_5f3fe460dfc7-db.gz, service=none
+0000.650 (0) Deleting local copy (backup_2016-06-22-0430_headless_5f3fe460dfc7-db.gz)
+0000.671 (0) This backup set is now empty; will remove from history
+0000.672 (0) Deleting log file (log.5f3fe460dfc7.txt)
+0000.673 (0) Examining (for databases) backup set with group_id=0, nonce=bb1a18df6eba, datestamp=1465790340 (Jun 13 2016 03:59:00)
+0000.674 (0) Number of backup sets in history: 2; groups (files): 1
+0000.674 (0) Examining (for files) backup set with nonce=e0af31104fd4, datestamp=1466655729 (Jun 23 2016 04:22:09)
+0000.675 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.676 (0) Examining (for files) backup set with nonce=bb1a18df6eba, datestamp=1465790340 (Jun 13 2016 03:59:00)
+0000.677 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.677 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0000.680 (0) Resume backup (e0af31104fd4, 0): finish run
+0000.682 (0) Decremented the semaphore (fd) by 1
+0000.683 (0) Semaphore (fd) unlocked
+0000.684 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.687 (0) No email will/can be sent - the user has not configured an email address.
+0000.688 (0) The backup apparently succeeded and is now complete

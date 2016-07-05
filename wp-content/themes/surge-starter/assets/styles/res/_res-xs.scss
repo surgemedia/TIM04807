@@ -1,0 +1,149 @@
+/*===============================
+=            Globals            =
+===============================*/
+h1, .h1{
+	font-size: 4em;
+}
+.p2{
+	font-size:2em;
+}
+
+/*=====================================
+=            Coaches Cards            =
+=====================================*/
+.coach{
+	padding:3em 0;
+	img{
+		width:180px;
+		display:inline-block;
+	}
+	.card{
+		hgroup{
+		text-align: center;
+		}
+		p{
+			height:unset;
+			text-align: center;
+		}
+		.btn{
+			float:none;
+		}
+	}
+	.item{
+		width: 100%;
+	}
+
+}
+
+/*=============================
+=            Cards            =
+=============================*/
+.card{
+	&.style-1{
+		background-color: rgba(255,255,255,0.5);
+    padding: 4em 1em;
+    width: 100%;
+		img{
+		
+		}
+		hgroup{
+			h6{
+			}
+			h1{
+			}
+		}
+		p{
+
+		}
+		.button-list{
+	    bottom: 1.5em;
+		}
+		
+		.btn:nth-child(2n+1){
+			float:none;
+		}
+		.btn:nth-child(2n){
+			float:none;
+		}
+	}
+	&.style-4{
+		
+		img{
+
+		}
+		hgroup{
+			h6,h1{
+			
+			}
+		}
+		p{
+			height: unset;
+		}
+		.wrapper{
+			
+		}
+		.button-list{
+			.btn{
+			
+			}
+		}
+		&.blue .wrapper{
+			background-color: rgba($blue, 0.9);
+		}
+		&.blue-light .wrapper{
+			background-color: rgba($blue-light, 0.9);
+			.button-list{
+				.btn{
+				}
+			}
+		}
+		&.purple .wrapper{
+			background-color: rgba($purple, 0.9);
+		}
+		&.grey .wrapper{
+			background-color: rgba($grey, 0.9);
+		}
+		&.dark .wrapper{
+			background-color: rgba($dark, 0.9);
+		}
+		&.yellow .wrapper{
+			background-color: rgba($yellow, 0.9);
+		}
+	}
+}
+
+/*============================================================
+=            Section 2row website grid - Programs            =
+============================================================*/
+#section-2row-website-grid{
+	background-attachment: fixed;
+	h1{
+	}
+}
+
+
+
+/*========================================
+=            Jumbotron-Slider            =
+========================================*/
+.jumbotron-slider{
+
+	.owl-stage{
+		.owl-item{
+			.bg-cover{
+				padding-left:0;
+			}
+		}
+	}
+	.owl-nav{
+	
+		.owl-prev{
+			
+		}
+		.owl-next{
+			
+		}
+	}
+}
+
+

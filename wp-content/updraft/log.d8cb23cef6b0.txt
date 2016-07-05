@@ -1,0 +1,87 @@
+0000.006 () Opened log file at time: Mon, 13 Jun 2016 04:18:14 +0000 on http://localhost/TIM04807
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux desktop8 3.19.0-61-generic #69~14.04.1-Ubuntu SMP Thu Jun 9 09:09:13 UTC 2016 x86_64) MySQL: 5.5.44 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.8M | 16M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 79076 MB
+0000.008 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.022 () Entity: db
+0000.023 () restore_backup(backup_file=backup_2016-06-13-0359_headless_bb1a18df6eba-db.gz, type=db, info=a:0:{}, last_one=)
+0000.023 () Unpacking backup...
+0000.023 () Database successfully unpacked
+0000.023 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.023 () Using direct MySQL access; value of use_mysqli is: 1
+0000.025 () Max packet size: 32 MB
+0000.025 () Entering maintenance mode
+0000.025 () Enabling Maintenance mode&#8230;
+0000.026 () <strong>Backup of:</strong> http://localhost/BaseInstall
+0000.027 () Content URL: http://localhost/BaseInstall/wp-content
+0000.027 () Uploads URL: http://localhost/BaseInstall/wp-content/uploads
+0000.027 () Old table prefix: headless_
+0000.027 () Site information: multisite=0
+0000.030 () New table prefix: W5dQjR_
+0000.033 () Restoring table (InnoDB): headless_options - will restore as: W5dQjR_options
+0000.077 () Restoring prior UD configuration (table: W5dQjR_options; keys: 95)
+0000.214 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.215 () Options table fields changed OK
+0000.219 () Restoring table (InnoDB): headless_users - will restore as: W5dQjR_users
+0000.225 () Restoring table (InnoDB): headless_usermeta - will restore as: W5dQjR_usermeta
+0000.232 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.233 () Usermeta table fields changed OK
+0000.233 () Restoring table (InnoDB): headless_commentmeta - will restore as: W5dQjR_commentmeta
+0000.240 () Restoring table (InnoDB): headless_comments - will restore as: W5dQjR_comments
+0000.248 () Restoring table (InnoDB): headless_links - will restore as: W5dQjR_links
+0000.255 () Restoring table (InnoDB): headless_postmeta - will restore as: W5dQjR_postmeta
+0000.289 () Restoring table (InnoDB): headless_posts - will restore as: W5dQjR_posts
+0000.344 () Restoring table (InnoDB): headless_term_relationships - will restore as: W5dQjR_term_relationships
+0000.350 () Restoring table (InnoDB): headless_term_taxonomy - will restore as: W5dQjR_term_taxonomy
+0000.356 () Restoring table (InnoDB): headless_termmeta - will restore as: W5dQjR_termmeta
+0000.359 () Restoring table (InnoDB): headless_terms - will restore as: W5dQjR_terms
+0000.364 () Restoring table (InnoDB): headless_rg_form - will restore as: W5dQjR_rg_form
+0000.369 () Restoring table (InnoDB): headless_rg_form_meta - will restore as: W5dQjR_rg_form_meta
+0000.375 () Restoring table (InnoDB): headless_rg_form_view - will restore as: W5dQjR_rg_form_view
+0000.380 () Restoring table (InnoDB): headless_rg_incomplete_submissions - will restore as: W5dQjR_rg_incomplete_submissions
+0000.384 () Database queries processed: 50 in 0.36 seconds
+0000.388 () Restoring table (InnoDB): headless_rg_lead - will restore as: W5dQjR_rg_lead
+0000.393 () Restoring table (InnoDB): headless_rg_lead_detail - will restore as: W5dQjR_rg_lead_detail
+0000.396 () Restoring table (InnoDB): headless_rg_lead_detail_long - will restore as: W5dQjR_rg_lead_detail_long
+0000.401 () Restoring table (InnoDB): headless_rg_lead_meta - will restore as: W5dQjR_rg_lead_meta
+0000.408 () Restoring table (InnoDB): headless_rg_lead_notes - will restore as: W5dQjR_rg_lead_notes
+0000.411 () Unlocking database and leaving maintenance mode
+0000.411 () Disabling Maintenance mode&#8230;
+0000.411 () Finished: lines processed: 62 in 0.39 seconds
+0000.411 () Cleaning up rubbish...
+0000.420 () Entity: plugins
+0000.420 () restore_backup(backup_file=backup_2016-06-13-0359_headless_bb1a18df6eba-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:41:"/var/www/html/TIM04807/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.420 () Unpacking backup... (backup_2016-06-13-0359_headless_bb1a18df6eba-plugins.zip, 13.9 Mb)
+0000.900 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.900 () /var/www/html/TIM04807/wp-content/plugins-old: This directory already exists, and will be replaced
+0000.900 () Moving old data: can potentially use wp_filesystem method / -old
+0000.900 () Moving old data out of the way...
+0001.141 () Top-level entities being moved: wordpress-seo, google-analyticator, updraftplus, acf-column-field, advanced-custom-fields-pro, wp-ses, bulk-page-stub-creator, enable-media-replace, wordpress-importer, acf-reusable-field-group-field-master, create-client-role , disable-comments, regenerate-thumbnails, gravityforms, post-duplicator
+0001.149 () Moving unpacked backup into place...
+0001.415 () Top-level entities being moved: wordpress-seo, google-analyticator, updraftplus, acf-column-field, advanced-custom-fields-pro, wp-ses, bulk-page-stub-creator, enable-media-replace, wordpress-importer, acf-reusable-field-group-field-master, create-client-role , disable-comments, ACF-Reusable-Field-Group-master, regenerate-thumbnails, gravityforms, bea-acf-reusable-fields-group-master, post-duplicator
+0001.424 () Cleaning up rubbish...
+0001.434 () Entity: themes
+0001.434 () restore_backup(backup_file=backup_2016-06-13-0359_headless_bb1a18df6eba-themes.zip, type=themes, info=a:2:{s:4:"path";s:40:"/var/www/html/TIM04807/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0001.434 () Unpacking backup... (backup_2016-06-13-0359_headless_bb1a18df6eba-themes.zip, 38.6 Mb)
+0004.389 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.389 () /var/www/html/TIM04807/wp-content/themes-old: This directory already exists, and will be replaced
+0004.389 () Moving old data: can potentially use wp_filesystem method / -old
+0004.389 () Moving old data out of the way...
+0006.491 () Top-level entities being moved: surge-starter, index.php
+0006.549 () Moving unpacked backup into place...
+0008.930 () Top-level entities being moved: surge-starter, index.php
+0008.993 () Cleaning up rubbish...
+0009.001 () Entity: uploads
+0009.001 () restore_backup(backup_file=backup_2016-06-13-0359_headless_bb1a18df6eba-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:41:"/var/www/html/TIM04807/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0009.001 () Unpacking backup... (backup_2016-06-13-0359_headless_bb1a18df6eba-uploads.zip, 1 Mb)
+0009.006 () Moving old data: filesystem method / updraft_dir is potentially possible
+0009.006 () /var/www/html/TIM04807/wp-content/uploads-old: This directory already exists, and will be replaced
+0009.006 () Moving old data: can potentially use wp_filesystem method / -old
+0009.006 () Moving old data out of the way...
+0009.008 () Moving unpacked backup into place...
+0009.009 () Cleaning up rubbish...
+0009.012 () Entity: others
+0009.012 () restore_backup(backup_file=backup_2016-06-13-0359_headless_bb1a18df6eba-others.zip, type=others, info=a:2:{s:4:"path";s:33:"/var/www/html/TIM04807/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0009.012 () Unpacking backup... (backup_2016-06-13-0359_headless_bb1a18df6eba-others.zip, 0 Mb)
+0009.027 () Cleaning up rubbish...
+0009.034 () Restore successful!
+0009.034 () Restore successful

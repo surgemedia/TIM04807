@@ -1,0 +1,39 @@
+section.video{
+	.short-bio{
+		p{
+			text-align: center;
+		}
+	}
+	.video-item{
+		float:none;
+		display: inline-block;
+	}
+}
+
+section.key_points{
+	.item{
+		i{
+			font-size: 6em;
+		}
+		.content{
+			float: none;
+		}
+	}
+}
+
+section.business-keynote{
+	.card{
+		background-color: rgba(#fff, 0.9);
+		padding-left: 10%;
+    padding-right: 10%;
+	}
+
+}
+
+section.back{
+	.card{
+		padding-left: 10%;
+    padding-right: 10%;
+	}
+
+}
