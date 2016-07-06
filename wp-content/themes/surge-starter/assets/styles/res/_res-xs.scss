@@ -26,7 +26,8 @@ h1, .h1{
 			text-align: center;
 		}
 		.btn{
-			float:none;
+			float:none !important;
+
 		}
 	}
 	.item{
@@ -146,4 +147,94 @@ h1, .h1{
 	}
 }
 
+/*=======================================
+=            Menu responsive            =
+=======================================*/
+
+.navbar-toggle{
+	border: 1px solid #000;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  border-radius: 0;
+  height:34px;
+  span{
+		border: 1px solid #000;
+		&:nth-child(2){
+			transform: rotate(135deg);
+			margin-top: 4px;
+			transition: .3s all ease;
+		}
+		&:nth-child(n+3){
+			transform: rotate(45deg);
+			margin-top: -2px !important;
+			transition: .3s all ease;
+		}
+		&:last-child{
+			display:none;
+		}
+	}
+	&.collapsed{
+		span{
+		border: 1px solid #000;
+		&:nth-child(2){
+			transform: rotate(360deg);
+			transition: .3s all ease;
+			margin-top: 0;
+		}
+		&:nth-child(n+3){
+			transform: rotate(360deg);
+			margin-top: 4px !important;
+			transition: .3s all ease;
+		}
+		&:last-child{
+			display:block;
+		}
+	}
+	}
+}
+.navbar-collapse{
+	width:100%;
+	.nav-primary{
+	  ul{
+	  	width: 100% !important;
+	    margin: 0;
+	    li{
+		    margin: auto;
+	    }
+	  }
+	}
+	.collapsing{
+	}
+}
+
+/*=============================================
+=            Section Col 12 Slider            =
+=============================================*/
+.section-col-12-slider{
+
+	div{
+	
+		.owl-carousel{
+			
+			.owl-item{
+				.item{
+					img{
+						max-width:100%;
+					}
+					p{
+					}
+					span{
+					}
+				}
+			}
+			.owl-nav{
+				.owl-prev{
+				}
+				.owl-next{
+				}
+			}
+		}
+	}
+}
 
