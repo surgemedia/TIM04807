@@ -234,3 +234,12 @@ p,.p1 {
 .side-padding-6{
 	@include side-padding(6em);
 }
+.icon-play:before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    font-size: 8em;
+    color: #fff;
+    margin-top: -9%;
+ }

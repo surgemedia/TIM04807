@@ -87,69 +87,40 @@ $vars = array(
 			?>
 	</div>
 	<div class="col-md-6 text-center">
-	<script>
-	
-
-		/*===================================
-		=            Modal Video            =
-		===================================*/
-
-		video = {
-		  load : function(tag){
-		    console.log("load video "+tag);
-		    var id=jQuery("#"+tag).data("videocode");
-		    console.log("Loading Video");
-		    player = new YT.Player(tag, {
-		          // height: '1000',
-		          // width: '1500',
-		          videoId: id,
-		          events: {
-		            // 'onReady': onPlayerReady,
-		            // 'onStateChange': onPlayerStateChange
-		          }
-		        });
-		  }
-		  
-		};
-		 
-		function stopVideo() {
-		       player.stopVideo();
-		     }
-
-		 function modalVideo(){
-		    
-		    jQuery('#myModal').on('hidden.bs.modal', function (e) {
-		        stopVideo();
-		       console.log("Stop Video");
-		        
-		      });
-		  }
-		jQuery(document).ready(function(){    
-			var delay=2000;
-			setTimeout(function(){
-				video.load('player');
-				modalVideo();
-			}, delay);
-		});
+	<script type="text/javascript">
+		function getFrameContent(button){
+		  jQuery('#replaceable').empty();
+		  var html;
+		  var frame;
+		  frame = jQuery(button).data('contentid');
+		  html = jQuery('[data-frameid="'+frame+'"]').clone();
+		  jQuery('#replaceable').html(html);
+		}
 		</script>
 		<div class="col-md-10 col-lg-8 video-item ">
-			<a href=""  data-toggle="modal" data-target="#myModal" class="bg-cover">
+			<a href="" onclick="getFrameContent(this);" data-toggle="modal" data-target="#caseStudyModal" data-contentid="targetVideo" class="bg-cover">
 				<img class="img-responsive" src="<?php echo $vars['video_screenshot']; ?>" alt="#">
+				<i class="icon-play"></i>
 			</a>
+			<div class="hiddenFrame" data-frameid="targetVideo" >
+        <iframe src="https://www.youtube.com/embed/<?php echo getYtCode($vars['video']) ?>" frameborder="0" allowfullscreen=""></iframe>
+      </div>
 			<!-- Modal -->
-			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal fade" id="caseStudyModal" tabindex="-1" role="dialog" aria-labelledby="caseStudyModal">
 			  <div class="modal-dialog" role="document">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			        <i class="icon-close-button"></i>
+			        </button>
 			    <div class="modal-content">
-			      <div class="modal-body">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo()"><i class="icon-close" aria-hidden="true"></i></button>
-			      	
-			      		          <div class="embed-container">			
-			        <div id="player" data-videocode="<?php echo getYtCode(get_field('video')); ?>"></div>
-			        </div>
-			      </div>
+			      <div id="replaceable" class=""></div>
 			    </div>
 			  </div>
 			</div>
+			<script>
+			  jQuery('#caseStudyModal').on('hidden.bs.modal', function (e) {
+			   jQuery('#replaceable').empty();
+			  });
+			</script>
 		</div>
 	</div>
 </section>

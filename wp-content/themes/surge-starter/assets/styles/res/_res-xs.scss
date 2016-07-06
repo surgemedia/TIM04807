@@ -238,3 +238,43 @@ h1, .h1{
 	}
 }
 
+/*===================================
+=            Modal Video            =
+===================================*/
+
+#caseStudyModal { 
+		.modal-dialog {
+		width:94vw;
+		.modal-content { 
+			iframe {
+				//height: auto;
+				height:330px;
+			}
+		}
+	}
+	button.close {
+		top:auto;
+		right:0px;
+		bottom:-2.2em;
+	}
+}
+
+/*===================================
+=            Modal Coach            =
+===================================*/
+.modal{
+	.coach-modal{
+		padding:0;
+		img{
+			
+		}
+		h1{
+		}
+		p{
+		}
+		a{
+		}
+	}
+}
+
+
