@@ -6,7 +6,7 @@ if (is_front_page()){ ?>
 	
 		<?php foreach (get_field('slides') as $vars) { ?>
 
-		<div class="bg-cover" style="background-image:url(<?php echo $vars['background']?>)">
+		<div class="slide bg-cover" style="background-image:url(<?php echo $vars['background']?>)">
 
 		<?php
 				//debug($vars);

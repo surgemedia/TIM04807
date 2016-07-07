@@ -82,7 +82,7 @@ p,.p1 {
 	background-position: center;
 	position:relative;
 	display:inline-block;
-	width:100%;
+	
 	&:before{
 		content:"";
 		background-color: rgba(0,0,0,0.5);
@@ -243,3 +243,14 @@ p,.p1 {
     color: #fff;
     margin-top: -9%;
  }
+
+
+.reveal{
+	width:100%;
+	display:none;
+	margin-top:3em;
+	&.unfold{
+		overflow:visible;
+		display:inline-block;
+	}
+}
