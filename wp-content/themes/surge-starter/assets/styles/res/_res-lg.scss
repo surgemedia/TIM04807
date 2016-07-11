@@ -35,3 +35,33 @@ section.back{
 	}
 
 }
+
+/*========================================
+=            Section - Slider            =
+========================================*/
+
+.section-col-12-slider{
+	div{
+		.owl-carousel{
+			.owl-item{
+				.item{
+					img{
+					}
+					p{
+					}
+					span{
+					}
+				}
+			}
+			.owl-nav{
+		    top: 50%;
+				.owl-prev{
+				}
+				.owl-next{
+				}
+			}
+		}
+	}
+}
+
+
