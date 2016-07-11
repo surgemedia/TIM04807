@@ -101,12 +101,61 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-/*$('.owl-next').click(function() {
-    $('.owl-carousel').trigger('next.owl.carousel');
-})
-$('.owl-prev').click(function() {
-    $('.owl-carousel').trigger('prev.owl.carousel');
-})*/
 
+var windowLocation = window.location.hostname+window.location.pathname+window.location.hash;
+console.log(windowLocation);
+if( windowLocation.indexOf('coach') > 0){
+  console.log("paso "+windowLocation);
+  $('nav a').each(function(){
+      if($(this).prop("href").indexOf('speakers')>0){
+        $(this).parent().addClass('active');
+      }
+  });
+} else {
+ 
+} 
+ 
+function reveal(elem){
+  $(elem).click(function(e){
+    e.preventDefault();
+
+    $(".reveal").toggleClass(function(){
+     console.log("bf "+$(elem).text().toLowerCase());
+     var str="read more";
+      if(str.toLowerCase()===$(elem).text().toLowerCase().trim()){
+        console.log("rm "+$(elem).text().toLowerCase());
+        $(elem).text("hide full bio");
+        return "unfold";
+      }else{
+        console.log("rl "+$(elem).text().toLowerCase());
+        $(elem).text("read more");
+        return "unfold";
+      }
+    });
+    console.log("reveal click");
+  });  
+}
+  reveal("a[data-reveal]");  
 
 })(jQuery); // Fully reference jQuery after this point.
+
+(function($) {
+  if($('#video-bg').data('video-id')){
+  $('#video-bg').YTPlayer({
+    videoId: $('#video-bg').data('video-id'),
+     playerVars: {
+      modestbranding: 0,
+      autoplay: 1,
+      controls: 0,
+      showinfo: 0,
+      wmode: 'transparent',
+      branding: 0,
+      rel: 0,
+      autohide: 0
+    },
+    callback: function() {
+      // console.log($('#video-bg').data('video-id'));
+    }
+    });   
+  }
+})(jQuery);

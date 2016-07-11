@@ -606,30 +606,21 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "page_type",
+                "operator": "!=",
+                "value": "front_page"
+            },
+            {
+                "param": "post_type",
                 "operator": "==",
-                "value": "960"
+                "value": "page"
             }
         ],
         [
             {
-                "param": "page",
+                "param": "post_type",
                 "operator": "==",
-                "value": "1154"
-            }
-        ],
-        [
-            {
-                "param": "page",
-                "operator": "==",
-                "value": "1247"
-            }
-        ],
-        [
-            {
-                "param": "page",
-                "operator": "==",
-                "value": "1272"
+                "value": "post"
             }
         ]
     ],

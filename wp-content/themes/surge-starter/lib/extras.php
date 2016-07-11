@@ -52,6 +52,7 @@ $custom_includes = [
   'lib/function-display-gravity-form.php',    // Scripts and stylesheets
   'lib/function-get_component.php',    // Scripts and stylesheets
   'lib/function-get_id_from_slug.php',    // Scripts and stylesheets
+  'lib/function-getYoutubeId.php',    // Youtube get Id
   'lib/function-get-featured-image-url.php',    // Scripts and stylesheets
   'lib/function-truncate-content.php',    // Scripts and stylesheets
   'lib/supports.php',    // Create Custom Post Types

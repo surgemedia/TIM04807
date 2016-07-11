@@ -6,7 +6,8 @@ $vars = array(
 	'short_bio' => get_field('short_bio'),
 	'video' => get_field('video'),
 	'video_screenshot' => get_field('video_screenshot'),
-	'full_bio' => get_field('full_bio'),
+	'full_bio_left' => get_field('full_bio_left'),
+	'full_bio_right' => get_field('full_bio_right'),
 	'key_points' => get_field('key_points'),
 	'card_image' => get_field('call_to_action_image'),
 	'card_title' => get_field('call_to_action_title'),
@@ -27,19 +28,11 @@ $vars = array(
 	'form_subtitle' => get_field('form_subtitle'),
 	'form_content' => get_field('form_content'),
 	'form_form' => get_field('form_form'),
-	'bio_file' => get_field('bio_file'),
+	'coach_type' => get_the_terms( $post->ID, 'type' )[0]->slug
 	);
-	//debug($vars);
- // get_component([
-	// 					'template' => 'organism/jumbotron-text',
-	// 					'vars' => [
-	// 						'background'=> $vars['large_image'],
-	// 					  'remove_tags'=> get_field('remove_elements'),
-	// 						'title' => get_field('title'),
-	// 						'subtitle' => get_field('subtitle'),
-	// 						'content' => get_field('content'),
-	// 					]
-	// 		]);
+if('coach' == get_the_terms( $post->ID, 'type' )[0]->slug){
+ echo '<script>window.location.href = "'.site_url().'/speakers'.'"</script>';
+}	
  ?>
 <section class="jumbotron-text bg-cover clear padding-6"  style="background-image:url(<?php echo $vars['large_image']?>)">
 	<div class="container">
@@ -64,35 +57,105 @@ $vars = array(
 </section>
 
 <section class="container-fluid padding-6 video" >
-	<div class="col-md-6 text-center short-bio">
-			<?php
-				//debug($vars);
-				/*=============================================
-				= Card (Class,Image,Title,Content)
-				= @components
-					+ molecule/card
-				=============================================*/
-				get_component([ 'template' => 'molecule/card',
-												'remove_tags'=>['h1','h6','img'],
-												'vars' => [
-															"class" => 'col-md-10 col-lg-8',
-															"content" => $vars['short_bio'],
-															"button" => array([
-																				'text'=> "download full bio",
-																				'link'=> $vars['bio_file'],
-																				'extra-data'=>"target='_blank'"
-																				])
-															]
-												 ]);
-			?>
-	</div>
-	<div class="col-md-6 text-center">
-		<div class="col-md-10 col-lg-8 video-item ">
-			<a href="" class="bg-cover">
-				<img class="img-responsive" src="<?php echo $vars['video_screenshot']; ?>" alt="#">
-			</a>
+	<div class="wrapper">
+		<div class="col-md-6 col-md-push-6 text-center">
+			<script type="text/javascript">
+				function getFrameContent(button){
+				  jQuery('#replaceable').empty();
+				  var html;
+				  var frame;
+				  frame = jQuery(button).data('contentid');
+				  html = jQuery('[data-frameid="'+frame+'"]').clone();
+				  jQuery('#replaceable').html(html);
+				}
+			</script>
+			<div class="col-md-10 col-lg-8 col-sm-8 col-xs-12 video-item bg-cover" style="background-image:url(<?php echo $vars['video_screenshot']; ?>);">
+				<a href="" onclick="getFrameContent(this);" data-toggle="modal" data-target="#caseStudyModal" data-contentid="targetVideo">
+					<!-- <img class="img-responsive" src="<?php echo $vars['video_screenshot']; ?>" alt="#"> -->
+					<i class="icon-play"></i>
+				</a>
+				<div class="hiddenFrame" data-frameid="targetVideo" >
+		        <iframe src="https://www.youtube.com/embed/<?php echo getYtCode($vars['video']) ?>" frameborder="0" allowfullscreen=""></iframe>
+		      </div>
+				<!-- Modal -->
+				<div class="modal fade" id="caseStudyModal" tabindex="-1" role="dialog" aria-labelledby="caseStudyModal">
+				  <div class="modal-dialog" role="document">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        <i class="icon-close-button"></i>
+				        </button>
+				    <div class="modal-content">
+				      <div id="replaceable" class=""></div>
+				    </div>
+				  </div>
+				</div>
+				<script>
+				  jQuery('#caseStudyModal').on('hidden.bs.modal', function (e) {
+				   jQuery('#replaceable').empty();
+				  });
+				</script>
+			</div>
+		</div>
+		<div class="col-md-6 col-md-pull-6 text-center short-bio">
+				<?php
+					//debug($vars);
+					/*=============================================
+					= Card (Class,Image,Title,Content)
+					= @components
+						+ molecule/card
+					=============================================*/
+					get_component([ 'template' => 'molecule/card',
+													'remove_tags'=>['h1','h6','img'],
+													'vars' => [
+																"class" => 'col-md-10 col-lg-8',
+																"content" => $vars['short_bio'],
+																"button" => array([
+																					'text'=> "read more",
+																					'link'=> "",
+																					'extra-data'=>"data-reveal"
+																					])
+																]
+													 ]);
+				?>
+				
 		</div>
 	</div>
+	<div class="reveal">
+		<div class="col-md-6 text-center short-bio_left">
+				<?php
+					//debug($vars);
+					/*=============================================
+					= Card (Class,Image,Title,Content)
+					= @components
+						+ molecule/card
+					=============================================*/
+					get_component([ 'template' => 'molecule/card',
+													'remove_tags'=>['h1','h6','img'],
+													'vars' => [
+																"class" => 'col-md-10 col-lg-12',
+																"content" => $vars['full_bio_left'],
+																]
+													 ]);
+				?>
+		</div>		
+		<div class="col-md-6 text-center short-bio_right">
+				<?php
+					//debug($vars);
+					/*=============================================
+					= Card (Class,Image,Title,Content)
+					= @components
+						+ molecule/card
+					=============================================*/
+					get_component([ 'template' => 'molecule/card',
+													'remove_tags'=>['h1','h6','img'],
+													'vars' => [
+																"class" => 'col-md-10 col-lg-12',
+																"content" => $vars['full_bio_right'],
+																]
+													 ]);
+				?>
+		</div>
+	</div>
+	
 </section>
 <?php //debug($vars["key_points"]) ?>
 <section class="bg-blue padding-6 key_points">
@@ -155,7 +218,7 @@ $vars = array(
 	</div>
 </section>
 
-<section class="bg-cover padding-6 paragraph-overlay <?php echo $vars['form_class']?>" style=" background-image: url('<?php echo $vars['form_image'];?>');">
+<section class="section-col-12-contact bg-cover padding-6 <?php echo $vars['form_class']?>" style=" background-image: url('<?php echo $vars['form_image'];?>');">
 	<div class="col-md-8 col-md-offset-2 text-center ">
 		<div class="box">
 		
@@ -178,6 +241,7 @@ $vars = array(
 														]
 											 ]);
 		 ?>
+
 		</div>
 	</div>
 </section>

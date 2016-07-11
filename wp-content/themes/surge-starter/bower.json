@@ -8,13 +8,19 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "3.3.6",
-    "owl.carousel": "^2.0.0-beta.3"
+    "owl.carousel": "^2.0.0-beta.3",
+    "youtube-iframe-api": "^0.0.1"
   },
   "overrides": {
     "owl.carousel": {
       "main": [
         "./src/scss/owl.carousel.scss",
         "./dist/owl.carousel.min.js"
+      ]
+    },
+    "youtube-iframe-api": {
+      "main": [
+        "./youtube.iframe-api.js"
       ]
     },
     "bootstrap-sass": {

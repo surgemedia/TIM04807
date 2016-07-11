@@ -3,6 +3,9 @@
 	min-height: 60em;
 	.owl-stage{
 		.owl-item{
+			.slide{
+				width:100%;
+			}
 			.bg-cover{
 				height: 600px;
 				padding-top: 11em; 

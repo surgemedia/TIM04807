@@ -26,7 +26,8 @@ h1, .h1{
 			text-align: center;
 		}
 		.btn{
-			float:none;
+			float:none !important;
+
 		}
 	}
 	.item{
@@ -40,9 +41,10 @@ h1, .h1{
 =============================*/
 .card{
 	&.style-1{
-		background-color: rgba(255,255,255,0.5);
-    padding: 4em 1em;
+		background-color: rgba(255,255,255,0.9);
+    padding: 4em 3em;
     width: 100%;
+    height:auto;
 		img{
 		
 		}
@@ -56,14 +58,24 @@ h1, .h1{
 
 		}
 		.button-list{
-	    bottom: 1.5em;
+	    // bottom: 1.5em;
+	    overflow: hidden;
+	    bottom:0px;
+	    display:block;
+	    position:relative;
 		}
 		
 		.btn:nth-child(2n+1){
 			float:none;
+			  margin: 0.5em 0em;
+		    padding: 1em;
+		    height: auto;
 		}
 		.btn:nth-child(2n){
 			float:none;
+			  margin: 0.5em 0em;
+		    padding: 1em;
+		    height: auto;
 		}
 	}
 	&.style-4{
@@ -145,5 +157,165 @@ h1, .h1{
 		}
 	}
 }
+.jumbotron-text {
+	hgroup {
+			width:100%;
+		h1 {
+			width:100%;
+		}
+	}
+}
 
+/*=======================================
+=            Menu responsive            =
+=======================================*/
 
+.navbar-toggle{
+	border: 1px solid #000;
+  position: absolute;
+  right: 0;
+  border-radius: 2px;
+	border: 2px solid #0077BF;
+  position: absolute;
+  right: 0;
+  top: 55px;
+  height: 45px;
+  background: $blue-light;
+
+  span{
+		border: 0px;
+    border-bottom: 0px;
+    height: 2px;
+    background: #0077BF;
+		&:nth-child(2){
+			transform: rotate(135deg);
+			margin-top: 4px;
+			transition: .3s all ease;
+		}
+		&:nth-child(n+3){
+			transform: rotate(45deg);
+			margin-top: -2px !important;
+			transition: .3s all ease;
+		}
+		&:last-child{
+			display:none;
+		}
+	}
+	&.collapsed{
+		span{
+		border: 0px;
+    border-bottom: 0px;
+    height: 2px;
+    background: #0077BF;
+		&:nth-child(2){
+			transform: rotate(360deg);
+			transition: .3s all ease;
+			margin-top: 0;
+		}
+		&:nth-child(n+3){
+			transform: rotate(360deg);
+			margin-top: 4px !important;
+			transition: .3s all ease;
+		}
+		&:last-child{
+			display:block;
+		}
+	}
+	}
+}
+.navbar-collapse{
+	width:100%;
+	&.collapse.in {
+    margin: 0px;
+    padding: 0px;
+	}
+	.nav-primary{
+	  ul{
+	  	width: 100% !important;
+	    margin: 0;
+	    li{
+		    margin: auto;
+		    width:100%;
+	    }
+	  }
+	}
+	.collapsing{
+	}
+}
+
+/*=============================================
+=            Section Col 12 Slider            =
+=============================================*/
+.section-col-12-slider{
+
+	div{
+	
+		.owl-carousel{
+			
+			.owl-item{
+				.item{
+					img{
+						max-width:100%;
+					}
+					p{
+					}
+					span{
+					}
+				}
+			}
+			.owl-nav{
+				.owl-prev{
+				}
+				.owl-next{
+				}
+			}
+		}
+	}
+}
+
+/*===================================
+=            Modal Video            =
+===================================*/
+
+#caseStudyModal { 
+		.modal-dialog {
+		width:94vw;
+		.modal-content { 
+			iframe {
+				//height: auto;
+				height:330px;
+			}
+		}
+	}
+	button.close {
+		top:auto;
+		right:0px;
+		bottom:-2.2em;
+	}
+}
+
+/*===================================
+=            Modal Coach            =
+===================================*/
+.modal{
+	.coach-modal{
+		padding:0;
+		img{
+			
+		}
+		h1{
+		}
+		p{
+		}
+		a{
+		}
+	}
+}
+/*==================================
+=            Image Grid            =
+==================================*/
+.image-grid {
+	 li {
+	 	padding:1em;
+	 }
+}

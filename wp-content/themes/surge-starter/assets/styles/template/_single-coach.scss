@@ -1,13 +1,30 @@
 section.video{
-	.short-bio{
-		p{
-			text-align: center;
+
+		.short-bio{
+			height:100%;
+			.card{
+				height:100%;
+				p{
+					text-align: center;
+				}
+				a{
+					/* position:absolute;
+					left:0;
+					right:0;
+					bottom:0;
+					width: 120px;
+					margin:auto; */
+				}
+			}
 		}
-	}
-	.video-item{
-		float:none;
-		display: inline-block;
-	}
+		.video-item{
+			float:none;
+			display: inline-block;
+			margin-bottom:4em;
+			height:350px;
+			a{height:100%;}
+		}
+	
 }
 
 section.key_points{

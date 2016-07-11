@@ -1,7 +1,7 @@
 <section class="owl-carousel" >
     <?php
       foreach ($vars['element'] as $key => $value) { ?>
-     <div style="background-image: url('<?php echo $vars['background'] ?>');">
+     <div class="slide" style="background-image: url('<?php echo $vars['background'] ?>');">
        <?php  get_component([ 'template' => 'molecule/card',
                          'remove_tags' =>  [],
                          'vars' => [
