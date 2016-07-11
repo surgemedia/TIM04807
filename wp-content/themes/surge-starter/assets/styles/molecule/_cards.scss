@@ -105,7 +105,9 @@
 		}
 		hgroup{
 			h6,h1{
-				@extend .h2;
+				text-shadow:none;
+				font-weight:$extra-bold;
+				font-size:2.2em;
 				margin-top: 0;
 				margin-bottom: 0;
 			}
