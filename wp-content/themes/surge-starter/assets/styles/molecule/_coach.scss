@@ -2,13 +2,14 @@
 	background:#fff;
 	padding: 3em;
 	text-align: center;
+	min-height:28em;
 	img{
 		
 		@extend .img-circle;
 		width: 100%;
 		
 	}
-	.card{
+	.card{ 
 		p{
 			height:92px;
 		}

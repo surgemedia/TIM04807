@@ -33683,7 +33683,7 @@
                 },
                 {
                     "key": "575f61f793167",
-                    "name": "section-related-items",
+                    "name": "section-coaches",
                     "label": "Coaches",
                     "display": "block",
                     "sub_fields": [
@@ -36284,6 +36284,54 @@
 
                             ],
                             "filters": "",
+                            "elements": "",
+                            "min": "",
+                            "max": "",
+                            "return_format": "id"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5783054245c0b",
+                    "name": "section-related-items",
+                    "label": "Related Items",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5783054245c0c",
+                            "label": "Website Items",
+                            "name": "website_items",
+                            "prefix": "",
+                            "type": "relationship",
+                            "value": null,
+                            "menu_order": 0,
+                            "instructions": "",
+                            "required": 1,
+                            "id": "",
+                            "class": "",
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "_input": "",
+                            "parent_layout": "5783054245c0b",
+                            "post_type": [
+                                "post",
+                                "testimonial",
+                                "coach",
+                                "program"
+                            ],
+                            "taxonomy": [
+
+                            ],
+                            "filters": [
+                                "search",
+                                "post_type"
+                            ],
                             "elements": "",
                             "min": "",
                             "max": "",
