@@ -1,6 +1,6 @@
 <?php $options = $vars["padding"].' '.$vars["background_color"].' '.$vars["margin"].' '.$vars['section_width']?>
 
-<?php //debug($vars['element'][0]) ?>
+<?php //debug($vars['element']) ?>
 <section id="<?php echo $vars["id"]?>" class="section-col-12-n1 <?php echo $options ?>" style="background-image: url('<?php echo $vars['background_image'] ?>');">
  <div class="container">
  	<?php
