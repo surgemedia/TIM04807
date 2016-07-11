@@ -28,18 +28,11 @@ $vars = array(
 	'form_subtitle' => get_field('form_subtitle'),
 	'form_content' => get_field('form_content'),
 	'form_form' => get_field('form_form'),
+	'coach_type' => get_the_terms( $post->ID, 'type' )[0]->slug
 	);
-	//debug($vars);
- // get_component([
-	// 					'template' => 'organism/jumbotron-text',
-	// 					'vars' => [
-	// 						'background'=> $vars['large_image'],
-	// 					  'remove_tags'=> get_field('remove_elements'),
-	// 						'title' => get_field('title'),
-	// 						'subtitle' => get_field('subtitle'),
-	// 						'content' => get_field('content'),
-	// 					]
-	// 		]);
+if('coach' == get_the_terms( $post->ID, 'type' )[0]->slug){
+ echo '<script>window.location.href = "'.site_url().'/speakers'.'"</script>';
+}	
  ?>
 <section class="jumbotron-text bg-cover clear padding-6"  style="background-image:url(<?php echo $vars['large_image']?>)">
 	<div class="container">
