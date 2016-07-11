@@ -1,0 +1,27 @@
+.subprograms{
+	margin:0 -15px;
+	li{
+		height:3em;
+		width: (100%/3);
+		float: left;
+		position:relative;
+		a{
+			font-size: 2em;
+			color:#fff;
+		}
+		&:nth-child(n){
+			&:after{
+				content:"";
+				width: 3em;
+				height: 3em;
+				border-top: 1.5em solid transparent;
+				border-bottom: 1.5em solid transparent;
+				border-left: 1.5em solid;
+				border-right: 1.5em solid transparent;
+				position:absolute;
+				right: -3em;
+				z-index: 1;
+			}
+		}
+	}
+}
