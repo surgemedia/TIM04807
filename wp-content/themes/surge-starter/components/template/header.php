@@ -1,7 +1,7 @@
 <header class="banner">
   <div class="container-fluid">
     <a class="brand" href="<?= esc_url(home_url('/')); ?>">
-      <img src="<?php echo get_field("logo","option")?>" width="202" height="95" alt="<?php bloginfo('name'); ?>">
+      <img src="<?php echo get_field("logo","option")?>" width="202" height="auto" alt="<?php bloginfo('name'); ?>">
     </a>
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
