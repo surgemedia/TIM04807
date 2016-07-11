@@ -2,12 +2,12 @@ header.banner{
 	padding-top:1em;
 	padding-bottom:1em;
 	.brand{
-		width:202px;
+		width:auto;
 		float:left;
 		
-			margin-right:80px;
+			margin-right:5%;
 			img{
-				width:202px;
+				width:auto;
 				height:95px;
 			}
 		
@@ -15,7 +15,7 @@ header.banner{
 
 	nav.nav-primary{
 		ul{
-			width:73%;
+			display: inline-block;
 		  margin-top: 2.5em;
 			li{
 				width:120px;
