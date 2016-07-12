@@ -1,5 +1,5 @@
 <?php //debug($vars['element'][0]) ?>
-<section class="section-related-items bg-cover" style="background-image: url(<?php echo $vars['main_image']?>);">
+<section class="section-coaches bg-cover" style="background-image: url(<?php echo $vars['main_image']?>);">
 	<div class="container">
 	<?php
 		$element_file = $vars['element'][0]['acf_fc_layout']; //get file

@@ -75,10 +75,10 @@ $vars = array(
 					);
 				// query
 				$the_query = new WP_Query( $args );
-				// debug($the_query);
 				if( $the_query->have_posts() ):
 					while ( $the_query->have_posts() ) : $the_query->the_post();
-						if(in_array($current_id,get_field("related_items"))){
+						
+						if(!empty(get_field("related_items")) && in_array($current_id,get_field("related_items"))){
 							get_program_related(get_field("related_items"), get_the_id(),$current_id);
 						}else{
 
