@@ -1905,9 +1905,9 @@
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "special",
                 "operator": "==",
-                "value": "post"
+                "value": "nowhere"
             }
         ]
     ],
@@ -1918,5 +1918,6 @@
     "instruction_placement": "label",
     "hide_on_screen": "",
     "active": 1,
-    "description": ""
+    "description": "",
+    "local": "php"
 }

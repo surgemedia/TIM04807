@@ -14,6 +14,7 @@ $vars = array(
 	'bg_color' => 'bg-'.get_field('color'),
 	'font_color' => 'font-'.get_field('color'),
 	'form' => get_field('form'),
+	
 	);
 
  ?>
@@ -141,11 +142,17 @@ $vars = array(
 		</footer>
 	</div>
 </section>
+
+<?php if(true != $vars['is_series']){ ?>
 <section id="program-content" class="bg-grey padding-5 row">
 <div class="col-md-8 col-md-offset-2">
 	<?php the_content(); ?>
 	</div>
 </section>
+<?php } ?>
+
+
+
 <?php $vars['front_page'] =  get_option('page_on_front');
 			$vars['builder'] = get_field('layout',$vars['front_page']);
 			for ($vars['i']=0; $vars['i'] < sizeof($vars['builder']); $vars['i']++) { 
