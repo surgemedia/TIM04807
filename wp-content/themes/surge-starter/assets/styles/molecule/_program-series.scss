@@ -1,0 +1,47 @@
+.program-series{
+	margin-bottom:4em;
+	.circle{
+    display: table;
+    width: 15em;
+    height: 15em;
+    border-radius: 7.5em;
+    text-align: center;
+    padding: 0 1em;
+
+/*     font-weight: 800;
+    font-size: 1.5em;
+    float:left; */
+		&.purple{
+			border: 6px solid $purple;
+		}
+		&.yellow{
+			border: 6px solid $yellow;	
+		}
+		&.blue{
+			border: 6px solid $blue;	
+		}
+		&.blue-light{
+			border: 6px solid $blue-light;	
+		}
+		&.dark{
+			border: 6px solid $dark;	
+		}
+		&.grey{
+			border: 6px solid $grey;	
+		}
+		h6{
+			margin:0;
+	    line-height: 1;
+	    display: table-cell;
+	    vertical-align: middle;
+		}
+	}
+	.btn{
+		@include button($blue,$purple,#fff,$blue-light);
+		@extend .h5;
+		min-width:180px;
+		height: 40px;
+		/* margin-top: 2em; */
+		float:right;
+	}
+}

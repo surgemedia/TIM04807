@@ -26,6 +26,11 @@
 			  
 		}
 			p { color:#000; float:left; font-size:1.6em}
+			img{
+				@extend .img-responsive;
+				width: 100%;
+
+			}
 	}
 	footer {
 		// margin-top:2em;

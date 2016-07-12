@@ -321,3 +321,36 @@ h1, .h1{
 	 	padding:1em;
 	 }
 }
+
+/*======================================
+=            Program Series            =
+======================================*/
+
+.program-series{
+	text-align:center;
+	border-bottom: 1px solid grey;
+  padding-bottom: 3em;
+	.circle{
+		margin:auto;
+		margin-bottom: 2em;
+		&.purple{
+		}
+		&.yellow{
+		}
+		&.blue{
+		}
+		&.blue-light{
+		}
+		&.dark{
+		}
+		&.grey{
+		}
+		h6{
+		}
+	}
+	.btn{
+		float:none;
+		margin-top: 1em;
+
+	}
+}

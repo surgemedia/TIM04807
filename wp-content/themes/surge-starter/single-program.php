@@ -14,15 +14,17 @@ $vars = array(
 	'bg_color' => 'bg-'.get_field('color'),
 	'font_color' => 'font-'.get_field('color'),
 	'form' => get_field('form'),
-	
+	'is_series' => get_field('is_this_a_series'),
+	'series_paragraph' => get_field('series_paragraph'),
+	'series_sections' => get_field('series_sections'),
 	);
 
  ?>
 
 <section id="program-details" class="padding-6 container-fluid" style="background-image:url(<?php  echo $vars['background_image']; ?>)">
 	
-	<div class=" col-md-10 col-md-offset-1">
-	<div class="col-md-9 overlay">
+	<div class=" col-md-12 col-lg-10 col-lg-offset-1">
+	<div class="col-md-9 col-xs-12 overlay">
 		
 <?php 
 		function get_program_related($related_items, $parent_id, $current_id){
@@ -99,22 +101,28 @@ $vars = array(
 		</hgroup>
 
 		<?php 
-
-		for ($vars['i']=0; $vars['i'] < $vars['paragraphs_size']; $vars['i']++) { 
-							$remove_tags = ['img','h6'];
-							if(strlen($vars['paragraphs'][$vars['i']]['title']) <= 0){
-								$remove_tags = ['img','h6','h1'];
-						}
-			 			get_component([ 'template' => 'molecule/card',
-											'remove_tags'=> $remove_tags,
-											'vars' => [
-														"class" => 'col-md-4 paragraph '.$vars['font_color'],
-														"title" => $vars['paragraphs'][$vars['i']]['title'],
-														"content" => apply_filters('the_content',  $vars['paragraphs'][$vars['i']]["content"]),
-														"button" => [],
-														]
-											 ]);
-		} ?>
+		if("yes" != $vars['is_series']){ 
+			for ($vars['i']=0; $vars['i'] < $vars['paragraphs_size']; $vars['i']++) { 
+								$remove_tags = ['img','h6'];
+								if(strlen($vars['paragraphs'][$vars['i']]['title']) <= 0){
+									$remove_tags = ['img','h6','h1'];
+							}
+				 			get_component([ 'template' => 'molecule/card',
+												'remove_tags'=> $remove_tags,
+												'vars' => [
+															"class" => 'col-md-4 paragraph '.$vars['font_color'],
+															"title" => $vars['paragraphs'][$vars['i']]['title'],
+															"content" => apply_filters('the_content',  $vars['paragraphs'][$vars['i']]["content"]),
+															"button" => [],
+															]
+												 ]);
+			}
+		}else	{?>
+			<div class="col-xs-12 paragraph">
+				<?php echo apply_filters('the_content',  $vars["series_paragraph"]); ?>
+			</div>
+	<?php	}
+	 ?>
 	</div>
 
 	<div class="form-col pull-right <?php echo $vars['bg_color']; ?>">
@@ -136,20 +144,46 @@ $vars = array(
 											 ]);
 		?>
 	</div>
-		<footer class="col-md-9 pull-left <?php echo $vars['bg_color']; ?>">
+		<footer class="col-md-9 col-xs-12 pull-left <?php echo $vars['bg_color']; ?>">
 			<h3 class="col-md-4"><?php echo $vars['bottom_title']; ?></h3>
 			<div class="col-md-8"><?php echo $vars['bottom_textarea']; ?></div>
 		</footer>
 	</div>
 </section>
 
-<?php if(true != $vars['is_series']){ ?>
-<section id="program-content" class="bg-grey padding-5 row">
-<div class="col-md-8 col-md-offset-2">
-	<?php the_content(); ?>
+<?php if("yes" != $vars['is_series']){ ?>
+<section id="program-content" class="bg-grey padding-5">
+	<div class="col-xs-12 col-md-8 col-md-offset-2">
+		<?php the_content(); ?>
 	</div>
 </section>
-<?php } ?>
+<?php }else{?>
+<section id="program-content" class="bg-grey padding-5">
+	<div class="col-md-8 col-md-offset-2">
+		<?php foreach ($vars['series_sections'] as $item) {?>
+					<article class='program-series container-fluid'>
+						<div class="col-sm-3">
+							<div class="circle <?php echo $item['color'] ?>">
+								<h6><?php echo $item['title']; ?></h6>
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<?php echo apply_filters('the_content',  $item["content"]); ?>
+						</div>
+						
+						<?php
+						// debug($item['button']); 
+							get_component([
+													'template' => 'atom/button-list',
+													'vars' =>$item['button']	
+													]); ?>
+					</article>
+		<?php } ?>
+	</div>
+</section>
+
+
+<?php	} ?>
 
 
 
