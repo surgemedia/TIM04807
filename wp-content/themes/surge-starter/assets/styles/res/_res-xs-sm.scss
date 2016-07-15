@@ -1,3 +1,6 @@
+/*=======================================
+=            Program Details            =
+=======================================*/
 #program-details {
 	.overlay {
 	}
@@ -49,3 +52,133 @@
 		}
 	}
 }
+
+
+/*=======================================
+=            Menu responsive            =
+=======================================*/
+
+.navbar-toggle{
+	border: 1px solid #000;
+  position: absolute;
+  right: 0;
+  border-radius: 2px;
+	border: 2px solid #0077BF;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  height: 45px;
+  background: $blue-light;
+
+  span{
+		border: 0px;
+    border-bottom: 0px;
+    height: 2px;
+    background: #0077BF;
+		&:nth-child(2){
+			transform: rotate(135deg);
+			margin-top: 4px;
+			transition: .3s all ease;
+		}
+		&:nth-child(n+3){
+			transform: rotate(45deg);
+			margin-top: -2px !important;
+			transition: .3s all ease;
+		}
+		&:last-child{
+			display:none;
+		}
+	}
+	&.collapsed{
+		span{
+		border: 0px;
+    border-bottom: 0px;
+    height: 2px;
+    background: #0077BF;
+		&:nth-child(2){
+			transform: rotate(360deg);
+			transition: .3s all ease;
+			margin-top: 0;
+		}
+		&:nth-child(n+3){
+			transform: rotate(360deg);
+			margin-top: 4px !important;
+			transition: .3s all ease;
+		}
+		&:last-child{
+			display:block;
+		}
+	}
+	}
+}
+.navbar-collapse{
+	width:100%;
+	&.collapse.in {
+    margin: 0px;
+    padding: 0px;
+	}
+	.nav-primary{
+	  ul{
+	  	width: 100% !important;
+	    margin: 0;
+	    li{
+		    margin: auto;
+		    width:100%;
+	    }
+	  }
+	}
+	.collapsing{
+		.nav-primary{
+			display: inline;
+		}
+	}
+}
+
+/*==============================
+=            Header            =
+==============================*/
+header.banner{
+	.brand{
+		img{
+		}
+	}
+	$colors: $purple, $blue, $yellow, $blue-light,$grey;
+	nav.nav-primary{
+		ul.navbar-nav{
+			> li.menu-item{
+				.dropdown-menu{
+					width: 310px !important;	
+					left:-80%;
+					position:relative;
+					li{
+						a{
+							text-align: center;
+						}
+						&.active{
+							a{
+							}
+						}
+						&:hover{
+							a{
+								color:#fff;
+							}
+						}
+					}
+				}
+				&:after{
+				}
+				&:hover:after{
+				}
+				&.active:after{
+				  				
+				}
+				a{
+					&:focus,&:hover{
+					}
+
+				}
+			}
+		}
+	}
+}
+

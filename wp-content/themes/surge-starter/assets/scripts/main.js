@@ -107,12 +107,19 @@ console.log(windowLocation);
 if( windowLocation.indexOf('coach') > 0){
   console.log("paso "+windowLocation);
   $('nav a').each(function(){
-      if($(this).prop("href").indexOf('speakers')>0){
+      if($(this).prop("title").indexOf('Speakers')>=0){
         $(this).parent().addClass('active');
       }
   });
 } else {
- 
+  if( windowLocation.indexOf('program') > 0){
+  console.log("paso "+windowLocation);
+    $('nav a').each(function(){
+      if($(this).prop("title").indexOf('Programs')>=0){
+        $(this).parent().addClass('active');
+      }
+    });
+  }
 } 
  
 function reveal(elem){

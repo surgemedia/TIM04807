@@ -9,7 +9,7 @@ if (is_front_page()){ ?>
 		<div class="slide bg-cover" style="background-image:url(<?php echo $vars['background']?>)">
 
 		<?php
-				//debug($vars);
+				/*debug($vars['button']);*/
 				/*=============================================
 				= Card (Class,Image,Title,Content)
 				= @components
@@ -54,9 +54,6 @@ if (is_front_page()){ ?>
 </section>
 
 <?php }
-
-
- 
 
 
 

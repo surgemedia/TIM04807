@@ -1,0 +1,14 @@
+.posts{
+	width:100%;
+	.button-list{
+		.previous{
+			float:left;
+		}	
+		.next{
+			float:right;
+		}
+		.hid{
+			visibility: hidden;
+		}
+	}
+}

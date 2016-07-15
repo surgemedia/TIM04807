@@ -1,8 +1,7 @@
 <?php //debug($vars['element'][0]) ?>
 <section class="padding-6 container-fluid">
 	   <?php
-	
-			  // WP_Query arguments
+		  // WP_Query arguments
 			$args = array (
 			  "post_type" => "any",
 			  "post__in" => $vars['website_items'],

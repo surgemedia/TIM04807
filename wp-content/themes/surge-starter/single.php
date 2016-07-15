@@ -1,5 +1,87 @@
 <?php while (have_posts()) : the_post(); ?>
 <?php 
+		
+			$vars['builder'] = get_field('layout',get_id_from_slug('newsblog'));
+			
+			foreach ($vars['builder'] as $key => $value) {
+				if($value['acf_fc_layout'] == 'section-related-items'){					
+					$position=array_search(get_the_id(), $value['website_items']);
+					$size=sizeof($value['website_items']);
+					$args = array (
+					  "post_type" => "any",
+					  "post__in" => $value['website_items'],
+					  "orderby" => "post__in"
+					);
+					// The Query
+					$query = new WP_Query( $args );
+					$count=0;
+					// T	he Loop
+					if ( $query->have_posts() ) {
+					  while ( $query->have_posts() ) {
+					    $query->the_post();
+					    $website_links[$count] = get_permalink();
+					    $count++;
+					  }
+					} 
+
+					wp_reset_postdata();
+
+					if($size>1){
+						switch ($position) {
+							case 0:
+								$button= array(
+														array('class'=> "center",
+																	'text' => "View all",
+																	'link' => "newsblog",
+														 ),
+														array('class'=> "previous hid",
+																	'text' => "",
+																	'link' => "",
+															),
+														array('class'=> "next",
+																	'text' => "Next",
+																	'link' => $website_links[1],
+															),
+												 );
+								break;
+							case $size-1:
+								$button= array(
+														array('class'=> "center",
+																	'text' => "View all",
+																	'link' => "newsblog",
+														 ),
+														array('class'=> "previous",
+																	'text' => "Previous",
+																	'link' => $website_links[0],
+															),
+														array('class'=> "next hid",
+																	'text' => "",
+																	'link' => "",
+															),
+												 );
+							break;
+
+							default:
+								$button= array(
+														array('class'=> "center",
+																	'text' => "View all",
+																	'link' => "newsblog",
+														 ),
+														array('class'=> "previous",
+																	'text' => "Previous",
+																	'link' => $website_links[$position-1],
+															),
+														array('class'=> "next",
+																	'text' => "Next",
+																	'link' => $website_links[$position+1],
+															),
+												 );
+								break;
+						}
+					}
+				}
+			}
+			
 
 $vars = array(
 	'title' => get_the_title(),
@@ -41,11 +123,13 @@ $vars = array(
 			get_component([ 'template' => 'molecule/card',
 											'remove_tags'=>['h6','h1'],
 											'vars' => [
-														"class" => '',
+														"class" => 'posts',
 														"content" => apply_filters('the_content',  $vars["content"]),
+														"button" => $button,
 														]
 											 ]);
 ?>
+
  </div>
 </section>
 

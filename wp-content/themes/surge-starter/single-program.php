@@ -26,74 +26,6 @@ $vars = array(
 	<div class=" col-md-12 col-lg-10 col-lg-offset-1">
 	<div class="col-md-9 col-xs-12 overlay">
 		
-<?php 
-		function get_program_related($related_items, $parent_id, $current_id){
-			array_unshift($related_items,$parent_id);
-			$position=array_search($current_id,$related_items);
-			
-			$args = array (
-			  "post_type" => "program",
-			  "post__in" => $related_items,
-			  "orderby" => "post__in"
-			);
-			// query
-			$the_query = new WP_Query( $args );
-			$count=0;
-			?>
-			<?php if( $the_query->have_posts() ): ?>
-				<ul class="subprograms list-inline">
-				<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-					<li class="<?php echo ($count===$position)? 'active' : ''?> bg-<?php echo get_field("color");?> font-<?php echo get_field("color");?>"> 
-						<a href="<?php the_permalink(); ?>">
-							<?php echo get_field("subprogram_title") ?>
-						</a>
-					</li>
-					<?php $count++; ?>
-				<?php endwhile; ?>
-				</ul>
-			<?php endif; 
-
-			 wp_reset_query();	
-
-		}?>
-
-<?php
-
-	if (!empty(get_field("related_items"))) {
-		get_program_related(get_field("related_items"), get_the_id(),get_the_id());
-	}else{
-				$current_id=get_the_id();
-				// args
-					$args = array(
-						// 'numberposts' => 1,
-						'post_type'		=> 'program',
-						"meta_key" => "related_items",
-						'meta_query'	=> array(
-									array(
-										'key'	 	=> 'related_items',
-										'value'	 => 0,
-										'compare' 	=> '!=',
-									),
-						)
-					);
-				// query
-				$the_query = new WP_Query( $args );
-				if( $the_query->have_posts() ):
-					while ( $the_query->have_posts() ) : $the_query->the_post();
-						
-						if(!empty(get_field("related_items")) && in_array($current_id,get_field("related_items"))){
-							get_program_related(get_field("related_items"), get_the_id(),$current_id);
-						}else{
-
-								//Nothing
-							}
-
-					 endwhile; 
-				endif;
-	}
-				 wp_reset_query();	
-					?>
-
 		<hgroup class="col-md-12">
 			<a class="viewall" href="#section-2row-website-grid">View All Programs</a>
 			<h6><?php echo $vars['subtitle']; ?></h6>
@@ -125,7 +57,7 @@ $vars = array(
 	 ?>
 	</div>
 
-	<div class="form-col pull-right <?php echo $vars['bg_color']; ?>">
+	<div id="book-form" class="form-col pull-right <?php echo $vars['bg_color']; ?>">
 	<?php 
 	get_component([ 'template' => 'molecule/card',
 											'remove_tags' =>  ['h6','p'],

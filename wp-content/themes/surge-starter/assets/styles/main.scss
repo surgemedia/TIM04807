@@ -6,6 +6,8 @@
 @import "../../bower_components/owl.carousel/src/scss/owl.carousel.scss";
 // endbower
 
+
+
 /*============================
 =            Atom            =
 ============================*/
@@ -54,6 +56,7 @@
 @import "template/tinymce";
 @import "template/single-coach";
 @import "template/single-program";
+@import "template/single";
 
 /*----------  RESPONSIVE  ----------*/
 
@@ -74,9 +77,9 @@
 	@import "res/_res-md.scss";
 }
 /* Portrait */
-@media 
-  (max-device-width: 800px) 
-  and (orientation: portrait) { 
+@media
+  (max-device-width: 800px)
+  and (orientation: portrait) {
 	//@import "res/_res-800-portrait.scss";
 }
 @media (min-width: $screen-lg-min) {

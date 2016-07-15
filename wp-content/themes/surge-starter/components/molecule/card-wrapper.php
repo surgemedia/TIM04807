@@ -15,15 +15,15 @@
 			} else {
 				get_component([
 									'template' => 'atom/button-list',
-									'vars' => [[
+									'vars' => array([
                                     "class" => "no-border currently-viewing",
-                                    "text" => "Currently Viewing",
+                                    "text" => "Current Selection",
                                     "link" => '#',
                               ],[
                                     "class" => "hide",
                                     "text" => "",
                                     "link" => '#',
-                              ]]
+                              ])
 									]);
 			}
 									 ?>

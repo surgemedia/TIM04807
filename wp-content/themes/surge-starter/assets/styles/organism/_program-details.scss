@@ -80,6 +80,9 @@
 			label.gfield_label {
 				display:none;
 			}
+			.validation_message{
+				top:5px;
+			}
 			select,
 			input {
 				background: none;
@@ -92,7 +95,16 @@
 				height: 3.5em;
 
 			}
-
+			.chosen-container{
+				height: 3.5em;
+				font-size: 14px;
+				a{
+					font-size: inherit; 
+					span{
+						font-size: inherit;
+					}
+				}
+			}
 		}
 		.gform_footer {
 			margin-top: 0px;

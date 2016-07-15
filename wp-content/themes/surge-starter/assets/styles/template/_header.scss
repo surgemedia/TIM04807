@@ -12,14 +12,30 @@ header.banner{
 			}
 		
 	}
-
+/* 	$colors: $purple, $blue, $yellow, $blue-light,$grey; */
 	nav.nav-primary{
-		ul{
+		ul.navbar-nav{
 			display: inline-block;
 		  margin-top: 2.5em;
-			li{
+			> li.menu-item{
 				width:120px;
 				text-align:center;
+				.dropdown-menu{
+					li{
+						
+						a{
+							font-size: 1em;
+							padding-top:1em;
+							padding-bottom:1em;
+						}
+						&.active{
+							a{
+								background:none;
+								border-bottom: 2px solid $blue;
+							}
+						}
+					}
+				}
 				&:after{
 					content: "";
 					background-color: $blue;

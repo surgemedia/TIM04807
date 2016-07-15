@@ -1,5 +1,6 @@
 <?php //debug($vars['element'][0]) ?>
-<section class="padding-6 container-fluid">
+<?php $options = $vars["padding"].' '.$vars["background_color"].' '.$vars["margin"].' '.$vars['section_width']?>
+<section id="<?php echo $vars["id"]?>" class="section-col-12-n1 <?php echo $options ?>" style="background-image: url('<?php echo $vars['background_image'] ?>');">
 	   <?php
 	
 			  // WP_Query arguments

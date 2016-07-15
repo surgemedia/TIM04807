@@ -1,0 +1,30 @@
+/*==============================
+=            Header            =
+==============================*/
+header.banner{
+	.brand{
+		margin-right:0;
+		img{
+			width:auto;
+			height:92px;
+		}
+	}
+	nav.nav-primary{
+		ul.navbar-nav{
+			float:right;
+			li{
+				
+				&:after{
+				}
+				&:hover:after{
+				}
+				&.active:after{
+				}
+				a{
+					&:focus,&:hover{
+					}
+				}
+			}
+		}
+	}
+}

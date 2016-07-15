@@ -25,6 +25,15 @@ $query = new WP_Query( $args );
 if ( $query->have_posts() ) {
   while ( $query->have_posts() ) {
     $query->the_post();
+     
+    if(!empty(get_field("book_link"))){
+      $book_link=get_field("book_link");
+      $extra_data="target='_blank'";
+    }else{
+      $book_link=get_permalink()."/#book-form";
+      $extra_data="";
+    }
+
      /*=============================================
       = Card (Class,Image,Title,Content)
       = @components
@@ -47,7 +56,8 @@ if ( $query->have_posts() ) {
                               [
                                     "class" => "",
                                     "text" => "Book Now",
-                                    "link" => get_permalink(),
+                                    "link" => $book_link,
+                                    "extra-data" => $extra_data,
                               ]
                               )
                             ]
@@ -77,6 +87,15 @@ $query = new WP_Query( $args );
 if ( $query->have_posts() ) {
   while ( $query->have_posts() ) {
     $query->the_post();
+    if(!empty(get_field("book_link"))){
+      $book_link=get_field("book_link");
+      $extra_data="target='_blank'";
+    }else{
+      $book_link=get_permalink()."/#book-form";
+      $extra_data="";
+    }
+
+
      /*=============================================
       = Card (Class,Image,Title,Content)
       = @components
@@ -85,8 +104,9 @@ if ( $query->have_posts() ) {
       get_component([ 'template' => 'molecule/card-wrapper',
               'remove_tags' =>  ['img'],
                       'vars' => [
+                            "page_id" => $vars['page_id'],
                             "post_id" => get_the_id(),
-                            "class" => 'col-xs-12 col-md-6 style-4 '. get_field("color"),
+                            "class" => 'col-xs-12 col-md-6 style-4 second-row '. get_field("color"),
                             "subtitle" => get_field("subtitle"),
                             "title" => get_field("title"),
                             "content" => truncate(get_field("excerpt"),20,""),
@@ -98,7 +118,8 @@ if ( $query->have_posts() ) {
                               [
                                     "class" => "",
                                     "text" => "Book Now",
-                                    "link" => "",
+                                    "link" => $book_link,
+                                    "extra-data" => $extra_data,
                               ])
                             ]
                        ]);

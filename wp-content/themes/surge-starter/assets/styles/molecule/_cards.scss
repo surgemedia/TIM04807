@@ -56,6 +56,9 @@
 		p{
 
 		}
+		.btn{
+			float:none;
+		}
 		.button-list{
 			position: absolute;
 	    width: 100%;
@@ -63,14 +66,14 @@
 	    left: 0;
 	    padding: 0 5em;
 	    bottom: 3.5em;
+			.btn:nth-child(2n+1){
+				float:left;
+			}
+			.btn:nth-child(2n){
+				float:right;
+			}
 		}
 		
-		.btn:nth-child(2n+1){
-			float:left;
-		}
-		.btn:nth-child(2n){
-			float:right;
-		}
 	}
 
 	&.style-2{
@@ -127,17 +130,17 @@
 				@include button(transparent,transparent,#fff,$blue-light);
 				border: 2px solid;
 				margin: 1em 0.5em;
-				&.currently-viewing {
-					 border: 0px;
-			    font-size: 2em;
-			    font-weight: normal;
-			    border-top: 1px solid;
-			    padding-top: 2.4em;
-			    padding-bottom: 2.4em;
-			    &:hover {
-			    	color:#fff;
-			    }
-				}
+			}
+			.currently-viewing {
+				border: 0px !important;
+		    font-size: 2em;
+		    font-weight: normal;
+		    border-top: 1px solid !important;
+		    padding-top: 2.4em !important;
+		    padding-bottom: 2.4em !important;
+		    &:hover {
+		    	color:#fff;
+		    }
 			}
 		}
 		&.blue .wrapper{
