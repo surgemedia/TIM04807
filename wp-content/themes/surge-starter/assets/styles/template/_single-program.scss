@@ -1,4 +1,11 @@
 #program-content{
 	display:inline-block;
 	width:100%;
+	ul{
+		padding-left:1em;
+		margin:15px;
+		li{
+			@extend .p1;
+		}
+	}
 }
