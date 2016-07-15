@@ -117,7 +117,23 @@ $vars = array(
 
 <?php	} ?>
 
+<?php 
+$layout_builder = get_field('layout');
+debug(get_post_meta(get_the_id()));
+/*foreach ($layout_builder as $key => $value) {
+	$section_file = $value['acf_fc_layout'];
+	unset($value['acf_fc_layout']); //of section
 
+			get_component([
+						'template' => 'organism/'.$section_file,
+						'vars' => $value
+			]);
+	unset($section_file);
+}
+*/
+
+
+ ?>
 
 <?php $vars['front_page'] =  get_option('page_on_front');
 			$vars['builder'] = get_field('layout',$vars['front_page']);
