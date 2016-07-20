@@ -60,12 +60,11 @@ $vars = array(
 	<div id="book-form" class="form-col pull-right <?php echo $vars['bg_color']; ?>">
 	<?php 
 	get_component([ 'template' => 'molecule/card',
-											'remove_tags' =>  ['h6','p'],
+											'remove_tags' =>  ['h6','p','img'],
 											'vars' => [
 														"class" => 'title',
-														"title" => 'BOOK THIS PROGRAM',
-														"button" => []
-														]
+														"title" => 'ENQUIRE NOW',
+													]
 											 ]);
 		get_component([ 'template' => 'molecule/form',
 											'remove_tags' =>  ['h2','h6','p'],

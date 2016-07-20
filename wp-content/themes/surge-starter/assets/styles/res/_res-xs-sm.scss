@@ -116,6 +116,12 @@
 	&.collapse.in {
     margin: 0px;
     padding: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 114px;
 	}
 	.nav-primary{
 	  ul{
@@ -127,7 +133,13 @@
 	    }
 	  }
 	}
-	.collapsing{
+	&.collapsing{
+		margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 114px;
 		.nav-primary{
 			display: inline;
 		}

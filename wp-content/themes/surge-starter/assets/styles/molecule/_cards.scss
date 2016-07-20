@@ -33,7 +33,7 @@
 
 
 	&.style-1{
-		background-color: rgba(255,255,255,0.9);
+		background-color: rgba(255,255,255,0.6);
     padding: 4em 5em;
     text-align: center;
     width: 48.6em;
@@ -45,7 +45,7 @@
 	    display: inline;
 		}
 		hgroup{
-			text-transform: uppercase;
+			
 			h6{
 				@extend .h3;
 			}
@@ -166,6 +166,26 @@
 		}
 		&.yellow .wrapper{
 			background-color: $yellow;
+		}
+	}
+	&.style-5{
+		img{
+			display:inline-block;
+		}
+		hgroup{
+			h6{
+			}
+			h1{
+			}
+		}
+		p{
+			text-align: center;
+			a{
+				color:#000;
+			}
+		}
+		.button-list{
+
 		}
 	}
 }

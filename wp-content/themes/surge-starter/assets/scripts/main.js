@@ -84,10 +84,39 @@
       $(this).parent().toggleClass('open');
   });
 
-$('.owl-carousel').owlCarousel({
+var owl_jumbotron = $('.jumbotron-slider.owl-carousel');
+var owl_section = $('#section-slider');
+
+owl_jumbotron.owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    navText:["<i class='icon-left'></i>", "<i class='icon-right'></i>" ],
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{ 
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+owl_section.owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoHeight: true,
+    // autoHeightClass: 'owl-height'
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
     navText:["<i class='icon-left'></i>", "<i class='icon-right'></i>" ],
     responsive:{
         0:{ 

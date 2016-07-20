@@ -3,7 +3,7 @@
   <h1><?php echo $vars['title'] ?></h1>
 
  <div class="">
-   <div class="owl-carousel">
+   <div id="section-slider" class="owl-carousel">
    
     <?php 
    
@@ -12,7 +12,9 @@
    
     $args = array(
             'post_type' => 'any',
+            'posts_per_page' => -1,
             'post__in'      => $vars['website_items'],
+            'orderby' => "rand"
           );
    
           // The Query

@@ -2,18 +2,27 @@
 =            Header            =
 ==============================*/
 header.banner{
+  & + div{
+  }
 	.brand{
-		margin-right:0;
 		img{
-			width:auto;
-			height:92px;
 		}
 	}
 	nav.nav-primary{
 		ul.navbar-nav{
 			float:right;
-			li{
-				
+			> li.menu-item{
+				width:auto;
+				.dropdown-menu{
+					li{
+						a{
+						}
+						&.active{
+							a{
+							}
+						}
+					}
+				}
 				&:after{
 				}
 				&:hover:after{

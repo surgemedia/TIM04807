@@ -3,8 +3,11 @@
 if (is_front_page()){ ?>
 
 	<section id="<?php echo get_field('id') ?>" class="jumbotron-slider owl-carousel "  >
-	
-		<?php foreach (get_field('slides') as $vars) { ?>
+		<?php 
+		
+		$slides = get_field('slides');
+		shuffle($slides);
+		foreach ($slides as $vars) { ?>
 
 		<div class="slide bg-cover" style="background-image:url(<?php echo $vars['background']?>)">
 

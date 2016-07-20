@@ -70,29 +70,30 @@ if('coach' == get_the_terms( $post->ID, 'type' )[0]->slug){
 				}
 			</script>
 			<div class="col-md-10 col-lg-8 col-sm-8 col-xs-12 video-item bg-cover" style="background-image:url(<?php echo $vars['video_screenshot']; ?>);">
-				<a href="" onclick="getFrameContent(this);" data-toggle="modal" data-target="#caseStudyModal" data-contentid="targetVideo">
-					<!-- <img class="img-responsive" src="<?php echo $vars['video_screenshot']; ?>" alt="#"> -->
-					<i class="icon-play"></i>
-				</a>
-				<div class="hiddenFrame" data-frameid="targetVideo" >
-		        <iframe src="https://www.youtube.com/embed/<?php echo getYtCode($vars['video']) ?>" frameborder="0" allowfullscreen=""></iframe>
-		      </div>
-				<!-- Modal -->
-				<div class="modal fade" id="caseStudyModal" tabindex="-1" role="dialog" aria-labelledby="caseStudyModal">
-				  <div class="modal-dialog" role="document">
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				        <i class="icon-close-button"></i>
-				        </button>
-				    <div class="modal-content">
-				      <div id="replaceable" class=""></div>
-				    </div>
-				  </div>
-				</div>
-				<script>
-				  jQuery('#caseStudyModal').on('hidden.bs.modal', function (e) {
-				   jQuery('#replaceable').empty();
-				  });
-				</script>
+			  <?php if(!empty($vars['video'])) { ?>
+					<a href="" onclick="getFrameContent(this);" data-toggle="modal" data-target="#caseStudyModal" data-contentid="targetVideo">
+						<i class="icon-play"></i>
+					</a>
+					<div class="hiddenFrame" data-frameid="targetVideo" >
+			        <iframe src="https://www.youtube.com/embed/<?php echo getYtCode($vars['video']) ?>" frameborder="0" allowfullscreen=""></iframe>
+			    </div>
+					<!-- Modal -->
+					<div class="modal fade" id="caseStudyModal" tabindex="-1" role="dialog" aria-labelledby="caseStudyModal">
+					  <div class="modal-dialog" role="document">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					        <i class="icon-close-button"></i>
+					        </button>
+					    <div class="modal-content">
+					      <div id="replaceable" class=""></div>
+					    </div>
+					  </div>
+					</div>
+					<script>
+					  jQuery('#caseStudyModal').on('hidden.bs.modal', function (e) {
+					   jQuery('#replaceable').empty();
+					  });
+					</script>
+			  <?php } ?>
 			</div>
 		</div>
 		<div class="col-md-6 col-md-pull-6 text-center short-bio">
@@ -158,6 +159,7 @@ if('coach' == get_the_terms( $post->ID, 'type' )[0]->slug){
 	
 </section>
 <?php //debug($vars["key_points"]) ?>
+<?php if (!empty($vars["key_points"])) {?>
 <section class="bg-blue padding-6 key_points">
 	<div class="container">
 		<?php foreach ($vars["key_points"] as $key_point) :?>
@@ -170,6 +172,7 @@ if('coach' == get_the_terms( $post->ID, 'type' )[0]->slug){
 		<?php endforeach; ?>
 	</div>
 </section>
+<?php } ?>
 <section class="business-keynote container-fluid padding-6" style="background-image:url('<?php echo $vars['card_image']; ?>')">
 		<div class="container">
 			<?php

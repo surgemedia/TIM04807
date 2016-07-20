@@ -1,0 +1,27 @@
+.section-testimonials-list{
+
+	text-align:center;
+	div{
+		position:relative;
+		border-bottom: 1px solid $grey;
+
+
+					img{
+						max-width:500px;
+						width: auto;
+						display:inline-block;
+						margin-bottom:40px;
+						@extend .img-responsive;
+					}
+					p{
+						@extend .p2;
+					}
+					span{
+						@extend .p3;
+						margin-top: 35px;
+					}
+				
+			
+
+		}
+}

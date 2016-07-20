@@ -17,8 +17,9 @@
 	/*=====================================
 	=            Setup Classes            =
 	=====================================*/
-	$vars['1_element'][0]['class'] = 'col-md-6'; //because i know this from the file name
-	$vars['2_element'][0]['class'] = 'col-md-6'; //because i know this from the file name
+	
+	$vars['1_element'][0]['class'] = 'col-md-6 '.$vars['1_element'][0]['style']; //because i know this from the file name
+	$vars['2_element'][0]['class'] = 'col-md-6 '.$vars['2_element'][0]['style']; //because i know this from the file name
 
 	/*==================================
 	=            Setup Vars            =
